@@ -1,0 +1,28 @@
+# Data Dictionary
+
+Source: Kaggle, Life Expectancy (WHO)
+
+Each row represents a country-year observation.
+
+## Main identifiers
+
+- Country: Country name
+- Year: Observation year
+- Status: Developed or Developing
+
+## Outcome variable
+
+- Life expectancy: Life expectancy in years
+
+## Candidate explanatory variables
+
+- Schooling
+- Income composition of resources
+- GDP
+- Total expenditure
+- BMI
+- Polio
+- Diphtheria
+- HIV/AIDS
+
+Some variable definitions require further verification from the original dataset documentation.
