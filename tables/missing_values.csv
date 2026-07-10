@@ -1,0 +1,23 @@
+variable,missing_count,missing_rate_pct
+Country,0,0.0
+Year,0,0.0
+Status,0,0.0
+Life expectancy,10,0.34
+Adult Mortality,10,0.34
+infant deaths,0,0.0
+Alcohol,194,6.603
+percentage expenditure,0,0.0
+Hepatitis B,553,18.822
+Measles,0,0.0
+BMI,34,1.157
+under-five deaths,0,0.0
+Polio,19,0.647
+Total expenditure,226,7.692
+Diphtheria,19,0.647
+HIV/AIDS,0,0.0
+GDP,448,15.248
+Population,652,22.192
+thinness 1-19 years,34,1.157
+thinness 5-9 years,34,1.157
+Income composition of resources,167,5.684
+Schooling,163,5.548
