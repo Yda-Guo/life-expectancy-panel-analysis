@@ -1,0 +1,121 @@
+Country,Year,variable,previous_value,current_value,jump_score
+Zimbabwe,2006,Adult Mortality,717.0,7.0,710.0
+Zimbabwe,2003,Adult Mortality,73.0,715.0,642.0
+Zimbabwe,2002,Adult Mortality,686.0,73.0,613.0
+Swaziland,2003,Adult Mortality,587.0,6.0,581.0
+Zimbabwe,2008,Adult Mortality,67.0,632.0,565.0
+Malawi,2005,Adult Mortality,615.0,66.0,549.0
+Malawi,2003,Adult Mortality,67.0,613.0,546.0
+Zambia,2002,Adult Mortality,611.0,69.0,542.0
+Malawi,2002,Adult Mortality,599.0,67.0,532.0
+Malawi,2006,Adult Mortality,66.0,587.0,521.0
+Zambia,2004,Adult Mortality,64.0,578.0,514.0
+Swaziland,2007,Adult Mortality,564.0,51.0,513.0
+Swaziland,2006,Adult Mortality,63.0,564.0,501.0
+Lesotho,2011,Adult Mortality,527.0,52.0,475.0
+Uganda,2003,Adult Mortality,523.0,53.0,470.0
+Central African Republic,2004,Adult Mortality,51.0,512.0,461.0
+Lesotho,2012,Adult Mortality,52.0,513.0,461.0
+Sierra Leone,2003,Adult Mortality,513.0,57.0,456.0
+Central African Republic,2006,Adult Mortality,511.0,56.0,455.0
+Sierra Leone,2005,Adult Mortality,496.0,48.0,448.0
+Kiribati,2004,BMI,7.6,71.4,63.800000000000004
+Tonga,2008,BMI,7.8,71.5,63.7
+Kuwait,2015,BMI,7.8,71.4,63.60000000000001
+Samoa,2008,BMI,7.9,71.4,63.50000000000001
+Samoa,2006,BMI,69.7,7.3,62.400000000000006
+Tonga,2006,BMI,69.4,7.1,62.300000000000004
+Kuwait,2013,BMI,69.5,7.2,62.3
+Kiribati,2003,BMI,69.7,7.6,62.1
+United Arab Emirates,2014,BMI,6.5,62.4,55.9
+Tunisia,2015,BMI,6.2,61.2,55.0
+Egypt,2015,BMI,6.2,61.1,54.9
+Fiji,2013,BMI,6.2,61.1,54.9
+Libya,2012,BMI,6.9,61.8,54.9
+Turkey,2009,BMI,6.2,61.1,54.9
+Jordan,2010,BMI,6.9,61.7,54.800000000000004
+United States of America,2002,BMI,6.9,61.7,54.800000000000004
+Ireland,2013,BMI,6.5,61.3,54.8
+Bahrain,2012,BMI,6.8,61.5,54.7
+Greece,2006,BMI,6.5,61.2,54.7
+Mexico,2012,BMI,6.8,61.5,54.7
+Mauritius,2011,GDP,8.376432,9197.26972,1096.993718566569
+Iceland,2012,GDP,46.217,44333.8518,958.2542094900145
+Italy,2002,GDP,24.819,22196.5736,893.3379507635279
+Romania,2015,GDP,12.27733,8958.788593,728.7017016729206
+Qatar,2008,GDP,675.61258,82967.37228,121.80317853169637
+Kazakhstan,2011,GDP,97.649972,11634.42422,118.14416340027216
+New Zealand,2010,GDP,282.94193,33691.34837,118.07513449844637
+Qatar,2011,GDP,736.22784,85948.746,115.7420482224633
+Israel,2008,GDP,258.637,29657.4421,113.66821104482345
+Turkey,2005,GDP,64.72953,7384.354661,113.08015261349806
+Algeria,2006,GDP,31.122378,3464.6179,110.32240280610948
+Russian Federation,2002,GDP,21.362386,2375.5944,110.20454428639198
+Maldives,2008,GDP,52.862285,5828.621374,109.26048862624837
+Swaziland,2004,GDP,22.99449,2529.633557,109.0104223664017
+France,2008,GDP,416.58397,45413.6571,108.01441334864612
+Norway,2010,GDP,817.77681,87646.75346,106.17686340359788
+Maldives,2003,GDP,32.37239,3432.247841,105.02392473956972
+Austria,2007,GDP,443.99361,46586.6525,103.92640310746815
+Lebanon,2010,GDP,84.268878,8763.826274,102.99837380058624
+Belarus,2011,GDP,63.38877,6519.71753,101.8528796188978
+Hungary,2011,Population,123.0,9971727.0,81069.9512195122
+Ethiopia,2008,Population,8149.0,83184892.0,10206.98772855565
+Iraq,2015,Population,3568.0,36115649.0,10121.09893497758
+Maldives,2015,Population,41.0,49163.0,1198.0975609756097
+Benin,2005,Population,7754.0,7982225.0,1028.4331957699253
+Cameroon,2009,Population,18978.0,19432541.0,1022.9509431973864
+Burundi,2001,Population,6476.0,6555829.0,1011.3268993205683
+Turkmenistan,2003,Population,4612.0,4655741.0,1008.4841717259324
+Peru,2010,Population,29157.0,29373646.0,1006.4303254793017
+Nicaragua,2002,Population,5175.0,5171734.0,998.3688888888889
+Bosnia and Herzegovina,2008,Population,3774.0,3763599.0,996.2440381558029
+Mali,2013,Population,16667.0,16477818.0,987.6493070138597
+Uruguay,2014,Population,3485.0,3419546.0,980.2183644189383
+Pakistan,2005,Population,15783.0,15399667.0,974.7122853703352
+Syrian Arab Republic,2015,Population,19239.0,18734987.0,972.8025365143718
+Turkey,2009,Population,74432.0,71339185.0,957.4477778374893
+Tajikistan,2007,Population,7557.0,7152385.0,945.4582506285564
+Germany,2015,Population,89825.0,81686611.0,908.3972836070136
+Bhutan,2009,Population,795.0,714458.0,897.6893081761007
+Chad,2006,Population,1679.0,1421597.0,845.6926742108398
+Pakistan,2007,thinness 1-19 years,21.0,2.8,18.2
+Pakistan,2012,thinness 1-19 years,2.0,19.8,17.8
+Afghanistan,2002,thinness 1-19 years,2.1,19.9,17.799999999999997
+Bangladesh,2005,thinness 1-19 years,2.1,19.9,17.799999999999997
+South Africa,2006,thinness 1-19 years,11.6,1.6,10.0
+Namibia,2009,thinness 1-19 years,11.5,1.9,9.6
+Botswana,2003,thinness 1-19 years,11.4,1.9,9.5
+Lesotho,2002,thinness 1-19 years,11.1,1.6,9.5
+Zimbabwe,2001,thinness 1-19 years,11.0,1.6,9.4
+Burkina Faso,2003,thinness 1-19 years,11.0,1.7,9.3
+Niger,2010,thinness 1-19 years,11.0,1.7,9.3
+Nigeria,2012,thinness 1-19 years,11.0,1.7,9.3
+Democratic Republic of the Congo,2008,thinness 1-19 years,11.1,1.8,9.299999999999999
+Chad,2003,thinness 1-19 years,11.1,1.9,9.2
+Mali,2001,thinness 1-19 years,11.0,1.8,9.2
+Senegal,2008,thinness 1-19 years,11.0,1.8,9.2
+Timor-Leste,2014,thinness 1-19 years,11.1,1.9,9.2
+Cambodia,2014,thinness 1-19 years,11.0,1.9,9.1
+Ethiopia,2011,thinness 1-19 years,11.0,1.9,9.1
+Indonesia,2003,thinness 1-19 years,11.0,1.9,9.1
+Bangladesh,2003,thinness 5-9 years,21.1,2.9,18.200000000000003
+Pakistan,2009,thinness 5-9 years,21.1,2.9,18.200000000000003
+Pakistan,2014,thinness 5-9 years,2.0,19.8,17.8
+Bangladesh,2008,thinness 5-9 years,2.1,19.9,17.799999999999997
+Afghanistan,2003,thinness 5-9 years,2.2,19.9,17.7
+South Africa,2008,thinness 5-9 years,11.7,1.7,10.0
+Botswana,2003,thinness 5-9 years,11.3,1.8,9.5
+Lesotho,2002,thinness 5-9 years,11.1,1.6,9.5
+Namibia,2009,thinness 5-9 years,11.4,1.9,9.5
+Zimbabwe,2001,thinness 5-9 years,11.2,1.7,9.5
+Burkina Faso,2001,thinness 5-9 years,11.1,1.8,9.299999999999999
+Nigeria,2011,thinness 5-9 years,11.2,1.9,9.299999999999999
+Chad,2003,thinness 5-9 years,11.0,1.8,9.2
+Democratic Republic of the Congo,2007,thinness 5-9 years,11.1,1.9,9.2
+Niger,2009,thinness 5-9 years,11.0,1.8,9.2
+Senegal,2007,thinness 5-9 years,11.1,1.9,9.2
+Cambodia,2015,thinness 5-9 years,11.0,1.9,9.1
+Ethiopia,2008,thinness 5-9 years,11.0,1.9,9.1
+Indonesia,2004,thinness 5-9 years,11.0,1.9,9.1
+Eritrea,2002,thinness 5-9 years,1.0,9.9,8.9
