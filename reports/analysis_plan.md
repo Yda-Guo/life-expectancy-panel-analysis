@@ -37,7 +37,7 @@ The primary model should exclude `Adult Mortality`, `infant deaths`, and `under-
 9. Conduct sensitivity checks for variable choice, transformations, missing data, and influential observations.
 10. Write the final report with a clear separation between association and causation.
 
-## Questions requiring human review
+## Questions requiring review
 
 - Is `GDP` measured per capita and in current US dollars, and are there known decimal or digit-loss issues?
 - What exactly do `percentage expenditure`, `Total expenditure`, and `HIV/AIDS` measure?
