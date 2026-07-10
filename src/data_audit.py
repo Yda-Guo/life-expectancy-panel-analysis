@@ -124,7 +124,9 @@ def audit(input_path: Path, report_path: Path, tables_dir: Path) -> None:
     missing.to_csv(tables_dir / "missing_values.csv", index_label="variable")
     panel.to_csv(tables_dir / "observations_per_country.csv", index_label="country")
     strongly_skewed.to_csv(tables_dir / "strongly_skewed_variables.csv", index_label="variable")
-    jumps.to_csv(tables_dir / "suspicious_within_country_jumps.csv", index=False)
+    # Keep the review table compact while retaining the most extreme flags per variable.
+    priority_jumps = jumps.groupby("variable", group_keys=False).head(20)
+    priority_jumps.to_csv(tables_dir / "suspicious_within_country_jumps.csv", index=False)
 
     observations_distribution = counts.value_counts().sort_index().rename("countries").to_frame()
     sample = df.head(5).round(3)
