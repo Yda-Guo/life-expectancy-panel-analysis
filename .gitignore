@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# Generated processed data should be reproducible and reviewed before tracking.
+data/processed/*
+!data/processed/.gitkeep
