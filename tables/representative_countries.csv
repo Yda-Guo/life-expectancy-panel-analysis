@@ -1,0 +1,4 @@
+selection_band,country,mean_life_expectancy,target_quantile
+lower,Burundi,55.5375,0.1
+middle,Libya,72.4875,0.5
+upper,Luxembourg,80.78125,0.9

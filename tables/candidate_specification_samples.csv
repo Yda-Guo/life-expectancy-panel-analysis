@@ -1,0 +1,4 @@
+specification,variables,observations,countries,countries_with_two_plus_observations
+spec_1_schooling_gdp,life_expectancy; schooling; gdp_analysis; total_expenditure; polio; hiv_aids,2319,157,157
+spec_2_development_index,life_expectancy; income_composition_of_resources; total_expenditure; polio; hiv_aids,2574,173,173
+spec_3_health_education,life_expectancy; schooling; total_expenditure; polio; alcohol; bmi_analysis; hiv_aids,2552,171,171

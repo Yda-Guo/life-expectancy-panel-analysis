@@ -1,6 +1,6 @@
 # Data audit
 
-Generated from `../work/life_expectancy.csv`. The script reads but never writes to the raw file.
+Generated from `data/raw/life_expectancy.csv`. The script reads but never writes to the raw file.
 
 ## Observed facts
 

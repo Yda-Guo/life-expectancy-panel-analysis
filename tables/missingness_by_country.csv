@@ -1,0 +1,3668 @@
+variable,country,missing_count,missing_rate
+adult_mortality,Afghanistan,0,0.0
+adult_mortality,Albania,0,0.0
+adult_mortality,Algeria,0,0.0
+adult_mortality,Angola,0,0.0
+adult_mortality,Antigua and Barbuda,0,0.0
+adult_mortality,Argentina,0,0.0
+adult_mortality,Armenia,0,0.0
+adult_mortality,Australia,0,0.0
+adult_mortality,Austria,0,0.0
+adult_mortality,Azerbaijan,0,0.0
+adult_mortality,Bahamas,0,0.0
+adult_mortality,Bahrain,0,0.0
+adult_mortality,Bangladesh,0,0.0
+adult_mortality,Barbados,0,0.0
+adult_mortality,Belarus,0,0.0
+adult_mortality,Belgium,0,0.0
+adult_mortality,Belize,0,0.0
+adult_mortality,Benin,0,0.0
+adult_mortality,Bhutan,0,0.0
+adult_mortality,Bolivia (Plurinational State of),0,0.0
+adult_mortality,Bosnia and Herzegovina,0,0.0
+adult_mortality,Botswana,0,0.0
+adult_mortality,Brazil,0,0.0
+adult_mortality,Brunei Darussalam,0,0.0
+adult_mortality,Bulgaria,0,0.0
+adult_mortality,Burkina Faso,0,0.0
+adult_mortality,Burundi,0,0.0
+adult_mortality,Cabo Verde,0,0.0
+adult_mortality,Cambodia,0,0.0
+adult_mortality,Cameroon,0,0.0
+adult_mortality,Canada,0,0.0
+adult_mortality,Central African Republic,0,0.0
+adult_mortality,Chad,0,0.0
+adult_mortality,Chile,0,0.0
+adult_mortality,China,0,0.0
+adult_mortality,Colombia,0,0.0
+adult_mortality,Comoros,0,0.0
+adult_mortality,Congo,0,0.0
+adult_mortality,Cook Islands,1,1.0
+adult_mortality,Costa Rica,0,0.0
+adult_mortality,Croatia,0,0.0
+adult_mortality,Cuba,0,0.0
+adult_mortality,Cyprus,0,0.0
+adult_mortality,Czechia,0,0.0
+adult_mortality,Côte d'Ivoire,0,0.0
+adult_mortality,Democratic People's Republic of Korea,0,0.0
+adult_mortality,Democratic Republic of the Congo,0,0.0
+adult_mortality,Denmark,0,0.0
+adult_mortality,Djibouti,0,0.0
+adult_mortality,Dominica,1,1.0
+adult_mortality,Dominican Republic,0,0.0
+adult_mortality,Ecuador,0,0.0
+adult_mortality,Egypt,0,0.0
+adult_mortality,El Salvador,0,0.0
+adult_mortality,Equatorial Guinea,0,0.0
+adult_mortality,Eritrea,0,0.0
+adult_mortality,Estonia,0,0.0
+adult_mortality,Ethiopia,0,0.0
+adult_mortality,Fiji,0,0.0
+adult_mortality,Finland,0,0.0
+adult_mortality,France,0,0.0
+adult_mortality,Gabon,0,0.0
+adult_mortality,Gambia,0,0.0
+adult_mortality,Georgia,0,0.0
+adult_mortality,Germany,0,0.0
+adult_mortality,Ghana,0,0.0
+adult_mortality,Greece,0,0.0
+adult_mortality,Grenada,0,0.0
+adult_mortality,Guatemala,0,0.0
+adult_mortality,Guinea,0,0.0
+adult_mortality,Guinea-Bissau,0,0.0
+adult_mortality,Guyana,0,0.0
+adult_mortality,Haiti,0,0.0
+adult_mortality,Honduras,0,0.0
+adult_mortality,Hungary,0,0.0
+adult_mortality,Iceland,0,0.0
+adult_mortality,India,0,0.0
+adult_mortality,Indonesia,0,0.0
+adult_mortality,Iran (Islamic Republic of),0,0.0
+adult_mortality,Iraq,0,0.0
+adult_mortality,Ireland,0,0.0
+adult_mortality,Israel,0,0.0
+adult_mortality,Italy,0,0.0
+adult_mortality,Jamaica,0,0.0
+adult_mortality,Japan,0,0.0
+adult_mortality,Jordan,0,0.0
+adult_mortality,Kazakhstan,0,0.0
+adult_mortality,Kenya,0,0.0
+adult_mortality,Kiribati,0,0.0
+adult_mortality,Kuwait,0,0.0
+adult_mortality,Kyrgyzstan,0,0.0
+adult_mortality,Lao People's Democratic Republic,0,0.0
+adult_mortality,Latvia,0,0.0
+adult_mortality,Lebanon,0,0.0
+adult_mortality,Lesotho,0,0.0
+adult_mortality,Liberia,0,0.0
+adult_mortality,Libya,0,0.0
+adult_mortality,Lithuania,0,0.0
+adult_mortality,Luxembourg,0,0.0
+adult_mortality,Madagascar,0,0.0
+adult_mortality,Malawi,0,0.0
+adult_mortality,Malaysia,0,0.0
+adult_mortality,Maldives,0,0.0
+adult_mortality,Mali,0,0.0
+adult_mortality,Malta,0,0.0
+adult_mortality,Marshall Islands,1,1.0
+adult_mortality,Mauritania,0,0.0
+adult_mortality,Mauritius,0,0.0
+adult_mortality,Mexico,0,0.0
+adult_mortality,Micronesia (Federated States of),0,0.0
+adult_mortality,Monaco,1,1.0
+adult_mortality,Mongolia,0,0.0
+adult_mortality,Montenegro,0,0.0
+adult_mortality,Morocco,0,0.0
+adult_mortality,Mozambique,0,0.0
+adult_mortality,Myanmar,0,0.0
+adult_mortality,Namibia,0,0.0
+adult_mortality,Nauru,1,1.0
+adult_mortality,Nepal,0,0.0
+adult_mortality,Netherlands,0,0.0
+adult_mortality,New Zealand,0,0.0
+adult_mortality,Nicaragua,0,0.0
+adult_mortality,Niger,0,0.0
+adult_mortality,Nigeria,0,0.0
+adult_mortality,Niue,1,1.0
+adult_mortality,Norway,0,0.0
+adult_mortality,Oman,0,0.0
+adult_mortality,Pakistan,0,0.0
+adult_mortality,Palau,1,1.0
+adult_mortality,Panama,0,0.0
+adult_mortality,Papua New Guinea,0,0.0
+adult_mortality,Paraguay,0,0.0
+adult_mortality,Peru,0,0.0
+adult_mortality,Philippines,0,0.0
+adult_mortality,Poland,0,0.0
+adult_mortality,Portugal,0,0.0
+adult_mortality,Qatar,0,0.0
+adult_mortality,Republic of Korea,0,0.0
+adult_mortality,Republic of Moldova,0,0.0
+adult_mortality,Romania,0,0.0
+adult_mortality,Russian Federation,0,0.0
+adult_mortality,Rwanda,0,0.0
+adult_mortality,Saint Kitts and Nevis,1,1.0
+adult_mortality,Saint Lucia,0,0.0
+adult_mortality,Saint Vincent and the Grenadines,0,0.0
+adult_mortality,Samoa,0,0.0
+adult_mortality,San Marino,1,1.0
+adult_mortality,Sao Tome and Principe,0,0.0
+adult_mortality,Saudi Arabia,0,0.0
+adult_mortality,Senegal,0,0.0
+adult_mortality,Serbia,0,0.0
+adult_mortality,Seychelles,0,0.0
+adult_mortality,Sierra Leone,0,0.0
+adult_mortality,Singapore,0,0.0
+adult_mortality,Slovakia,0,0.0
+adult_mortality,Slovenia,0,0.0
+adult_mortality,Solomon Islands,0,0.0
+adult_mortality,Somalia,0,0.0
+adult_mortality,South Africa,0,0.0
+adult_mortality,South Sudan,0,0.0
+adult_mortality,Spain,0,0.0
+adult_mortality,Sri Lanka,0,0.0
+adult_mortality,Sudan,0,0.0
+adult_mortality,Suriname,0,0.0
+adult_mortality,Swaziland,0,0.0
+adult_mortality,Sweden,0,0.0
+adult_mortality,Switzerland,0,0.0
+adult_mortality,Syrian Arab Republic,0,0.0
+adult_mortality,Tajikistan,0,0.0
+adult_mortality,Thailand,0,0.0
+adult_mortality,The former Yugoslav republic of Macedonia,0,0.0
+adult_mortality,Timor-Leste,0,0.0
+adult_mortality,Togo,0,0.0
+adult_mortality,Tonga,0,0.0
+adult_mortality,Trinidad and Tobago,0,0.0
+adult_mortality,Tunisia,0,0.0
+adult_mortality,Turkey,0,0.0
+adult_mortality,Turkmenistan,0,0.0
+adult_mortality,Tuvalu,1,1.0
+adult_mortality,Uganda,0,0.0
+adult_mortality,Ukraine,0,0.0
+adult_mortality,United Arab Emirates,0,0.0
+adult_mortality,United Kingdom of Great Britain and Northern Ireland,0,0.0
+adult_mortality,United Republic of Tanzania,0,0.0
+adult_mortality,United States of America,0,0.0
+adult_mortality,Uruguay,0,0.0
+adult_mortality,Uzbekistan,0,0.0
+adult_mortality,Vanuatu,0,0.0
+adult_mortality,Venezuela (Bolivarian Republic of),0,0.0
+adult_mortality,Viet Nam,0,0.0
+adult_mortality,Yemen,0,0.0
+adult_mortality,Zambia,0,0.0
+adult_mortality,Zimbabwe,0,0.0
+alcohol,Afghanistan,0,0.0
+alcohol,Albania,0,0.0
+alcohol,Algeria,1,0.0625
+alcohol,Angola,1,0.0625
+alcohol,Antigua and Barbuda,1,0.0625
+alcohol,Argentina,1,0.0625
+alcohol,Armenia,1,0.0625
+alcohol,Australia,1,0.0625
+alcohol,Austria,1,0.0625
+alcohol,Azerbaijan,1,0.0625
+alcohol,Bahamas,1,0.0625
+alcohol,Bahrain,1,0.0625
+alcohol,Bangladesh,1,0.0625
+alcohol,Barbados,1,0.0625
+alcohol,Belarus,1,0.0625
+alcohol,Belgium,1,0.0625
+alcohol,Belize,1,0.0625
+alcohol,Benin,1,0.0625
+alcohol,Bhutan,1,0.0625
+alcohol,Bolivia (Plurinational State of),1,0.0625
+alcohol,Bosnia and Herzegovina,1,0.0625
+alcohol,Botswana,1,0.0625
+alcohol,Brazil,1,0.0625
+alcohol,Brunei Darussalam,1,0.0625
+alcohol,Bulgaria,1,0.0625
+alcohol,Burkina Faso,1,0.0625
+alcohol,Burundi,1,0.0625
+alcohol,Cabo Verde,1,0.0625
+alcohol,Cambodia,1,0.0625
+alcohol,Cameroon,1,0.0625
+alcohol,Canada,1,0.0625
+alcohol,Central African Republic,1,0.0625
+alcohol,Chad,1,0.0625
+alcohol,Chile,1,0.0625
+alcohol,China,1,0.0625
+alcohol,Colombia,1,0.0625
+alcohol,Comoros,1,0.0625
+alcohol,Congo,1,0.0625
+alcohol,Cook Islands,0,0.0
+alcohol,Costa Rica,1,0.0625
+alcohol,Croatia,1,0.0625
+alcohol,Cuba,1,0.0625
+alcohol,Cyprus,1,0.0625
+alcohol,Czechia,1,0.0625
+alcohol,Côte d'Ivoire,1,0.0625
+alcohol,Democratic People's Republic of Korea,1,0.0625
+alcohol,Democratic Republic of the Congo,1,0.0625
+alcohol,Denmark,1,0.0625
+alcohol,Djibouti,1,0.0625
+alcohol,Dominica,0,0.0
+alcohol,Dominican Republic,1,0.0625
+alcohol,Ecuador,1,0.0625
+alcohol,Egypt,1,0.0625
+alcohol,El Salvador,1,0.0625
+alcohol,Equatorial Guinea,1,0.0625
+alcohol,Eritrea,1,0.0625
+alcohol,Estonia,1,0.0625
+alcohol,Ethiopia,1,0.0625
+alcohol,Fiji,1,0.0625
+alcohol,Finland,1,0.0625
+alcohol,France,1,0.0625
+alcohol,Gabon,1,0.0625
+alcohol,Gambia,1,0.0625
+alcohol,Georgia,1,0.0625
+alcohol,Germany,1,0.0625
+alcohol,Ghana,1,0.0625
+alcohol,Greece,1,0.0625
+alcohol,Grenada,1,0.0625
+alcohol,Guatemala,1,0.0625
+alcohol,Guinea,1,0.0625
+alcohol,Guinea-Bissau,1,0.0625
+alcohol,Guyana,1,0.0625
+alcohol,Haiti,1,0.0625
+alcohol,Honduras,1,0.0625
+alcohol,Hungary,1,0.0625
+alcohol,Iceland,1,0.0625
+alcohol,India,1,0.0625
+alcohol,Indonesia,1,0.0625
+alcohol,Iran (Islamic Republic of),1,0.0625
+alcohol,Iraq,1,0.0625
+alcohol,Ireland,1,0.0625
+alcohol,Israel,1,0.0625
+alcohol,Italy,1,0.0625
+alcohol,Jamaica,1,0.0625
+alcohol,Japan,1,0.0625
+alcohol,Jordan,1,0.0625
+alcohol,Kazakhstan,1,0.0625
+alcohol,Kenya,1,0.0625
+alcohol,Kiribati,1,0.0625
+alcohol,Kuwait,1,0.0625
+alcohol,Kyrgyzstan,1,0.0625
+alcohol,Lao People's Democratic Republic,1,0.0625
+alcohol,Latvia,1,0.0625
+alcohol,Lebanon,1,0.0625
+alcohol,Lesotho,1,0.0625
+alcohol,Liberia,1,0.0625
+alcohol,Libya,1,0.0625
+alcohol,Lithuania,1,0.0625
+alcohol,Luxembourg,1,0.0625
+alcohol,Madagascar,1,0.0625
+alcohol,Malawi,1,0.0625
+alcohol,Malaysia,1,0.0625
+alcohol,Maldives,1,0.0625
+alcohol,Mali,1,0.0625
+alcohol,Malta,1,0.0625
+alcohol,Marshall Islands,0,0.0
+alcohol,Mauritania,1,0.0625
+alcohol,Mauritius,1,0.0625
+alcohol,Mexico,1,0.0625
+alcohol,Micronesia (Federated States of),1,0.0625
+alcohol,Monaco,0,0.0
+alcohol,Mongolia,1,0.0625
+alcohol,Montenegro,2,0.125
+alcohol,Morocco,1,0.0625
+alcohol,Mozambique,1,0.0625
+alcohol,Myanmar,1,0.0625
+alcohol,Namibia,1,0.0625
+alcohol,Nauru,0,0.0
+alcohol,Nepal,1,0.0625
+alcohol,Netherlands,1,0.0625
+alcohol,New Zealand,0,0.0
+alcohol,Nicaragua,1,0.0625
+alcohol,Niger,1,0.0625
+alcohol,Nigeria,1,0.0625
+alcohol,Niue,0,0.0
+alcohol,Norway,0,0.0
+alcohol,Oman,1,0.0625
+alcohol,Pakistan,1,0.0625
+alcohol,Palau,1,1.0
+alcohol,Panama,1,0.0625
+alcohol,Papua New Guinea,1,0.0625
+alcohol,Paraguay,1,0.0625
+alcohol,Peru,1,0.0625
+alcohol,Philippines,1,0.0625
+alcohol,Poland,1,0.0625
+alcohol,Portugal,1,0.0625
+alcohol,Qatar,1,0.0625
+alcohol,Republic of Korea,1,0.0625
+alcohol,Republic of Moldova,1,0.0625
+alcohol,Romania,1,0.0625
+alcohol,Russian Federation,1,0.0625
+alcohol,Rwanda,1,0.0625
+alcohol,Saint Kitts and Nevis,0,0.0
+alcohol,Saint Lucia,1,0.0625
+alcohol,Saint Vincent and the Grenadines,1,0.0625
+alcohol,Samoa,1,0.0625
+alcohol,San Marino,0,0.0
+alcohol,Sao Tome and Principe,1,0.0625
+alcohol,Saudi Arabia,1,0.0625
+alcohol,Senegal,1,0.0625
+alcohol,Serbia,1,0.0625
+alcohol,Seychelles,1,0.0625
+alcohol,Sierra Leone,1,0.0625
+alcohol,Singapore,0,0.0
+alcohol,Slovakia,1,0.0625
+alcohol,Slovenia,1,0.0625
+alcohol,Solomon Islands,1,0.0625
+alcohol,Somalia,1,0.0625
+alcohol,South Africa,1,0.0625
+alcohol,South Sudan,16,1.0
+alcohol,Spain,1,0.0625
+alcohol,Sri Lanka,1,0.0625
+alcohol,Sudan,1,0.0625
+alcohol,Suriname,1,0.0625
+alcohol,Swaziland,1,0.0625
+alcohol,Sweden,1,0.0625
+alcohol,Switzerland,1,0.0625
+alcohol,Syrian Arab Republic,1,0.0625
+alcohol,Tajikistan,1,0.0625
+alcohol,Thailand,1,0.0625
+alcohol,The former Yugoslav republic of Macedonia,1,0.0625
+alcohol,Timor-Leste,1,0.0625
+alcohol,Togo,1,0.0625
+alcohol,Tonga,1,0.0625
+alcohol,Trinidad and Tobago,1,0.0625
+alcohol,Tunisia,1,0.0625
+alcohol,Turkey,1,0.0625
+alcohol,Turkmenistan,1,0.0625
+alcohol,Tuvalu,0,0.0
+alcohol,Uganda,1,0.0625
+alcohol,Ukraine,1,0.0625
+alcohol,United Arab Emirates,1,0.0625
+alcohol,United Kingdom of Great Britain and Northern Ireland,0,0.0
+alcohol,United Republic of Tanzania,1,0.0625
+alcohol,United States of America,1,0.0625
+alcohol,Uruguay,1,0.0625
+alcohol,Uzbekistan,1,0.0625
+alcohol,Vanuatu,1,0.0625
+alcohol,Venezuela (Bolivarian Republic of),1,0.0625
+alcohol,Viet Nam,1,0.0625
+alcohol,Yemen,1,0.0625
+alcohol,Zambia,1,0.0625
+alcohol,Zimbabwe,1,0.0625
+bmi,Afghanistan,0,0.0
+bmi,Albania,0,0.0
+bmi,Algeria,0,0.0
+bmi,Angola,0,0.0
+bmi,Antigua and Barbuda,0,0.0
+bmi,Argentina,0,0.0
+bmi,Armenia,0,0.0
+bmi,Australia,0,0.0
+bmi,Austria,0,0.0
+bmi,Azerbaijan,0,0.0
+bmi,Bahamas,0,0.0
+bmi,Bahrain,0,0.0
+bmi,Bangladesh,0,0.0
+bmi,Barbados,0,0.0
+bmi,Belarus,0,0.0
+bmi,Belgium,0,0.0
+bmi,Belize,0,0.0
+bmi,Benin,0,0.0
+bmi,Bhutan,0,0.0
+bmi,Bolivia (Plurinational State of),0,0.0
+bmi,Bosnia and Herzegovina,0,0.0
+bmi,Botswana,0,0.0
+bmi,Brazil,0,0.0
+bmi,Brunei Darussalam,0,0.0
+bmi,Bulgaria,0,0.0
+bmi,Burkina Faso,0,0.0
+bmi,Burundi,0,0.0
+bmi,Cabo Verde,0,0.0
+bmi,Cambodia,0,0.0
+bmi,Cameroon,0,0.0
+bmi,Canada,0,0.0
+bmi,Central African Republic,0,0.0
+bmi,Chad,0,0.0
+bmi,Chile,0,0.0
+bmi,China,0,0.0
+bmi,Colombia,0,0.0
+bmi,Comoros,0,0.0
+bmi,Congo,0,0.0
+bmi,Cook Islands,0,0.0
+bmi,Costa Rica,0,0.0
+bmi,Croatia,0,0.0
+bmi,Cuba,0,0.0
+bmi,Cyprus,0,0.0
+bmi,Czechia,0,0.0
+bmi,Côte d'Ivoire,0,0.0
+bmi,Democratic People's Republic of Korea,0,0.0
+bmi,Democratic Republic of the Congo,0,0.0
+bmi,Denmark,0,0.0
+bmi,Djibouti,0,0.0
+bmi,Dominica,0,0.0
+bmi,Dominican Republic,0,0.0
+bmi,Ecuador,0,0.0
+bmi,Egypt,0,0.0
+bmi,El Salvador,0,0.0
+bmi,Equatorial Guinea,0,0.0
+bmi,Eritrea,0,0.0
+bmi,Estonia,0,0.0
+bmi,Ethiopia,0,0.0
+bmi,Fiji,0,0.0
+bmi,Finland,0,0.0
+bmi,France,0,0.0
+bmi,Gabon,0,0.0
+bmi,Gambia,0,0.0
+bmi,Georgia,0,0.0
+bmi,Germany,0,0.0
+bmi,Ghana,0,0.0
+bmi,Greece,0,0.0
+bmi,Grenada,0,0.0
+bmi,Guatemala,0,0.0
+bmi,Guinea,0,0.0
+bmi,Guinea-Bissau,0,0.0
+bmi,Guyana,0,0.0
+bmi,Haiti,0,0.0
+bmi,Honduras,0,0.0
+bmi,Hungary,0,0.0
+bmi,Iceland,0,0.0
+bmi,India,0,0.0
+bmi,Indonesia,0,0.0
+bmi,Iran (Islamic Republic of),0,0.0
+bmi,Iraq,0,0.0
+bmi,Ireland,0,0.0
+bmi,Israel,0,0.0
+bmi,Italy,0,0.0
+bmi,Jamaica,0,0.0
+bmi,Japan,0,0.0
+bmi,Jordan,0,0.0
+bmi,Kazakhstan,0,0.0
+bmi,Kenya,0,0.0
+bmi,Kiribati,0,0.0
+bmi,Kuwait,0,0.0
+bmi,Kyrgyzstan,0,0.0
+bmi,Lao People's Democratic Republic,0,0.0
+bmi,Latvia,0,0.0
+bmi,Lebanon,0,0.0
+bmi,Lesotho,0,0.0
+bmi,Liberia,0,0.0
+bmi,Libya,0,0.0
+bmi,Lithuania,0,0.0
+bmi,Luxembourg,0,0.0
+bmi,Madagascar,0,0.0
+bmi,Malawi,0,0.0
+bmi,Malaysia,0,0.0
+bmi,Maldives,0,0.0
+bmi,Mali,0,0.0
+bmi,Malta,0,0.0
+bmi,Marshall Islands,0,0.0
+bmi,Mauritania,0,0.0
+bmi,Mauritius,0,0.0
+bmi,Mexico,0,0.0
+bmi,Micronesia (Federated States of),0,0.0
+bmi,Monaco,1,1.0
+bmi,Mongolia,0,0.0
+bmi,Montenegro,0,0.0
+bmi,Morocco,0,0.0
+bmi,Mozambique,0,0.0
+bmi,Myanmar,0,0.0
+bmi,Namibia,0,0.0
+bmi,Nauru,0,0.0
+bmi,Nepal,0,0.0
+bmi,Netherlands,0,0.0
+bmi,New Zealand,0,0.0
+bmi,Nicaragua,0,0.0
+bmi,Niger,0,0.0
+bmi,Nigeria,0,0.0
+bmi,Niue,0,0.0
+bmi,Norway,0,0.0
+bmi,Oman,0,0.0
+bmi,Pakistan,0,0.0
+bmi,Palau,0,0.0
+bmi,Panama,0,0.0
+bmi,Papua New Guinea,0,0.0
+bmi,Paraguay,0,0.0
+bmi,Peru,0,0.0
+bmi,Philippines,0,0.0
+bmi,Poland,0,0.0
+bmi,Portugal,0,0.0
+bmi,Qatar,0,0.0
+bmi,Republic of Korea,0,0.0
+bmi,Republic of Moldova,0,0.0
+bmi,Romania,0,0.0
+bmi,Russian Federation,0,0.0
+bmi,Rwanda,0,0.0
+bmi,Saint Kitts and Nevis,0,0.0
+bmi,Saint Lucia,0,0.0
+bmi,Saint Vincent and the Grenadines,0,0.0
+bmi,Samoa,0,0.0
+bmi,San Marino,1,1.0
+bmi,Sao Tome and Principe,0,0.0
+bmi,Saudi Arabia,0,0.0
+bmi,Senegal,0,0.0
+bmi,Serbia,0,0.0
+bmi,Seychelles,0,0.0
+bmi,Sierra Leone,0,0.0
+bmi,Singapore,0,0.0
+bmi,Slovakia,0,0.0
+bmi,Slovenia,0,0.0
+bmi,Solomon Islands,0,0.0
+bmi,Somalia,0,0.0
+bmi,South Africa,0,0.0
+bmi,South Sudan,16,1.0
+bmi,Spain,0,0.0
+bmi,Sri Lanka,0,0.0
+bmi,Sudan,16,1.0
+bmi,Suriname,0,0.0
+bmi,Swaziland,0,0.0
+bmi,Sweden,0,0.0
+bmi,Switzerland,0,0.0
+bmi,Syrian Arab Republic,0,0.0
+bmi,Tajikistan,0,0.0
+bmi,Thailand,0,0.0
+bmi,The former Yugoslav republic of Macedonia,0,0.0
+bmi,Timor-Leste,0,0.0
+bmi,Togo,0,0.0
+bmi,Tonga,0,0.0
+bmi,Trinidad and Tobago,0,0.0
+bmi,Tunisia,0,0.0
+bmi,Turkey,0,0.0
+bmi,Turkmenistan,0,0.0
+bmi,Tuvalu,0,0.0
+bmi,Uganda,0,0.0
+bmi,Ukraine,0,0.0
+bmi,United Arab Emirates,0,0.0
+bmi,United Kingdom of Great Britain and Northern Ireland,0,0.0
+bmi,United Republic of Tanzania,0,0.0
+bmi,United States of America,0,0.0
+bmi,Uruguay,0,0.0
+bmi,Uzbekistan,0,0.0
+bmi,Vanuatu,0,0.0
+bmi,Venezuela (Bolivarian Republic of),0,0.0
+bmi,Viet Nam,0,0.0
+bmi,Yemen,0,0.0
+bmi,Zambia,0,0.0
+bmi,Zimbabwe,0,0.0
+diphtheria,Afghanistan,0,0.0
+diphtheria,Albania,0,0.0
+diphtheria,Algeria,0,0.0
+diphtheria,Angola,0,0.0
+diphtheria,Antigua and Barbuda,0,0.0
+diphtheria,Argentina,0,0.0
+diphtheria,Armenia,0,0.0
+diphtheria,Australia,0,0.0
+diphtheria,Austria,0,0.0
+diphtheria,Azerbaijan,0,0.0
+diphtheria,Bahamas,0,0.0
+diphtheria,Bahrain,0,0.0
+diphtheria,Bangladesh,0,0.0
+diphtheria,Barbados,0,0.0
+diphtheria,Belarus,0,0.0
+diphtheria,Belgium,0,0.0
+diphtheria,Belize,0,0.0
+diphtheria,Benin,0,0.0
+diphtheria,Bhutan,0,0.0
+diphtheria,Bolivia (Plurinational State of),0,0.0
+diphtheria,Bosnia and Herzegovina,0,0.0
+diphtheria,Botswana,0,0.0
+diphtheria,Brazil,0,0.0
+diphtheria,Brunei Darussalam,0,0.0
+diphtheria,Bulgaria,0,0.0
+diphtheria,Burkina Faso,0,0.0
+diphtheria,Burundi,0,0.0
+diphtheria,Cabo Verde,0,0.0
+diphtheria,Cambodia,0,0.0
+diphtheria,Cameroon,0,0.0
+diphtheria,Canada,0,0.0
+diphtheria,Central African Republic,0,0.0
+diphtheria,Chad,0,0.0
+diphtheria,Chile,0,0.0
+diphtheria,China,0,0.0
+diphtheria,Colombia,0,0.0
+diphtheria,Comoros,0,0.0
+diphtheria,Congo,0,0.0
+diphtheria,Cook Islands,0,0.0
+diphtheria,Costa Rica,0,0.0
+diphtheria,Croatia,0,0.0
+diphtheria,Cuba,0,0.0
+diphtheria,Cyprus,0,0.0
+diphtheria,Czechia,0,0.0
+diphtheria,Côte d'Ivoire,0,0.0
+diphtheria,Democratic People's Republic of Korea,0,0.0
+diphtheria,Democratic Republic of the Congo,0,0.0
+diphtheria,Denmark,0,0.0
+diphtheria,Djibouti,0,0.0
+diphtheria,Dominica,0,0.0
+diphtheria,Dominican Republic,0,0.0
+diphtheria,Ecuador,0,0.0
+diphtheria,Egypt,0,0.0
+diphtheria,El Salvador,0,0.0
+diphtheria,Equatorial Guinea,0,0.0
+diphtheria,Eritrea,0,0.0
+diphtheria,Estonia,0,0.0
+diphtheria,Ethiopia,0,0.0
+diphtheria,Fiji,0,0.0
+diphtheria,Finland,0,0.0
+diphtheria,France,0,0.0
+diphtheria,Gabon,0,0.0
+diphtheria,Gambia,0,0.0
+diphtheria,Georgia,0,0.0
+diphtheria,Germany,0,0.0
+diphtheria,Ghana,0,0.0
+diphtheria,Greece,0,0.0
+diphtheria,Grenada,0,0.0
+diphtheria,Guatemala,0,0.0
+diphtheria,Guinea,0,0.0
+diphtheria,Guinea-Bissau,0,0.0
+diphtheria,Guyana,0,0.0
+diphtheria,Haiti,0,0.0
+diphtheria,Honduras,0,0.0
+diphtheria,Hungary,0,0.0
+diphtheria,Iceland,0,0.0
+diphtheria,India,0,0.0
+diphtheria,Indonesia,0,0.0
+diphtheria,Iran (Islamic Republic of),0,0.0
+diphtheria,Iraq,0,0.0
+diphtheria,Ireland,0,0.0
+diphtheria,Israel,0,0.0
+diphtheria,Italy,0,0.0
+diphtheria,Jamaica,0,0.0
+diphtheria,Japan,0,0.0
+diphtheria,Jordan,0,0.0
+diphtheria,Kazakhstan,0,0.0
+diphtheria,Kenya,0,0.0
+diphtheria,Kiribati,0,0.0
+diphtheria,Kuwait,0,0.0
+diphtheria,Kyrgyzstan,0,0.0
+diphtheria,Lao People's Democratic Republic,0,0.0
+diphtheria,Latvia,0,0.0
+diphtheria,Lebanon,0,0.0
+diphtheria,Lesotho,0,0.0
+diphtheria,Liberia,0,0.0
+diphtheria,Libya,0,0.0
+diphtheria,Lithuania,0,0.0
+diphtheria,Luxembourg,0,0.0
+diphtheria,Madagascar,0,0.0
+diphtheria,Malawi,0,0.0
+diphtheria,Malaysia,0,0.0
+diphtheria,Maldives,0,0.0
+diphtheria,Mali,0,0.0
+diphtheria,Malta,0,0.0
+diphtheria,Marshall Islands,0,0.0
+diphtheria,Mauritania,0,0.0
+diphtheria,Mauritius,0,0.0
+diphtheria,Mexico,0,0.0
+diphtheria,Micronesia (Federated States of),0,0.0
+diphtheria,Monaco,0,0.0
+diphtheria,Mongolia,0,0.0
+diphtheria,Montenegro,6,0.375
+diphtheria,Morocco,0,0.0
+diphtheria,Mozambique,0,0.0
+diphtheria,Myanmar,0,0.0
+diphtheria,Namibia,0,0.0
+diphtheria,Nauru,0,0.0
+diphtheria,Nepal,0,0.0
+diphtheria,Netherlands,0,0.0
+diphtheria,New Zealand,0,0.0
+diphtheria,Nicaragua,0,0.0
+diphtheria,Niger,0,0.0
+diphtheria,Nigeria,0,0.0
+diphtheria,Niue,0,0.0
+diphtheria,Norway,0,0.0
+diphtheria,Oman,0,0.0
+diphtheria,Pakistan,0,0.0
+diphtheria,Palau,0,0.0
+diphtheria,Panama,0,0.0
+diphtheria,Papua New Guinea,0,0.0
+diphtheria,Paraguay,0,0.0
+diphtheria,Peru,0,0.0
+diphtheria,Philippines,0,0.0
+diphtheria,Poland,0,0.0
+diphtheria,Portugal,0,0.0
+diphtheria,Qatar,0,0.0
+diphtheria,Republic of Korea,0,0.0
+diphtheria,Republic of Moldova,0,0.0
+diphtheria,Romania,0,0.0
+diphtheria,Russian Federation,0,0.0
+diphtheria,Rwanda,0,0.0
+diphtheria,Saint Kitts and Nevis,0,0.0
+diphtheria,Saint Lucia,0,0.0
+diphtheria,Saint Vincent and the Grenadines,0,0.0
+diphtheria,Samoa,0,0.0
+diphtheria,San Marino,0,0.0
+diphtheria,Sao Tome and Principe,0,0.0
+diphtheria,Saudi Arabia,0,0.0
+diphtheria,Senegal,0,0.0
+diphtheria,Serbia,0,0.0
+diphtheria,Seychelles,0,0.0
+diphtheria,Sierra Leone,0,0.0
+diphtheria,Singapore,0,0.0
+diphtheria,Slovakia,0,0.0
+diphtheria,Slovenia,0,0.0
+diphtheria,Solomon Islands,0,0.0
+diphtheria,Somalia,0,0.0
+diphtheria,South Africa,0,0.0
+diphtheria,South Sudan,11,0.6875
+diphtheria,Spain,0,0.0
+diphtheria,Sri Lanka,0,0.0
+diphtheria,Sudan,0,0.0
+diphtheria,Suriname,0,0.0
+diphtheria,Swaziland,0,0.0
+diphtheria,Sweden,0,0.0
+diphtheria,Switzerland,0,0.0
+diphtheria,Syrian Arab Republic,0,0.0
+diphtheria,Tajikistan,0,0.0
+diphtheria,Thailand,0,0.0
+diphtheria,The former Yugoslav republic of Macedonia,0,0.0
+diphtheria,Timor-Leste,2,0.125
+diphtheria,Togo,0,0.0
+diphtheria,Tonga,0,0.0
+diphtheria,Trinidad and Tobago,0,0.0
+diphtheria,Tunisia,0,0.0
+diphtheria,Turkey,0,0.0
+diphtheria,Turkmenistan,0,0.0
+diphtheria,Tuvalu,0,0.0
+diphtheria,Uganda,0,0.0
+diphtheria,Ukraine,0,0.0
+diphtheria,United Arab Emirates,0,0.0
+diphtheria,United Kingdom of Great Britain and Northern Ireland,0,0.0
+diphtheria,United Republic of Tanzania,0,0.0
+diphtheria,United States of America,0,0.0
+diphtheria,Uruguay,0,0.0
+diphtheria,Uzbekistan,0,0.0
+diphtheria,Vanuatu,0,0.0
+diphtheria,Venezuela (Bolivarian Republic of),0,0.0
+diphtheria,Viet Nam,0,0.0
+diphtheria,Yemen,0,0.0
+diphtheria,Zambia,0,0.0
+diphtheria,Zimbabwe,0,0.0
+gdp,Afghanistan,0,0.0
+gdp,Albania,0,0.0
+gdp,Algeria,0,0.0
+gdp,Angola,0,0.0
+gdp,Antigua and Barbuda,0,0.0
+gdp,Argentina,0,0.0
+gdp,Armenia,0,0.0
+gdp,Australia,0,0.0
+gdp,Austria,0,0.0
+gdp,Azerbaijan,0,0.0
+gdp,Bahamas,16,1.0
+gdp,Bahrain,0,0.0
+gdp,Bangladesh,0,0.0
+gdp,Barbados,0,0.0
+gdp,Belarus,0,0.0
+gdp,Belgium,0,0.0
+gdp,Belize,0,0.0
+gdp,Benin,0,0.0
+gdp,Bhutan,0,0.0
+gdp,Bolivia (Plurinational State of),16,1.0
+gdp,Bosnia and Herzegovina,0,0.0
+gdp,Botswana,0,0.0
+gdp,Brazil,0,0.0
+gdp,Brunei Darussalam,0,0.0
+gdp,Bulgaria,0,0.0
+gdp,Burkina Faso,0,0.0
+gdp,Burundi,0,0.0
+gdp,Cabo Verde,0,0.0
+gdp,Cambodia,0,0.0
+gdp,Cameroon,0,0.0
+gdp,Canada,0,0.0
+gdp,Central African Republic,0,0.0
+gdp,Chad,0,0.0
+gdp,Chile,0,0.0
+gdp,China,0,0.0
+gdp,Colombia,0,0.0
+gdp,Comoros,0,0.0
+gdp,Congo,16,1.0
+gdp,Cook Islands,1,1.0
+gdp,Costa Rica,0,0.0
+gdp,Croatia,0,0.0
+gdp,Cuba,0,0.0
+gdp,Cyprus,0,0.0
+gdp,Czechia,16,1.0
+gdp,Côte d'Ivoire,16,1.0
+gdp,Democratic People's Republic of Korea,16,1.0
+gdp,Democratic Republic of the Congo,16,1.0
+gdp,Denmark,0,0.0
+gdp,Djibouti,0,0.0
+gdp,Dominica,0,0.0
+gdp,Dominican Republic,0,0.0
+gdp,Ecuador,0,0.0
+gdp,Egypt,16,1.0
+gdp,El Salvador,0,0.0
+gdp,Equatorial Guinea,0,0.0
+gdp,Eritrea,4,0.25
+gdp,Estonia,0,0.0
+gdp,Ethiopia,0,0.0
+gdp,Fiji,0,0.0
+gdp,Finland,0,0.0
+gdp,France,0,0.0
+gdp,Gabon,0,0.0
+gdp,Gambia,16,1.0
+gdp,Georgia,0,0.0
+gdp,Germany,0,0.0
+gdp,Ghana,0,0.0
+gdp,Greece,0,0.0
+gdp,Grenada,0,0.0
+gdp,Guatemala,0,0.0
+gdp,Guinea,0,0.0
+gdp,Guinea-Bissau,0,0.0
+gdp,Guyana,0,0.0
+gdp,Haiti,0,0.0
+gdp,Honduras,0,0.0
+gdp,Hungary,0,0.0
+gdp,Iceland,0,0.0
+gdp,India,0,0.0
+gdp,Indonesia,0,0.0
+gdp,Iran (Islamic Republic of),16,1.0
+gdp,Iraq,4,0.25
+gdp,Ireland,0,0.0
+gdp,Israel,0,0.0
+gdp,Italy,0,0.0
+gdp,Jamaica,0,0.0
+gdp,Japan,0,0.0
+gdp,Jordan,0,0.0
+gdp,Kazakhstan,0,0.0
+gdp,Kenya,0,0.0
+gdp,Kiribati,0,0.0
+gdp,Kuwait,0,0.0
+gdp,Kyrgyzstan,16,1.0
+gdp,Lao People's Democratic Republic,16,1.0
+gdp,Latvia,0,0.0
+gdp,Lebanon,0,0.0
+gdp,Lesotho,0,0.0
+gdp,Liberia,0,0.0
+gdp,Libya,4,0.25
+gdp,Lithuania,0,0.0
+gdp,Luxembourg,0,0.0
+gdp,Madagascar,0,0.0
+gdp,Malawi,0,0.0
+gdp,Malaysia,0,0.0
+gdp,Maldives,0,0.0
+gdp,Mali,0,0.0
+gdp,Malta,0,0.0
+gdp,Marshall Islands,0,0.0
+gdp,Mauritania,0,0.0
+gdp,Mauritius,0,0.0
+gdp,Mexico,0,0.0
+gdp,Micronesia (Federated States of),16,1.0
+gdp,Monaco,1,1.0
+gdp,Mongolia,0,0.0
+gdp,Montenegro,0,0.0
+gdp,Morocco,0,0.0
+gdp,Mozambique,0,0.0
+gdp,Myanmar,0,0.0
+gdp,Namibia,0,0.0
+gdp,Nauru,0,0.0
+gdp,Nepal,0,0.0
+gdp,Netherlands,0,0.0
+gdp,New Zealand,0,0.0
+gdp,Nicaragua,0,0.0
+gdp,Niger,0,0.0
+gdp,Nigeria,0,0.0
+gdp,Niue,1,1.0
+gdp,Norway,0,0.0
+gdp,Oman,0,0.0
+gdp,Pakistan,0,0.0
+gdp,Palau,0,0.0
+gdp,Panama,0,0.0
+gdp,Papua New Guinea,1,0.0625
+gdp,Paraguay,0,0.0
+gdp,Peru,0,0.0
+gdp,Philippines,0,0.0
+gdp,Poland,0,0.0
+gdp,Portugal,0,0.0
+gdp,Qatar,0,0.0
+gdp,Republic of Korea,16,1.0
+gdp,Republic of Moldova,16,1.0
+gdp,Romania,0,0.0
+gdp,Russian Federation,0,0.0
+gdp,Rwanda,0,0.0
+gdp,Saint Kitts and Nevis,1,1.0
+gdp,Saint Lucia,16,1.0
+gdp,Saint Vincent and the Grenadines,16,1.0
+gdp,Samoa,0,0.0
+gdp,San Marino,1,1.0
+gdp,Sao Tome and Principe,1,0.0625
+gdp,Saudi Arabia,0,0.0
+gdp,Senegal,0,0.0
+gdp,Serbia,0,0.0
+gdp,Seychelles,0,0.0
+gdp,Sierra Leone,0,0.0
+gdp,Singapore,0,0.0
+gdp,Slovakia,16,1.0
+gdp,Slovenia,0,0.0
+gdp,Solomon Islands,0,0.0
+gdp,Somalia,13,0.8125
+gdp,South Africa,0,0.0
+gdp,South Sudan,8,0.5
+gdp,Spain,0,0.0
+gdp,Sri Lanka,0,0.0
+gdp,Sudan,0,0.0
+gdp,Suriname,0,0.0
+gdp,Swaziland,0,0.0
+gdp,Sweden,0,0.0
+gdp,Switzerland,0,0.0
+gdp,Syrian Arab Republic,8,0.5
+gdp,Tajikistan,0,0.0
+gdp,Thailand,0,0.0
+gdp,The former Yugoslav republic of Macedonia,16,1.0
+gdp,Timor-Leste,0,0.0
+gdp,Togo,0,0.0
+gdp,Tonga,0,0.0
+gdp,Trinidad and Tobago,0,0.0
+gdp,Tunisia,0,0.0
+gdp,Turkey,0,0.0
+gdp,Turkmenistan,0,0.0
+gdp,Tuvalu,0,0.0
+gdp,Uganda,0,0.0
+gdp,Ukraine,0,0.0
+gdp,United Arab Emirates,0,0.0
+gdp,United Kingdom of Great Britain and Northern Ireland,16,1.0
+gdp,United Republic of Tanzania,16,1.0
+gdp,United States of America,16,1.0
+gdp,Uruguay,0,0.0
+gdp,Uzbekistan,0,0.0
+gdp,Vanuatu,0,0.0
+gdp,Venezuela (Bolivarian Republic of),16,1.0
+gdp,Viet Nam,16,1.0
+gdp,Yemen,16,1.0
+gdp,Zambia,0,0.0
+gdp,Zimbabwe,0,0.0
+hepatitis_b,Afghanistan,0,0.0
+hepatitis_b,Albania,0,0.0
+hepatitis_b,Algeria,4,0.25
+hepatitis_b,Angola,7,0.4375
+hepatitis_b,Antigua and Barbuda,1,0.0625
+hepatitis_b,Argentina,2,0.125
+hepatitis_b,Armenia,0,0.0
+hepatitis_b,Australia,1,0.0625
+hepatitis_b,Austria,0,0.0
+hepatitis_b,Azerbaijan,2,0.125
+hepatitis_b,Bahamas,1,0.0625
+hepatitis_b,Bahrain,0,0.0
+hepatitis_b,Bangladesh,3,0.1875
+hepatitis_b,Barbados,1,0.0625
+hepatitis_b,Belarus,0,0.0
+hepatitis_b,Belgium,0,0.0
+hepatitis_b,Belize,0,0.0
+hepatitis_b,Benin,2,0.125
+hepatitis_b,Bhutan,0,0.0
+hepatitis_b,Bolivia (Plurinational State of),0,0.0
+hepatitis_b,Bosnia and Herzegovina,4,0.25
+hepatitis_b,Botswana,0,0.0
+hepatitis_b,Brazil,0,0.0
+hepatitis_b,Brunei Darussalam,0,0.0
+hepatitis_b,Bulgaria,0,0.0
+hepatitis_b,Burkina Faso,6,0.375
+hepatitis_b,Burundi,4,0.25
+hepatitis_b,Cabo Verde,2,0.125
+hepatitis_b,Cambodia,6,0.375
+hepatitis_b,Cameroon,5,0.3125
+hepatitis_b,Canada,3,0.1875
+hepatitis_b,Central African Republic,9,0.5625
+hepatitis_b,Chad,8,0.5
+hepatitis_b,Chile,6,0.375
+hepatitis_b,China,0,0.0
+hepatitis_b,Colombia,0,0.0
+hepatitis_b,Comoros,3,0.1875
+hepatitis_b,Congo,7,0.4375
+hepatitis_b,Cook Islands,0,0.0
+hepatitis_b,Costa Rica,0,0.0
+hepatitis_b,Croatia,7,0.4375
+hepatitis_b,Cuba,0,0.0
+hepatitis_b,Cyprus,0,0.0
+hepatitis_b,Czechia,2,0.125
+hepatitis_b,Côte d'Ivoire,1,0.0625
+hepatitis_b,Democratic People's Republic of Korea,3,0.1875
+hepatitis_b,Democratic Republic of the Congo,7,0.4375
+hepatitis_b,Denmark,16,1.0
+hepatitis_b,Djibouti,7,0.4375
+hepatitis_b,Dominica,0,0.0
+hepatitis_b,Dominican Republic,0,0.0
+hepatitis_b,Ecuador,0,0.0
+hepatitis_b,Egypt,0,0.0
+hepatitis_b,El Salvador,0,0.0
+hepatitis_b,Equatorial Guinea,14,0.875
+hepatitis_b,Eritrea,2,0.125
+hepatitis_b,Estonia,4,0.25
+hepatitis_b,Ethiopia,7,0.4375
+hepatitis_b,Fiji,0,0.0
+hepatitis_b,Finland,16,1.0
+hepatitis_b,France,0,0.0
+hepatitis_b,Gabon,5,0.3125
+hepatitis_b,Gambia,0,0.0
+hepatitis_b,Georgia,0,0.0
+hepatitis_b,Germany,0,0.0
+hepatitis_b,Ghana,2,0.125
+hepatitis_b,Greece,0,0.0
+hepatitis_b,Grenada,1,0.0625
+hepatitis_b,Guatemala,5,0.3125
+hepatitis_b,Guinea,7,0.4375
+hepatitis_b,Guinea-Bissau,9,0.5625
+hepatitis_b,Guyana,1,0.0625
+hepatitis_b,Haiti,13,0.8125
+hepatitis_b,Honduras,0,0.0
+hepatitis_b,Hungary,16,1.0
+hepatitis_b,Iceland,16,1.0
+hepatitis_b,India,4,0.25
+hepatitis_b,Indonesia,0,0.0
+hepatitis_b,Iran (Islamic Republic of),0,0.0
+hepatitis_b,Iraq,0,0.0
+hepatitis_b,Ireland,10,0.625
+hepatitis_b,Israel,0,0.0
+hepatitis_b,Italy,0,0.0
+hepatitis_b,Jamaica,3,0.1875
+hepatitis_b,Japan,16,1.0
+hepatitis_b,Jordan,0,0.0
+hepatitis_b,Kazakhstan,0,0.0
+hepatitis_b,Kenya,2,0.125
+hepatitis_b,Kiribati,0,0.0
+hepatitis_b,Kuwait,0,0.0
+hepatitis_b,Kyrgyzstan,0,0.0
+hepatitis_b,Lao People's Democratic Republic,3,0.1875
+hepatitis_b,Latvia,0,0.0
+hepatitis_b,Lebanon,0,0.0
+hepatitis_b,Lesotho,3,0.1875
+hepatitis_b,Liberia,8,0.5
+hepatitis_b,Libya,0,0.0
+hepatitis_b,Lithuania,0,0.0
+hepatitis_b,Luxembourg,0,0.0
+hepatitis_b,Madagascar,2,0.125
+hepatitis_b,Malawi,2,0.125
+hepatitis_b,Malaysia,0,0.0
+hepatitis_b,Maldives,0,0.0
+hepatitis_b,Mali,3,0.1875
+hepatitis_b,Malta,3,0.1875
+hepatitis_b,Marshall Islands,0,0.0
+hepatitis_b,Mauritania,5,0.3125
+hepatitis_b,Mauritius,0,0.0
+hepatitis_b,Mexico,0,0.0
+hepatitis_b,Micronesia (Federated States of),0,0.0
+hepatitis_b,Monaco,0,0.0
+hepatitis_b,Mongolia,0,0.0
+hepatitis_b,Montenegro,6,0.375
+hepatitis_b,Morocco,0,0.0
+hepatitis_b,Mozambique,1,0.0625
+hepatitis_b,Myanmar,3,0.1875
+hepatitis_b,Namibia,10,0.625
+hepatitis_b,Nauru,0,0.0
+hepatitis_b,Nepal,3,0.1875
+hepatitis_b,Netherlands,11,0.6875
+hepatitis_b,New Zealand,0,0.0
+hepatitis_b,Nicaragua,0,0.0
+hepatitis_b,Niger,9,0.5625
+hepatitis_b,Nigeria,5,0.3125
+hepatitis_b,Niue,0,0.0
+hepatitis_b,Norway,16,1.0
+hepatitis_b,Oman,0,0.0
+hepatitis_b,Pakistan,3,0.1875
+hepatitis_b,Palau,0,0.0
+hepatitis_b,Panama,1,0.0625
+hepatitis_b,Papua New Guinea,0,0.0
+hepatitis_b,Paraguay,3,0.1875
+hepatitis_b,Peru,3,0.1875
+hepatitis_b,Philippines,0,0.0
+hepatitis_b,Poland,0,0.0
+hepatitis_b,Portugal,0,0.0
+hepatitis_b,Qatar,0,0.0
+hepatitis_b,Republic of Korea,0,0.0
+hepatitis_b,Republic of Moldova,0,0.0
+hepatitis_b,Romania,0,0.0
+hepatitis_b,Russian Federation,1,0.0625
+hepatitis_b,Rwanda,2,0.125
+hepatitis_b,Saint Kitts and Nevis,0,0.0
+hepatitis_b,Saint Lucia,2,0.125
+hepatitis_b,Saint Vincent and the Grenadines,3,0.1875
+hepatitis_b,Samoa,0,0.0
+hepatitis_b,San Marino,0,0.0
+hepatitis_b,Sao Tome and Principe,3,0.1875
+hepatitis_b,Saudi Arabia,0,0.0
+hepatitis_b,Senegal,4,0.25
+hepatitis_b,Serbia,4,0.25
+hepatitis_b,Seychelles,0,0.0
+hepatitis_b,Sierra Leone,7,0.4375
+hepatitis_b,Singapore,0,0.0
+hepatitis_b,Slovakia,0,0.0
+hepatitis_b,Slovenia,16,1.0
+hepatitis_b,Solomon Islands,0,0.0
+hepatitis_b,Somalia,13,0.8125
+hepatitis_b,South Africa,0,0.0
+hepatitis_b,South Sudan,15,0.9375
+hepatitis_b,Spain,0,0.0
+hepatitis_b,Sri Lanka,3,0.1875
+hepatitis_b,Sudan,5,0.3125
+hepatitis_b,Suriname,5,0.3125
+hepatitis_b,Swaziland,0,0.0
+hepatitis_b,Sweden,11,0.6875
+hepatitis_b,Switzerland,16,1.0
+hepatitis_b,Syrian Arab Republic,0,0.0
+hepatitis_b,Tajikistan,2,0.125
+hepatitis_b,Thailand,0,0.0
+hepatitis_b,The former Yugoslav republic of Macedonia,5,0.3125
+hepatitis_b,Timor-Leste,8,0.5
+hepatitis_b,Togo,8,0.5
+hepatitis_b,Tonga,0,0.0
+hepatitis_b,Trinidad and Tobago,2,0.125
+hepatitis_b,Tunisia,0,0.0
+hepatitis_b,Turkey,0,0.0
+hepatitis_b,Turkmenistan,2,0.125
+hepatitis_b,Tuvalu,0,0.0
+hepatitis_b,Uganda,2,0.125
+hepatitis_b,Ukraine,0,0.0
+hepatitis_b,United Arab Emirates,0,0.0
+hepatitis_b,United Kingdom of Great Britain and Northern Ireland,16,1.0
+hepatitis_b,United Republic of Tanzania,2,0.125
+hepatitis_b,United States of America,0,0.0
+hepatitis_b,Uruguay,0,0.0
+hepatitis_b,Uzbekistan,2,0.125
+hepatitis_b,Vanuatu,0,0.0
+hepatitis_b,Venezuela (Bolivarian Republic of),0,0.0
+hepatitis_b,Viet Nam,3,0.1875
+hepatitis_b,Yemen,0,0.0
+hepatitis_b,Zambia,5,0.3125
+hepatitis_b,Zimbabwe,0,0.0
+hiv_aids,Afghanistan,0,0.0
+hiv_aids,Albania,0,0.0
+hiv_aids,Algeria,0,0.0
+hiv_aids,Angola,0,0.0
+hiv_aids,Antigua and Barbuda,0,0.0
+hiv_aids,Argentina,0,0.0
+hiv_aids,Armenia,0,0.0
+hiv_aids,Australia,0,0.0
+hiv_aids,Austria,0,0.0
+hiv_aids,Azerbaijan,0,0.0
+hiv_aids,Bahamas,0,0.0
+hiv_aids,Bahrain,0,0.0
+hiv_aids,Bangladesh,0,0.0
+hiv_aids,Barbados,0,0.0
+hiv_aids,Belarus,0,0.0
+hiv_aids,Belgium,0,0.0
+hiv_aids,Belize,0,0.0
+hiv_aids,Benin,0,0.0
+hiv_aids,Bhutan,0,0.0
+hiv_aids,Bolivia (Plurinational State of),0,0.0
+hiv_aids,Bosnia and Herzegovina,0,0.0
+hiv_aids,Botswana,0,0.0
+hiv_aids,Brazil,0,0.0
+hiv_aids,Brunei Darussalam,0,0.0
+hiv_aids,Bulgaria,0,0.0
+hiv_aids,Burkina Faso,0,0.0
+hiv_aids,Burundi,0,0.0
+hiv_aids,Cabo Verde,0,0.0
+hiv_aids,Cambodia,0,0.0
+hiv_aids,Cameroon,0,0.0
+hiv_aids,Canada,0,0.0
+hiv_aids,Central African Republic,0,0.0
+hiv_aids,Chad,0,0.0
+hiv_aids,Chile,0,0.0
+hiv_aids,China,0,0.0
+hiv_aids,Colombia,0,0.0
+hiv_aids,Comoros,0,0.0
+hiv_aids,Congo,0,0.0
+hiv_aids,Cook Islands,0,0.0
+hiv_aids,Costa Rica,0,0.0
+hiv_aids,Croatia,0,0.0
+hiv_aids,Cuba,0,0.0
+hiv_aids,Cyprus,0,0.0
+hiv_aids,Czechia,0,0.0
+hiv_aids,Côte d'Ivoire,0,0.0
+hiv_aids,Democratic People's Republic of Korea,0,0.0
+hiv_aids,Democratic Republic of the Congo,0,0.0
+hiv_aids,Denmark,0,0.0
+hiv_aids,Djibouti,0,0.0
+hiv_aids,Dominica,0,0.0
+hiv_aids,Dominican Republic,0,0.0
+hiv_aids,Ecuador,0,0.0
+hiv_aids,Egypt,0,0.0
+hiv_aids,El Salvador,0,0.0
+hiv_aids,Equatorial Guinea,0,0.0
+hiv_aids,Eritrea,0,0.0
+hiv_aids,Estonia,0,0.0
+hiv_aids,Ethiopia,0,0.0
+hiv_aids,Fiji,0,0.0
+hiv_aids,Finland,0,0.0
+hiv_aids,France,0,0.0
+hiv_aids,Gabon,0,0.0
+hiv_aids,Gambia,0,0.0
+hiv_aids,Georgia,0,0.0
+hiv_aids,Germany,0,0.0
+hiv_aids,Ghana,0,0.0
+hiv_aids,Greece,0,0.0
+hiv_aids,Grenada,0,0.0
+hiv_aids,Guatemala,0,0.0
+hiv_aids,Guinea,0,0.0
+hiv_aids,Guinea-Bissau,0,0.0
+hiv_aids,Guyana,0,0.0
+hiv_aids,Haiti,0,0.0
+hiv_aids,Honduras,0,0.0
+hiv_aids,Hungary,0,0.0
+hiv_aids,Iceland,0,0.0
+hiv_aids,India,0,0.0
+hiv_aids,Indonesia,0,0.0
+hiv_aids,Iran (Islamic Republic of),0,0.0
+hiv_aids,Iraq,0,0.0
+hiv_aids,Ireland,0,0.0
+hiv_aids,Israel,0,0.0
+hiv_aids,Italy,0,0.0
+hiv_aids,Jamaica,0,0.0
+hiv_aids,Japan,0,0.0
+hiv_aids,Jordan,0,0.0
+hiv_aids,Kazakhstan,0,0.0
+hiv_aids,Kenya,0,0.0
+hiv_aids,Kiribati,0,0.0
+hiv_aids,Kuwait,0,0.0
+hiv_aids,Kyrgyzstan,0,0.0
+hiv_aids,Lao People's Democratic Republic,0,0.0
+hiv_aids,Latvia,0,0.0
+hiv_aids,Lebanon,0,0.0
+hiv_aids,Lesotho,0,0.0
+hiv_aids,Liberia,0,0.0
+hiv_aids,Libya,0,0.0
+hiv_aids,Lithuania,0,0.0
+hiv_aids,Luxembourg,0,0.0
+hiv_aids,Madagascar,0,0.0
+hiv_aids,Malawi,0,0.0
+hiv_aids,Malaysia,0,0.0
+hiv_aids,Maldives,0,0.0
+hiv_aids,Mali,0,0.0
+hiv_aids,Malta,0,0.0
+hiv_aids,Marshall Islands,0,0.0
+hiv_aids,Mauritania,0,0.0
+hiv_aids,Mauritius,0,0.0
+hiv_aids,Mexico,0,0.0
+hiv_aids,Micronesia (Federated States of),0,0.0
+hiv_aids,Monaco,0,0.0
+hiv_aids,Mongolia,0,0.0
+hiv_aids,Montenegro,0,0.0
+hiv_aids,Morocco,0,0.0
+hiv_aids,Mozambique,0,0.0
+hiv_aids,Myanmar,0,0.0
+hiv_aids,Namibia,0,0.0
+hiv_aids,Nauru,0,0.0
+hiv_aids,Nepal,0,0.0
+hiv_aids,Netherlands,0,0.0
+hiv_aids,New Zealand,0,0.0
+hiv_aids,Nicaragua,0,0.0
+hiv_aids,Niger,0,0.0
+hiv_aids,Nigeria,0,0.0
+hiv_aids,Niue,0,0.0
+hiv_aids,Norway,0,0.0
+hiv_aids,Oman,0,0.0
+hiv_aids,Pakistan,0,0.0
+hiv_aids,Palau,0,0.0
+hiv_aids,Panama,0,0.0
+hiv_aids,Papua New Guinea,0,0.0
+hiv_aids,Paraguay,0,0.0
+hiv_aids,Peru,0,0.0
+hiv_aids,Philippines,0,0.0
+hiv_aids,Poland,0,0.0
+hiv_aids,Portugal,0,0.0
+hiv_aids,Qatar,0,0.0
+hiv_aids,Republic of Korea,0,0.0
+hiv_aids,Republic of Moldova,0,0.0
+hiv_aids,Romania,0,0.0
+hiv_aids,Russian Federation,0,0.0
+hiv_aids,Rwanda,0,0.0
+hiv_aids,Saint Kitts and Nevis,0,0.0
+hiv_aids,Saint Lucia,0,0.0
+hiv_aids,Saint Vincent and the Grenadines,0,0.0
+hiv_aids,Samoa,0,0.0
+hiv_aids,San Marino,0,0.0
+hiv_aids,Sao Tome and Principe,0,0.0
+hiv_aids,Saudi Arabia,0,0.0
+hiv_aids,Senegal,0,0.0
+hiv_aids,Serbia,0,0.0
+hiv_aids,Seychelles,0,0.0
+hiv_aids,Sierra Leone,0,0.0
+hiv_aids,Singapore,0,0.0
+hiv_aids,Slovakia,0,0.0
+hiv_aids,Slovenia,0,0.0
+hiv_aids,Solomon Islands,0,0.0
+hiv_aids,Somalia,0,0.0
+hiv_aids,South Africa,0,0.0
+hiv_aids,South Sudan,0,0.0
+hiv_aids,Spain,0,0.0
+hiv_aids,Sri Lanka,0,0.0
+hiv_aids,Sudan,0,0.0
+hiv_aids,Suriname,0,0.0
+hiv_aids,Swaziland,0,0.0
+hiv_aids,Sweden,0,0.0
+hiv_aids,Switzerland,0,0.0
+hiv_aids,Syrian Arab Republic,0,0.0
+hiv_aids,Tajikistan,0,0.0
+hiv_aids,Thailand,0,0.0
+hiv_aids,The former Yugoslav republic of Macedonia,0,0.0
+hiv_aids,Timor-Leste,0,0.0
+hiv_aids,Togo,0,0.0
+hiv_aids,Tonga,0,0.0
+hiv_aids,Trinidad and Tobago,0,0.0
+hiv_aids,Tunisia,0,0.0
+hiv_aids,Turkey,0,0.0
+hiv_aids,Turkmenistan,0,0.0
+hiv_aids,Tuvalu,0,0.0
+hiv_aids,Uganda,0,0.0
+hiv_aids,Ukraine,0,0.0
+hiv_aids,United Arab Emirates,0,0.0
+hiv_aids,United Kingdom of Great Britain and Northern Ireland,0,0.0
+hiv_aids,United Republic of Tanzania,0,0.0
+hiv_aids,United States of America,0,0.0
+hiv_aids,Uruguay,0,0.0
+hiv_aids,Uzbekistan,0,0.0
+hiv_aids,Vanuatu,0,0.0
+hiv_aids,Venezuela (Bolivarian Republic of),0,0.0
+hiv_aids,Viet Nam,0,0.0
+hiv_aids,Yemen,0,0.0
+hiv_aids,Zambia,0,0.0
+hiv_aids,Zimbabwe,0,0.0
+income_composition_of_resources,Afghanistan,0,0.0
+income_composition_of_resources,Albania,0,0.0
+income_composition_of_resources,Algeria,0,0.0
+income_composition_of_resources,Angola,0,0.0
+income_composition_of_resources,Antigua and Barbuda,0,0.0
+income_composition_of_resources,Argentina,0,0.0
+income_composition_of_resources,Armenia,0,0.0
+income_composition_of_resources,Australia,0,0.0
+income_composition_of_resources,Austria,0,0.0
+income_composition_of_resources,Azerbaijan,0,0.0
+income_composition_of_resources,Bahamas,0,0.0
+income_composition_of_resources,Bahrain,0,0.0
+income_composition_of_resources,Bangladesh,0,0.0
+income_composition_of_resources,Barbados,0,0.0
+income_composition_of_resources,Belarus,0,0.0
+income_composition_of_resources,Belgium,0,0.0
+income_composition_of_resources,Belize,0,0.0
+income_composition_of_resources,Benin,0,0.0
+income_composition_of_resources,Bhutan,0,0.0
+income_composition_of_resources,Bolivia (Plurinational State of),0,0.0
+income_composition_of_resources,Bosnia and Herzegovina,0,0.0
+income_composition_of_resources,Botswana,0,0.0
+income_composition_of_resources,Brazil,0,0.0
+income_composition_of_resources,Brunei Darussalam,0,0.0
+income_composition_of_resources,Bulgaria,0,0.0
+income_composition_of_resources,Burkina Faso,0,0.0
+income_composition_of_resources,Burundi,0,0.0
+income_composition_of_resources,Cabo Verde,0,0.0
+income_composition_of_resources,Cambodia,0,0.0
+income_composition_of_resources,Cameroon,0,0.0
+income_composition_of_resources,Canada,0,0.0
+income_composition_of_resources,Central African Republic,0,0.0
+income_composition_of_resources,Chad,0,0.0
+income_composition_of_resources,Chile,0,0.0
+income_composition_of_resources,China,0,0.0
+income_composition_of_resources,Colombia,0,0.0
+income_composition_of_resources,Comoros,0,0.0
+income_composition_of_resources,Congo,0,0.0
+income_composition_of_resources,Cook Islands,1,1.0
+income_composition_of_resources,Costa Rica,0,0.0
+income_composition_of_resources,Croatia,0,0.0
+income_composition_of_resources,Cuba,0,0.0
+income_composition_of_resources,Cyprus,0,0.0
+income_composition_of_resources,Czechia,16,1.0
+income_composition_of_resources,Côte d'Ivoire,16,1.0
+income_composition_of_resources,Democratic People's Republic of Korea,16,1.0
+income_composition_of_resources,Democratic Republic of the Congo,16,1.0
+income_composition_of_resources,Denmark,0,0.0
+income_composition_of_resources,Djibouti,0,0.0
+income_composition_of_resources,Dominica,0,0.0
+income_composition_of_resources,Dominican Republic,0,0.0
+income_composition_of_resources,Ecuador,0,0.0
+income_composition_of_resources,Egypt,0,0.0
+income_composition_of_resources,El Salvador,0,0.0
+income_composition_of_resources,Equatorial Guinea,0,0.0
+income_composition_of_resources,Eritrea,0,0.0
+income_composition_of_resources,Estonia,0,0.0
+income_composition_of_resources,Ethiopia,0,0.0
+income_composition_of_resources,Fiji,0,0.0
+income_composition_of_resources,Finland,0,0.0
+income_composition_of_resources,France,0,0.0
+income_composition_of_resources,Gabon,0,0.0
+income_composition_of_resources,Gambia,0,0.0
+income_composition_of_resources,Georgia,0,0.0
+income_composition_of_resources,Germany,0,0.0
+income_composition_of_resources,Ghana,0,0.0
+income_composition_of_resources,Greece,0,0.0
+income_composition_of_resources,Grenada,0,0.0
+income_composition_of_resources,Guatemala,0,0.0
+income_composition_of_resources,Guinea,0,0.0
+income_composition_of_resources,Guinea-Bissau,0,0.0
+income_composition_of_resources,Guyana,0,0.0
+income_composition_of_resources,Haiti,0,0.0
+income_composition_of_resources,Honduras,0,0.0
+income_composition_of_resources,Hungary,0,0.0
+income_composition_of_resources,Iceland,0,0.0
+income_composition_of_resources,India,0,0.0
+income_composition_of_resources,Indonesia,0,0.0
+income_composition_of_resources,Iran (Islamic Republic of),0,0.0
+income_composition_of_resources,Iraq,0,0.0
+income_composition_of_resources,Ireland,0,0.0
+income_composition_of_resources,Israel,0,0.0
+income_composition_of_resources,Italy,0,0.0
+income_composition_of_resources,Jamaica,0,0.0
+income_composition_of_resources,Japan,0,0.0
+income_composition_of_resources,Jordan,0,0.0
+income_composition_of_resources,Kazakhstan,0,0.0
+income_composition_of_resources,Kenya,0,0.0
+income_composition_of_resources,Kiribati,0,0.0
+income_composition_of_resources,Kuwait,0,0.0
+income_composition_of_resources,Kyrgyzstan,0,0.0
+income_composition_of_resources,Lao People's Democratic Republic,0,0.0
+income_composition_of_resources,Latvia,0,0.0
+income_composition_of_resources,Lebanon,0,0.0
+income_composition_of_resources,Lesotho,0,0.0
+income_composition_of_resources,Liberia,0,0.0
+income_composition_of_resources,Libya,0,0.0
+income_composition_of_resources,Lithuania,0,0.0
+income_composition_of_resources,Luxembourg,0,0.0
+income_composition_of_resources,Madagascar,0,0.0
+income_composition_of_resources,Malawi,0,0.0
+income_composition_of_resources,Malaysia,0,0.0
+income_composition_of_resources,Maldives,0,0.0
+income_composition_of_resources,Mali,0,0.0
+income_composition_of_resources,Malta,0,0.0
+income_composition_of_resources,Marshall Islands,1,1.0
+income_composition_of_resources,Mauritania,0,0.0
+income_composition_of_resources,Mauritius,0,0.0
+income_composition_of_resources,Mexico,0,0.0
+income_composition_of_resources,Micronesia (Federated States of),0,0.0
+income_composition_of_resources,Monaco,1,1.0
+income_composition_of_resources,Mongolia,0,0.0
+income_composition_of_resources,Montenegro,0,0.0
+income_composition_of_resources,Morocco,0,0.0
+income_composition_of_resources,Mozambique,0,0.0
+income_composition_of_resources,Myanmar,0,0.0
+income_composition_of_resources,Namibia,0,0.0
+income_composition_of_resources,Nauru,1,1.0
+income_composition_of_resources,Nepal,0,0.0
+income_composition_of_resources,Netherlands,0,0.0
+income_composition_of_resources,New Zealand,0,0.0
+income_composition_of_resources,Nicaragua,0,0.0
+income_composition_of_resources,Niger,0,0.0
+income_composition_of_resources,Nigeria,0,0.0
+income_composition_of_resources,Niue,1,1.0
+income_composition_of_resources,Norway,0,0.0
+income_composition_of_resources,Oman,0,0.0
+income_composition_of_resources,Pakistan,0,0.0
+income_composition_of_resources,Palau,0,0.0
+income_composition_of_resources,Panama,0,0.0
+income_composition_of_resources,Papua New Guinea,0,0.0
+income_composition_of_resources,Paraguay,0,0.0
+income_composition_of_resources,Peru,0,0.0
+income_composition_of_resources,Philippines,0,0.0
+income_composition_of_resources,Poland,0,0.0
+income_composition_of_resources,Portugal,0,0.0
+income_composition_of_resources,Qatar,0,0.0
+income_composition_of_resources,Republic of Korea,16,1.0
+income_composition_of_resources,Republic of Moldova,16,1.0
+income_composition_of_resources,Romania,0,0.0
+income_composition_of_resources,Russian Federation,0,0.0
+income_composition_of_resources,Rwanda,0,0.0
+income_composition_of_resources,Saint Kitts and Nevis,0,0.0
+income_composition_of_resources,Saint Lucia,0,0.0
+income_composition_of_resources,Saint Vincent and the Grenadines,0,0.0
+income_composition_of_resources,Samoa,0,0.0
+income_composition_of_resources,San Marino,1,1.0
+income_composition_of_resources,Sao Tome and Principe,0,0.0
+income_composition_of_resources,Saudi Arabia,0,0.0
+income_composition_of_resources,Senegal,0,0.0
+income_composition_of_resources,Serbia,0,0.0
+income_composition_of_resources,Seychelles,0,0.0
+income_composition_of_resources,Sierra Leone,0,0.0
+income_composition_of_resources,Singapore,0,0.0
+income_composition_of_resources,Slovakia,0,0.0
+income_composition_of_resources,Slovenia,0,0.0
+income_composition_of_resources,Solomon Islands,0,0.0
+income_composition_of_resources,Somalia,16,1.0
+income_composition_of_resources,South Africa,0,0.0
+income_composition_of_resources,South Sudan,0,0.0
+income_composition_of_resources,Spain,0,0.0
+income_composition_of_resources,Sri Lanka,0,0.0
+income_composition_of_resources,Sudan,0,0.0
+income_composition_of_resources,Suriname,0,0.0
+income_composition_of_resources,Swaziland,0,0.0
+income_composition_of_resources,Sweden,0,0.0
+income_composition_of_resources,Switzerland,0,0.0
+income_composition_of_resources,Syrian Arab Republic,0,0.0
+income_composition_of_resources,Tajikistan,0,0.0
+income_composition_of_resources,Thailand,0,0.0
+income_composition_of_resources,The former Yugoslav republic of Macedonia,0,0.0
+income_composition_of_resources,Timor-Leste,0,0.0
+income_composition_of_resources,Togo,0,0.0
+income_composition_of_resources,Tonga,0,0.0
+income_composition_of_resources,Trinidad and Tobago,0,0.0
+income_composition_of_resources,Tunisia,0,0.0
+income_composition_of_resources,Turkey,0,0.0
+income_composition_of_resources,Turkmenistan,0,0.0
+income_composition_of_resources,Tuvalu,1,1.0
+income_composition_of_resources,Uganda,0,0.0
+income_composition_of_resources,Ukraine,0,0.0
+income_composition_of_resources,United Arab Emirates,0,0.0
+income_composition_of_resources,United Kingdom of Great Britain and Northern Ireland,16,1.0
+income_composition_of_resources,United Republic of Tanzania,16,1.0
+income_composition_of_resources,United States of America,16,1.0
+income_composition_of_resources,Uruguay,0,0.0
+income_composition_of_resources,Uzbekistan,0,0.0
+income_composition_of_resources,Vanuatu,0,0.0
+income_composition_of_resources,Venezuela (Bolivarian Republic of),0,0.0
+income_composition_of_resources,Viet Nam,0,0.0
+income_composition_of_resources,Yemen,0,0.0
+income_composition_of_resources,Zambia,0,0.0
+income_composition_of_resources,Zimbabwe,0,0.0
+infant_deaths,Afghanistan,0,0.0
+infant_deaths,Albania,0,0.0
+infant_deaths,Algeria,0,0.0
+infant_deaths,Angola,0,0.0
+infant_deaths,Antigua and Barbuda,0,0.0
+infant_deaths,Argentina,0,0.0
+infant_deaths,Armenia,0,0.0
+infant_deaths,Australia,0,0.0
+infant_deaths,Austria,0,0.0
+infant_deaths,Azerbaijan,0,0.0
+infant_deaths,Bahamas,0,0.0
+infant_deaths,Bahrain,0,0.0
+infant_deaths,Bangladesh,0,0.0
+infant_deaths,Barbados,0,0.0
+infant_deaths,Belarus,0,0.0
+infant_deaths,Belgium,0,0.0
+infant_deaths,Belize,0,0.0
+infant_deaths,Benin,0,0.0
+infant_deaths,Bhutan,0,0.0
+infant_deaths,Bolivia (Plurinational State of),0,0.0
+infant_deaths,Bosnia and Herzegovina,0,0.0
+infant_deaths,Botswana,0,0.0
+infant_deaths,Brazil,0,0.0
+infant_deaths,Brunei Darussalam,0,0.0
+infant_deaths,Bulgaria,0,0.0
+infant_deaths,Burkina Faso,0,0.0
+infant_deaths,Burundi,0,0.0
+infant_deaths,Cabo Verde,0,0.0
+infant_deaths,Cambodia,0,0.0
+infant_deaths,Cameroon,0,0.0
+infant_deaths,Canada,0,0.0
+infant_deaths,Central African Republic,0,0.0
+infant_deaths,Chad,0,0.0
+infant_deaths,Chile,0,0.0
+infant_deaths,China,0,0.0
+infant_deaths,Colombia,0,0.0
+infant_deaths,Comoros,0,0.0
+infant_deaths,Congo,0,0.0
+infant_deaths,Cook Islands,0,0.0
+infant_deaths,Costa Rica,0,0.0
+infant_deaths,Croatia,0,0.0
+infant_deaths,Cuba,0,0.0
+infant_deaths,Cyprus,0,0.0
+infant_deaths,Czechia,0,0.0
+infant_deaths,Côte d'Ivoire,0,0.0
+infant_deaths,Democratic People's Republic of Korea,0,0.0
+infant_deaths,Democratic Republic of the Congo,0,0.0
+infant_deaths,Denmark,0,0.0
+infant_deaths,Djibouti,0,0.0
+infant_deaths,Dominica,0,0.0
+infant_deaths,Dominican Republic,0,0.0
+infant_deaths,Ecuador,0,0.0
+infant_deaths,Egypt,0,0.0
+infant_deaths,El Salvador,0,0.0
+infant_deaths,Equatorial Guinea,0,0.0
+infant_deaths,Eritrea,0,0.0
+infant_deaths,Estonia,0,0.0
+infant_deaths,Ethiopia,0,0.0
+infant_deaths,Fiji,0,0.0
+infant_deaths,Finland,0,0.0
+infant_deaths,France,0,0.0
+infant_deaths,Gabon,0,0.0
+infant_deaths,Gambia,0,0.0
+infant_deaths,Georgia,0,0.0
+infant_deaths,Germany,0,0.0
+infant_deaths,Ghana,0,0.0
+infant_deaths,Greece,0,0.0
+infant_deaths,Grenada,0,0.0
+infant_deaths,Guatemala,0,0.0
+infant_deaths,Guinea,0,0.0
+infant_deaths,Guinea-Bissau,0,0.0
+infant_deaths,Guyana,0,0.0
+infant_deaths,Haiti,0,0.0
+infant_deaths,Honduras,0,0.0
+infant_deaths,Hungary,0,0.0
+infant_deaths,Iceland,0,0.0
+infant_deaths,India,0,0.0
+infant_deaths,Indonesia,0,0.0
+infant_deaths,Iran (Islamic Republic of),0,0.0
+infant_deaths,Iraq,0,0.0
+infant_deaths,Ireland,0,0.0
+infant_deaths,Israel,0,0.0
+infant_deaths,Italy,0,0.0
+infant_deaths,Jamaica,0,0.0
+infant_deaths,Japan,0,0.0
+infant_deaths,Jordan,0,0.0
+infant_deaths,Kazakhstan,0,0.0
+infant_deaths,Kenya,0,0.0
+infant_deaths,Kiribati,0,0.0
+infant_deaths,Kuwait,0,0.0
+infant_deaths,Kyrgyzstan,0,0.0
+infant_deaths,Lao People's Democratic Republic,0,0.0
+infant_deaths,Latvia,0,0.0
+infant_deaths,Lebanon,0,0.0
+infant_deaths,Lesotho,0,0.0
+infant_deaths,Liberia,0,0.0
+infant_deaths,Libya,0,0.0
+infant_deaths,Lithuania,0,0.0
+infant_deaths,Luxembourg,0,0.0
+infant_deaths,Madagascar,0,0.0
+infant_deaths,Malawi,0,0.0
+infant_deaths,Malaysia,0,0.0
+infant_deaths,Maldives,0,0.0
+infant_deaths,Mali,0,0.0
+infant_deaths,Malta,0,0.0
+infant_deaths,Marshall Islands,0,0.0
+infant_deaths,Mauritania,0,0.0
+infant_deaths,Mauritius,0,0.0
+infant_deaths,Mexico,0,0.0
+infant_deaths,Micronesia (Federated States of),0,0.0
+infant_deaths,Monaco,0,0.0
+infant_deaths,Mongolia,0,0.0
+infant_deaths,Montenegro,0,0.0
+infant_deaths,Morocco,0,0.0
+infant_deaths,Mozambique,0,0.0
+infant_deaths,Myanmar,0,0.0
+infant_deaths,Namibia,0,0.0
+infant_deaths,Nauru,0,0.0
+infant_deaths,Nepal,0,0.0
+infant_deaths,Netherlands,0,0.0
+infant_deaths,New Zealand,0,0.0
+infant_deaths,Nicaragua,0,0.0
+infant_deaths,Niger,0,0.0
+infant_deaths,Nigeria,0,0.0
+infant_deaths,Niue,0,0.0
+infant_deaths,Norway,0,0.0
+infant_deaths,Oman,0,0.0
+infant_deaths,Pakistan,0,0.0
+infant_deaths,Palau,0,0.0
+infant_deaths,Panama,0,0.0
+infant_deaths,Papua New Guinea,0,0.0
+infant_deaths,Paraguay,0,0.0
+infant_deaths,Peru,0,0.0
+infant_deaths,Philippines,0,0.0
+infant_deaths,Poland,0,0.0
+infant_deaths,Portugal,0,0.0
+infant_deaths,Qatar,0,0.0
+infant_deaths,Republic of Korea,0,0.0
+infant_deaths,Republic of Moldova,0,0.0
+infant_deaths,Romania,0,0.0
+infant_deaths,Russian Federation,0,0.0
+infant_deaths,Rwanda,0,0.0
+infant_deaths,Saint Kitts and Nevis,0,0.0
+infant_deaths,Saint Lucia,0,0.0
+infant_deaths,Saint Vincent and the Grenadines,0,0.0
+infant_deaths,Samoa,0,0.0
+infant_deaths,San Marino,0,0.0
+infant_deaths,Sao Tome and Principe,0,0.0
+infant_deaths,Saudi Arabia,0,0.0
+infant_deaths,Senegal,0,0.0
+infant_deaths,Serbia,0,0.0
+infant_deaths,Seychelles,0,0.0
+infant_deaths,Sierra Leone,0,0.0
+infant_deaths,Singapore,0,0.0
+infant_deaths,Slovakia,0,0.0
+infant_deaths,Slovenia,0,0.0
+infant_deaths,Solomon Islands,0,0.0
+infant_deaths,Somalia,0,0.0
+infant_deaths,South Africa,0,0.0
+infant_deaths,South Sudan,0,0.0
+infant_deaths,Spain,0,0.0
+infant_deaths,Sri Lanka,0,0.0
+infant_deaths,Sudan,0,0.0
+infant_deaths,Suriname,0,0.0
+infant_deaths,Swaziland,0,0.0
+infant_deaths,Sweden,0,0.0
+infant_deaths,Switzerland,0,0.0
+infant_deaths,Syrian Arab Republic,0,0.0
+infant_deaths,Tajikistan,0,0.0
+infant_deaths,Thailand,0,0.0
+infant_deaths,The former Yugoslav republic of Macedonia,0,0.0
+infant_deaths,Timor-Leste,0,0.0
+infant_deaths,Togo,0,0.0
+infant_deaths,Tonga,0,0.0
+infant_deaths,Trinidad and Tobago,0,0.0
+infant_deaths,Tunisia,0,0.0
+infant_deaths,Turkey,0,0.0
+infant_deaths,Turkmenistan,0,0.0
+infant_deaths,Tuvalu,0,0.0
+infant_deaths,Uganda,0,0.0
+infant_deaths,Ukraine,0,0.0
+infant_deaths,United Arab Emirates,0,0.0
+infant_deaths,United Kingdom of Great Britain and Northern Ireland,0,0.0
+infant_deaths,United Republic of Tanzania,0,0.0
+infant_deaths,United States of America,0,0.0
+infant_deaths,Uruguay,0,0.0
+infant_deaths,Uzbekistan,0,0.0
+infant_deaths,Vanuatu,0,0.0
+infant_deaths,Venezuela (Bolivarian Republic of),0,0.0
+infant_deaths,Viet Nam,0,0.0
+infant_deaths,Yemen,0,0.0
+infant_deaths,Zambia,0,0.0
+infant_deaths,Zimbabwe,0,0.0
+life_expectancy,Afghanistan,0,0.0
+life_expectancy,Albania,0,0.0
+life_expectancy,Algeria,0,0.0
+life_expectancy,Angola,0,0.0
+life_expectancy,Antigua and Barbuda,0,0.0
+life_expectancy,Argentina,0,0.0
+life_expectancy,Armenia,0,0.0
+life_expectancy,Australia,0,0.0
+life_expectancy,Austria,0,0.0
+life_expectancy,Azerbaijan,0,0.0
+life_expectancy,Bahamas,0,0.0
+life_expectancy,Bahrain,0,0.0
+life_expectancy,Bangladesh,0,0.0
+life_expectancy,Barbados,0,0.0
+life_expectancy,Belarus,0,0.0
+life_expectancy,Belgium,0,0.0
+life_expectancy,Belize,0,0.0
+life_expectancy,Benin,0,0.0
+life_expectancy,Bhutan,0,0.0
+life_expectancy,Bolivia (Plurinational State of),0,0.0
+life_expectancy,Bosnia and Herzegovina,0,0.0
+life_expectancy,Botswana,0,0.0
+life_expectancy,Brazil,0,0.0
+life_expectancy,Brunei Darussalam,0,0.0
+life_expectancy,Bulgaria,0,0.0
+life_expectancy,Burkina Faso,0,0.0
+life_expectancy,Burundi,0,0.0
+life_expectancy,Cabo Verde,0,0.0
+life_expectancy,Cambodia,0,0.0
+life_expectancy,Cameroon,0,0.0
+life_expectancy,Canada,0,0.0
+life_expectancy,Central African Republic,0,0.0
+life_expectancy,Chad,0,0.0
+life_expectancy,Chile,0,0.0
+life_expectancy,China,0,0.0
+life_expectancy,Colombia,0,0.0
+life_expectancy,Comoros,0,0.0
+life_expectancy,Congo,0,0.0
+life_expectancy,Cook Islands,1,1.0
+life_expectancy,Costa Rica,0,0.0
+life_expectancy,Croatia,0,0.0
+life_expectancy,Cuba,0,0.0
+life_expectancy,Cyprus,0,0.0
+life_expectancy,Czechia,0,0.0
+life_expectancy,Côte d'Ivoire,0,0.0
+life_expectancy,Democratic People's Republic of Korea,0,0.0
+life_expectancy,Democratic Republic of the Congo,0,0.0
+life_expectancy,Denmark,0,0.0
+life_expectancy,Djibouti,0,0.0
+life_expectancy,Dominica,1,1.0
+life_expectancy,Dominican Republic,0,0.0
+life_expectancy,Ecuador,0,0.0
+life_expectancy,Egypt,0,0.0
+life_expectancy,El Salvador,0,0.0
+life_expectancy,Equatorial Guinea,0,0.0
+life_expectancy,Eritrea,0,0.0
+life_expectancy,Estonia,0,0.0
+life_expectancy,Ethiopia,0,0.0
+life_expectancy,Fiji,0,0.0
+life_expectancy,Finland,0,0.0
+life_expectancy,France,0,0.0
+life_expectancy,Gabon,0,0.0
+life_expectancy,Gambia,0,0.0
+life_expectancy,Georgia,0,0.0
+life_expectancy,Germany,0,0.0
+life_expectancy,Ghana,0,0.0
+life_expectancy,Greece,0,0.0
+life_expectancy,Grenada,0,0.0
+life_expectancy,Guatemala,0,0.0
+life_expectancy,Guinea,0,0.0
+life_expectancy,Guinea-Bissau,0,0.0
+life_expectancy,Guyana,0,0.0
+life_expectancy,Haiti,0,0.0
+life_expectancy,Honduras,0,0.0
+life_expectancy,Hungary,0,0.0
+life_expectancy,Iceland,0,0.0
+life_expectancy,India,0,0.0
+life_expectancy,Indonesia,0,0.0
+life_expectancy,Iran (Islamic Republic of),0,0.0
+life_expectancy,Iraq,0,0.0
+life_expectancy,Ireland,0,0.0
+life_expectancy,Israel,0,0.0
+life_expectancy,Italy,0,0.0
+life_expectancy,Jamaica,0,0.0
+life_expectancy,Japan,0,0.0
+life_expectancy,Jordan,0,0.0
+life_expectancy,Kazakhstan,0,0.0
+life_expectancy,Kenya,0,0.0
+life_expectancy,Kiribati,0,0.0
+life_expectancy,Kuwait,0,0.0
+life_expectancy,Kyrgyzstan,0,0.0
+life_expectancy,Lao People's Democratic Republic,0,0.0
+life_expectancy,Latvia,0,0.0
+life_expectancy,Lebanon,0,0.0
+life_expectancy,Lesotho,0,0.0
+life_expectancy,Liberia,0,0.0
+life_expectancy,Libya,0,0.0
+life_expectancy,Lithuania,0,0.0
+life_expectancy,Luxembourg,0,0.0
+life_expectancy,Madagascar,0,0.0
+life_expectancy,Malawi,0,0.0
+life_expectancy,Malaysia,0,0.0
+life_expectancy,Maldives,0,0.0
+life_expectancy,Mali,0,0.0
+life_expectancy,Malta,0,0.0
+life_expectancy,Marshall Islands,1,1.0
+life_expectancy,Mauritania,0,0.0
+life_expectancy,Mauritius,0,0.0
+life_expectancy,Mexico,0,0.0
+life_expectancy,Micronesia (Federated States of),0,0.0
+life_expectancy,Monaco,1,1.0
+life_expectancy,Mongolia,0,0.0
+life_expectancy,Montenegro,0,0.0
+life_expectancy,Morocco,0,0.0
+life_expectancy,Mozambique,0,0.0
+life_expectancy,Myanmar,0,0.0
+life_expectancy,Namibia,0,0.0
+life_expectancy,Nauru,1,1.0
+life_expectancy,Nepal,0,0.0
+life_expectancy,Netherlands,0,0.0
+life_expectancy,New Zealand,0,0.0
+life_expectancy,Nicaragua,0,0.0
+life_expectancy,Niger,0,0.0
+life_expectancy,Nigeria,0,0.0
+life_expectancy,Niue,1,1.0
+life_expectancy,Norway,0,0.0
+life_expectancy,Oman,0,0.0
+life_expectancy,Pakistan,0,0.0
+life_expectancy,Palau,1,1.0
+life_expectancy,Panama,0,0.0
+life_expectancy,Papua New Guinea,0,0.0
+life_expectancy,Paraguay,0,0.0
+life_expectancy,Peru,0,0.0
+life_expectancy,Philippines,0,0.0
+life_expectancy,Poland,0,0.0
+life_expectancy,Portugal,0,0.0
+life_expectancy,Qatar,0,0.0
+life_expectancy,Republic of Korea,0,0.0
+life_expectancy,Republic of Moldova,0,0.0
+life_expectancy,Romania,0,0.0
+life_expectancy,Russian Federation,0,0.0
+life_expectancy,Rwanda,0,0.0
+life_expectancy,Saint Kitts and Nevis,1,1.0
+life_expectancy,Saint Lucia,0,0.0
+life_expectancy,Saint Vincent and the Grenadines,0,0.0
+life_expectancy,Samoa,0,0.0
+life_expectancy,San Marino,1,1.0
+life_expectancy,Sao Tome and Principe,0,0.0
+life_expectancy,Saudi Arabia,0,0.0
+life_expectancy,Senegal,0,0.0
+life_expectancy,Serbia,0,0.0
+life_expectancy,Seychelles,0,0.0
+life_expectancy,Sierra Leone,0,0.0
+life_expectancy,Singapore,0,0.0
+life_expectancy,Slovakia,0,0.0
+life_expectancy,Slovenia,0,0.0
+life_expectancy,Solomon Islands,0,0.0
+life_expectancy,Somalia,0,0.0
+life_expectancy,South Africa,0,0.0
+life_expectancy,South Sudan,0,0.0
+life_expectancy,Spain,0,0.0
+life_expectancy,Sri Lanka,0,0.0
+life_expectancy,Sudan,0,0.0
+life_expectancy,Suriname,0,0.0
+life_expectancy,Swaziland,0,0.0
+life_expectancy,Sweden,0,0.0
+life_expectancy,Switzerland,0,0.0
+life_expectancy,Syrian Arab Republic,0,0.0
+life_expectancy,Tajikistan,0,0.0
+life_expectancy,Thailand,0,0.0
+life_expectancy,The former Yugoslav republic of Macedonia,0,0.0
+life_expectancy,Timor-Leste,0,0.0
+life_expectancy,Togo,0,0.0
+life_expectancy,Tonga,0,0.0
+life_expectancy,Trinidad and Tobago,0,0.0
+life_expectancy,Tunisia,0,0.0
+life_expectancy,Turkey,0,0.0
+life_expectancy,Turkmenistan,0,0.0
+life_expectancy,Tuvalu,1,1.0
+life_expectancy,Uganda,0,0.0
+life_expectancy,Ukraine,0,0.0
+life_expectancy,United Arab Emirates,0,0.0
+life_expectancy,United Kingdom of Great Britain and Northern Ireland,0,0.0
+life_expectancy,United Republic of Tanzania,0,0.0
+life_expectancy,United States of America,0,0.0
+life_expectancy,Uruguay,0,0.0
+life_expectancy,Uzbekistan,0,0.0
+life_expectancy,Vanuatu,0,0.0
+life_expectancy,Venezuela (Bolivarian Republic of),0,0.0
+life_expectancy,Viet Nam,0,0.0
+life_expectancy,Yemen,0,0.0
+life_expectancy,Zambia,0,0.0
+life_expectancy,Zimbabwe,0,0.0
+measles,Afghanistan,0,0.0
+measles,Albania,0,0.0
+measles,Algeria,0,0.0
+measles,Angola,0,0.0
+measles,Antigua and Barbuda,0,0.0
+measles,Argentina,0,0.0
+measles,Armenia,0,0.0
+measles,Australia,0,0.0
+measles,Austria,0,0.0
+measles,Azerbaijan,0,0.0
+measles,Bahamas,0,0.0
+measles,Bahrain,0,0.0
+measles,Bangladesh,0,0.0
+measles,Barbados,0,0.0
+measles,Belarus,0,0.0
+measles,Belgium,0,0.0
+measles,Belize,0,0.0
+measles,Benin,0,0.0
+measles,Bhutan,0,0.0
+measles,Bolivia (Plurinational State of),0,0.0
+measles,Bosnia and Herzegovina,0,0.0
+measles,Botswana,0,0.0
+measles,Brazil,0,0.0
+measles,Brunei Darussalam,0,0.0
+measles,Bulgaria,0,0.0
+measles,Burkina Faso,0,0.0
+measles,Burundi,0,0.0
+measles,Cabo Verde,0,0.0
+measles,Cambodia,0,0.0
+measles,Cameroon,0,0.0
+measles,Canada,0,0.0
+measles,Central African Republic,0,0.0
+measles,Chad,0,0.0
+measles,Chile,0,0.0
+measles,China,0,0.0
+measles,Colombia,0,0.0
+measles,Comoros,0,0.0
+measles,Congo,0,0.0
+measles,Cook Islands,0,0.0
+measles,Costa Rica,0,0.0
+measles,Croatia,0,0.0
+measles,Cuba,0,0.0
+measles,Cyprus,0,0.0
+measles,Czechia,0,0.0
+measles,Côte d'Ivoire,0,0.0
+measles,Democratic People's Republic of Korea,0,0.0
+measles,Democratic Republic of the Congo,0,0.0
+measles,Denmark,0,0.0
+measles,Djibouti,0,0.0
+measles,Dominica,0,0.0
+measles,Dominican Republic,0,0.0
+measles,Ecuador,0,0.0
+measles,Egypt,0,0.0
+measles,El Salvador,0,0.0
+measles,Equatorial Guinea,0,0.0
+measles,Eritrea,0,0.0
+measles,Estonia,0,0.0
+measles,Ethiopia,0,0.0
+measles,Fiji,0,0.0
+measles,Finland,0,0.0
+measles,France,0,0.0
+measles,Gabon,0,0.0
+measles,Gambia,0,0.0
+measles,Georgia,0,0.0
+measles,Germany,0,0.0
+measles,Ghana,0,0.0
+measles,Greece,0,0.0
+measles,Grenada,0,0.0
+measles,Guatemala,0,0.0
+measles,Guinea,0,0.0
+measles,Guinea-Bissau,0,0.0
+measles,Guyana,0,0.0
+measles,Haiti,0,0.0
+measles,Honduras,0,0.0
+measles,Hungary,0,0.0
+measles,Iceland,0,0.0
+measles,India,0,0.0
+measles,Indonesia,0,0.0
+measles,Iran (Islamic Republic of),0,0.0
+measles,Iraq,0,0.0
+measles,Ireland,0,0.0
+measles,Israel,0,0.0
+measles,Italy,0,0.0
+measles,Jamaica,0,0.0
+measles,Japan,0,0.0
+measles,Jordan,0,0.0
+measles,Kazakhstan,0,0.0
+measles,Kenya,0,0.0
+measles,Kiribati,0,0.0
+measles,Kuwait,0,0.0
+measles,Kyrgyzstan,0,0.0
+measles,Lao People's Democratic Republic,0,0.0
+measles,Latvia,0,0.0
+measles,Lebanon,0,0.0
+measles,Lesotho,0,0.0
+measles,Liberia,0,0.0
+measles,Libya,0,0.0
+measles,Lithuania,0,0.0
+measles,Luxembourg,0,0.0
+measles,Madagascar,0,0.0
+measles,Malawi,0,0.0
+measles,Malaysia,0,0.0
+measles,Maldives,0,0.0
+measles,Mali,0,0.0
+measles,Malta,0,0.0
+measles,Marshall Islands,0,0.0
+measles,Mauritania,0,0.0
+measles,Mauritius,0,0.0
+measles,Mexico,0,0.0
+measles,Micronesia (Federated States of),0,0.0
+measles,Monaco,0,0.0
+measles,Mongolia,0,0.0
+measles,Montenegro,0,0.0
+measles,Morocco,0,0.0
+measles,Mozambique,0,0.0
+measles,Myanmar,0,0.0
+measles,Namibia,0,0.0
+measles,Nauru,0,0.0
+measles,Nepal,0,0.0
+measles,Netherlands,0,0.0
+measles,New Zealand,0,0.0
+measles,Nicaragua,0,0.0
+measles,Niger,0,0.0
+measles,Nigeria,0,0.0
+measles,Niue,0,0.0
+measles,Norway,0,0.0
+measles,Oman,0,0.0
+measles,Pakistan,0,0.0
+measles,Palau,0,0.0
+measles,Panama,0,0.0
+measles,Papua New Guinea,0,0.0
+measles,Paraguay,0,0.0
+measles,Peru,0,0.0
+measles,Philippines,0,0.0
+measles,Poland,0,0.0
+measles,Portugal,0,0.0
+measles,Qatar,0,0.0
+measles,Republic of Korea,0,0.0
+measles,Republic of Moldova,0,0.0
+measles,Romania,0,0.0
+measles,Russian Federation,0,0.0
+measles,Rwanda,0,0.0
+measles,Saint Kitts and Nevis,0,0.0
+measles,Saint Lucia,0,0.0
+measles,Saint Vincent and the Grenadines,0,0.0
+measles,Samoa,0,0.0
+measles,San Marino,0,0.0
+measles,Sao Tome and Principe,0,0.0
+measles,Saudi Arabia,0,0.0
+measles,Senegal,0,0.0
+measles,Serbia,0,0.0
+measles,Seychelles,0,0.0
+measles,Sierra Leone,0,0.0
+measles,Singapore,0,0.0
+measles,Slovakia,0,0.0
+measles,Slovenia,0,0.0
+measles,Solomon Islands,0,0.0
+measles,Somalia,0,0.0
+measles,South Africa,0,0.0
+measles,South Sudan,0,0.0
+measles,Spain,0,0.0
+measles,Sri Lanka,0,0.0
+measles,Sudan,0,0.0
+measles,Suriname,0,0.0
+measles,Swaziland,0,0.0
+measles,Sweden,0,0.0
+measles,Switzerland,0,0.0
+measles,Syrian Arab Republic,0,0.0
+measles,Tajikistan,0,0.0
+measles,Thailand,0,0.0
+measles,The former Yugoslav republic of Macedonia,0,0.0
+measles,Timor-Leste,0,0.0
+measles,Togo,0,0.0
+measles,Tonga,0,0.0
+measles,Trinidad and Tobago,0,0.0
+measles,Tunisia,0,0.0
+measles,Turkey,0,0.0
+measles,Turkmenistan,0,0.0
+measles,Tuvalu,0,0.0
+measles,Uganda,0,0.0
+measles,Ukraine,0,0.0
+measles,United Arab Emirates,0,0.0
+measles,United Kingdom of Great Britain and Northern Ireland,0,0.0
+measles,United Republic of Tanzania,0,0.0
+measles,United States of America,0,0.0
+measles,Uruguay,0,0.0
+measles,Uzbekistan,0,0.0
+measles,Vanuatu,0,0.0
+measles,Venezuela (Bolivarian Republic of),0,0.0
+measles,Viet Nam,0,0.0
+measles,Yemen,0,0.0
+measles,Zambia,0,0.0
+measles,Zimbabwe,0,0.0
+percentage_expenditure,Afghanistan,0,0.0
+percentage_expenditure,Albania,0,0.0
+percentage_expenditure,Algeria,0,0.0
+percentage_expenditure,Angola,0,0.0
+percentage_expenditure,Antigua and Barbuda,0,0.0
+percentage_expenditure,Argentina,0,0.0
+percentage_expenditure,Armenia,0,0.0
+percentage_expenditure,Australia,0,0.0
+percentage_expenditure,Austria,0,0.0
+percentage_expenditure,Azerbaijan,0,0.0
+percentage_expenditure,Bahamas,0,0.0
+percentage_expenditure,Bahrain,0,0.0
+percentage_expenditure,Bangladesh,0,0.0
+percentage_expenditure,Barbados,0,0.0
+percentage_expenditure,Belarus,0,0.0
+percentage_expenditure,Belgium,0,0.0
+percentage_expenditure,Belize,0,0.0
+percentage_expenditure,Benin,0,0.0
+percentage_expenditure,Bhutan,0,0.0
+percentage_expenditure,Bolivia (Plurinational State of),0,0.0
+percentage_expenditure,Bosnia and Herzegovina,0,0.0
+percentage_expenditure,Botswana,0,0.0
+percentage_expenditure,Brazil,0,0.0
+percentage_expenditure,Brunei Darussalam,0,0.0
+percentage_expenditure,Bulgaria,0,0.0
+percentage_expenditure,Burkina Faso,0,0.0
+percentage_expenditure,Burundi,0,0.0
+percentage_expenditure,Cabo Verde,0,0.0
+percentage_expenditure,Cambodia,0,0.0
+percentage_expenditure,Cameroon,0,0.0
+percentage_expenditure,Canada,0,0.0
+percentage_expenditure,Central African Republic,0,0.0
+percentage_expenditure,Chad,0,0.0
+percentage_expenditure,Chile,0,0.0
+percentage_expenditure,China,0,0.0
+percentage_expenditure,Colombia,0,0.0
+percentage_expenditure,Comoros,0,0.0
+percentage_expenditure,Congo,0,0.0
+percentage_expenditure,Cook Islands,0,0.0
+percentage_expenditure,Costa Rica,0,0.0
+percentage_expenditure,Croatia,0,0.0
+percentage_expenditure,Cuba,0,0.0
+percentage_expenditure,Cyprus,0,0.0
+percentage_expenditure,Czechia,0,0.0
+percentage_expenditure,Côte d'Ivoire,0,0.0
+percentage_expenditure,Democratic People's Republic of Korea,0,0.0
+percentage_expenditure,Democratic Republic of the Congo,0,0.0
+percentage_expenditure,Denmark,0,0.0
+percentage_expenditure,Djibouti,0,0.0
+percentage_expenditure,Dominica,0,0.0
+percentage_expenditure,Dominican Republic,0,0.0
+percentage_expenditure,Ecuador,0,0.0
+percentage_expenditure,Egypt,0,0.0
+percentage_expenditure,El Salvador,0,0.0
+percentage_expenditure,Equatorial Guinea,0,0.0
+percentage_expenditure,Eritrea,0,0.0
+percentage_expenditure,Estonia,0,0.0
+percentage_expenditure,Ethiopia,0,0.0
+percentage_expenditure,Fiji,0,0.0
+percentage_expenditure,Finland,0,0.0
+percentage_expenditure,France,0,0.0
+percentage_expenditure,Gabon,0,0.0
+percentage_expenditure,Gambia,0,0.0
+percentage_expenditure,Georgia,0,0.0
+percentage_expenditure,Germany,0,0.0
+percentage_expenditure,Ghana,0,0.0
+percentage_expenditure,Greece,0,0.0
+percentage_expenditure,Grenada,0,0.0
+percentage_expenditure,Guatemala,0,0.0
+percentage_expenditure,Guinea,0,0.0
+percentage_expenditure,Guinea-Bissau,0,0.0
+percentage_expenditure,Guyana,0,0.0
+percentage_expenditure,Haiti,0,0.0
+percentage_expenditure,Honduras,0,0.0
+percentage_expenditure,Hungary,0,0.0
+percentage_expenditure,Iceland,0,0.0
+percentage_expenditure,India,0,0.0
+percentage_expenditure,Indonesia,0,0.0
+percentage_expenditure,Iran (Islamic Republic of),0,0.0
+percentage_expenditure,Iraq,0,0.0
+percentage_expenditure,Ireland,0,0.0
+percentage_expenditure,Israel,0,0.0
+percentage_expenditure,Italy,0,0.0
+percentage_expenditure,Jamaica,0,0.0
+percentage_expenditure,Japan,0,0.0
+percentage_expenditure,Jordan,0,0.0
+percentage_expenditure,Kazakhstan,0,0.0
+percentage_expenditure,Kenya,0,0.0
+percentage_expenditure,Kiribati,0,0.0
+percentage_expenditure,Kuwait,0,0.0
+percentage_expenditure,Kyrgyzstan,0,0.0
+percentage_expenditure,Lao People's Democratic Republic,0,0.0
+percentage_expenditure,Latvia,0,0.0
+percentage_expenditure,Lebanon,0,0.0
+percentage_expenditure,Lesotho,0,0.0
+percentage_expenditure,Liberia,0,0.0
+percentage_expenditure,Libya,0,0.0
+percentage_expenditure,Lithuania,0,0.0
+percentage_expenditure,Luxembourg,0,0.0
+percentage_expenditure,Madagascar,0,0.0
+percentage_expenditure,Malawi,0,0.0
+percentage_expenditure,Malaysia,0,0.0
+percentage_expenditure,Maldives,0,0.0
+percentage_expenditure,Mali,0,0.0
+percentage_expenditure,Malta,0,0.0
+percentage_expenditure,Marshall Islands,0,0.0
+percentage_expenditure,Mauritania,0,0.0
+percentage_expenditure,Mauritius,0,0.0
+percentage_expenditure,Mexico,0,0.0
+percentage_expenditure,Micronesia (Federated States of),0,0.0
+percentage_expenditure,Monaco,0,0.0
+percentage_expenditure,Mongolia,0,0.0
+percentage_expenditure,Montenegro,0,0.0
+percentage_expenditure,Morocco,0,0.0
+percentage_expenditure,Mozambique,0,0.0
+percentage_expenditure,Myanmar,0,0.0
+percentage_expenditure,Namibia,0,0.0
+percentage_expenditure,Nauru,0,0.0
+percentage_expenditure,Nepal,0,0.0
+percentage_expenditure,Netherlands,0,0.0
+percentage_expenditure,New Zealand,0,0.0
+percentage_expenditure,Nicaragua,0,0.0
+percentage_expenditure,Niger,0,0.0
+percentage_expenditure,Nigeria,0,0.0
+percentage_expenditure,Niue,0,0.0
+percentage_expenditure,Norway,0,0.0
+percentage_expenditure,Oman,0,0.0
+percentage_expenditure,Pakistan,0,0.0
+percentage_expenditure,Palau,0,0.0
+percentage_expenditure,Panama,0,0.0
+percentage_expenditure,Papua New Guinea,0,0.0
+percentage_expenditure,Paraguay,0,0.0
+percentage_expenditure,Peru,0,0.0
+percentage_expenditure,Philippines,0,0.0
+percentage_expenditure,Poland,0,0.0
+percentage_expenditure,Portugal,0,0.0
+percentage_expenditure,Qatar,0,0.0
+percentage_expenditure,Republic of Korea,0,0.0
+percentage_expenditure,Republic of Moldova,0,0.0
+percentage_expenditure,Romania,0,0.0
+percentage_expenditure,Russian Federation,0,0.0
+percentage_expenditure,Rwanda,0,0.0
+percentage_expenditure,Saint Kitts and Nevis,0,0.0
+percentage_expenditure,Saint Lucia,0,0.0
+percentage_expenditure,Saint Vincent and the Grenadines,0,0.0
+percentage_expenditure,Samoa,0,0.0
+percentage_expenditure,San Marino,0,0.0
+percentage_expenditure,Sao Tome and Principe,0,0.0
+percentage_expenditure,Saudi Arabia,0,0.0
+percentage_expenditure,Senegal,0,0.0
+percentage_expenditure,Serbia,0,0.0
+percentage_expenditure,Seychelles,0,0.0
+percentage_expenditure,Sierra Leone,0,0.0
+percentage_expenditure,Singapore,0,0.0
+percentage_expenditure,Slovakia,0,0.0
+percentage_expenditure,Slovenia,0,0.0
+percentage_expenditure,Solomon Islands,0,0.0
+percentage_expenditure,Somalia,0,0.0
+percentage_expenditure,South Africa,0,0.0
+percentage_expenditure,South Sudan,0,0.0
+percentage_expenditure,Spain,0,0.0
+percentage_expenditure,Sri Lanka,0,0.0
+percentage_expenditure,Sudan,0,0.0
+percentage_expenditure,Suriname,0,0.0
+percentage_expenditure,Swaziland,0,0.0
+percentage_expenditure,Sweden,0,0.0
+percentage_expenditure,Switzerland,0,0.0
+percentage_expenditure,Syrian Arab Republic,0,0.0
+percentage_expenditure,Tajikistan,0,0.0
+percentage_expenditure,Thailand,0,0.0
+percentage_expenditure,The former Yugoslav republic of Macedonia,0,0.0
+percentage_expenditure,Timor-Leste,0,0.0
+percentage_expenditure,Togo,0,0.0
+percentage_expenditure,Tonga,0,0.0
+percentage_expenditure,Trinidad and Tobago,0,0.0
+percentage_expenditure,Tunisia,0,0.0
+percentage_expenditure,Turkey,0,0.0
+percentage_expenditure,Turkmenistan,0,0.0
+percentage_expenditure,Tuvalu,0,0.0
+percentage_expenditure,Uganda,0,0.0
+percentage_expenditure,Ukraine,0,0.0
+percentage_expenditure,United Arab Emirates,0,0.0
+percentage_expenditure,United Kingdom of Great Britain and Northern Ireland,0,0.0
+percentage_expenditure,United Republic of Tanzania,0,0.0
+percentage_expenditure,United States of America,0,0.0
+percentage_expenditure,Uruguay,0,0.0
+percentage_expenditure,Uzbekistan,0,0.0
+percentage_expenditure,Vanuatu,0,0.0
+percentage_expenditure,Venezuela (Bolivarian Republic of),0,0.0
+percentage_expenditure,Viet Nam,0,0.0
+percentage_expenditure,Yemen,0,0.0
+percentage_expenditure,Zambia,0,0.0
+percentage_expenditure,Zimbabwe,0,0.0
+polio,Afghanistan,0,0.0
+polio,Albania,0,0.0
+polio,Algeria,0,0.0
+polio,Angola,0,0.0
+polio,Antigua and Barbuda,0,0.0
+polio,Argentina,0,0.0
+polio,Armenia,0,0.0
+polio,Australia,0,0.0
+polio,Austria,0,0.0
+polio,Azerbaijan,0,0.0
+polio,Bahamas,0,0.0
+polio,Bahrain,0,0.0
+polio,Bangladesh,0,0.0
+polio,Barbados,0,0.0
+polio,Belarus,0,0.0
+polio,Belgium,0,0.0
+polio,Belize,0,0.0
+polio,Benin,0,0.0
+polio,Bhutan,0,0.0
+polio,Bolivia (Plurinational State of),0,0.0
+polio,Bosnia and Herzegovina,0,0.0
+polio,Botswana,0,0.0
+polio,Brazil,0,0.0
+polio,Brunei Darussalam,0,0.0
+polio,Bulgaria,0,0.0
+polio,Burkina Faso,0,0.0
+polio,Burundi,0,0.0
+polio,Cabo Verde,0,0.0
+polio,Cambodia,0,0.0
+polio,Cameroon,0,0.0
+polio,Canada,0,0.0
+polio,Central African Republic,0,0.0
+polio,Chad,0,0.0
+polio,Chile,0,0.0
+polio,China,0,0.0
+polio,Colombia,0,0.0
+polio,Comoros,0,0.0
+polio,Congo,0,0.0
+polio,Cook Islands,0,0.0
+polio,Costa Rica,0,0.0
+polio,Croatia,0,0.0
+polio,Cuba,0,0.0
+polio,Cyprus,0,0.0
+polio,Czechia,0,0.0
+polio,Côte d'Ivoire,0,0.0
+polio,Democratic People's Republic of Korea,0,0.0
+polio,Democratic Republic of the Congo,0,0.0
+polio,Denmark,0,0.0
+polio,Djibouti,0,0.0
+polio,Dominica,0,0.0
+polio,Dominican Republic,0,0.0
+polio,Ecuador,0,0.0
+polio,Egypt,0,0.0
+polio,El Salvador,0,0.0
+polio,Equatorial Guinea,0,0.0
+polio,Eritrea,0,0.0
+polio,Estonia,0,0.0
+polio,Ethiopia,0,0.0
+polio,Fiji,0,0.0
+polio,Finland,0,0.0
+polio,France,0,0.0
+polio,Gabon,0,0.0
+polio,Gambia,0,0.0
+polio,Georgia,0,0.0
+polio,Germany,0,0.0
+polio,Ghana,0,0.0
+polio,Greece,0,0.0
+polio,Grenada,0,0.0
+polio,Guatemala,0,0.0
+polio,Guinea,0,0.0
+polio,Guinea-Bissau,0,0.0
+polio,Guyana,0,0.0
+polio,Haiti,0,0.0
+polio,Honduras,0,0.0
+polio,Hungary,0,0.0
+polio,Iceland,0,0.0
+polio,India,0,0.0
+polio,Indonesia,0,0.0
+polio,Iran (Islamic Republic of),0,0.0
+polio,Iraq,0,0.0
+polio,Ireland,0,0.0
+polio,Israel,0,0.0
+polio,Italy,0,0.0
+polio,Jamaica,0,0.0
+polio,Japan,0,0.0
+polio,Jordan,0,0.0
+polio,Kazakhstan,0,0.0
+polio,Kenya,0,0.0
+polio,Kiribati,0,0.0
+polio,Kuwait,0,0.0
+polio,Kyrgyzstan,0,0.0
+polio,Lao People's Democratic Republic,0,0.0
+polio,Latvia,0,0.0
+polio,Lebanon,0,0.0
+polio,Lesotho,0,0.0
+polio,Liberia,0,0.0
+polio,Libya,0,0.0
+polio,Lithuania,0,0.0
+polio,Luxembourg,0,0.0
+polio,Madagascar,0,0.0
+polio,Malawi,0,0.0
+polio,Malaysia,0,0.0
+polio,Maldives,0,0.0
+polio,Mali,0,0.0
+polio,Malta,0,0.0
+polio,Marshall Islands,0,0.0
+polio,Mauritania,0,0.0
+polio,Mauritius,0,0.0
+polio,Mexico,0,0.0
+polio,Micronesia (Federated States of),0,0.0
+polio,Monaco,0,0.0
+polio,Mongolia,0,0.0
+polio,Montenegro,6,0.375
+polio,Morocco,0,0.0
+polio,Mozambique,0,0.0
+polio,Myanmar,0,0.0
+polio,Namibia,0,0.0
+polio,Nauru,0,0.0
+polio,Nepal,0,0.0
+polio,Netherlands,0,0.0
+polio,New Zealand,0,0.0
+polio,Nicaragua,0,0.0
+polio,Niger,0,0.0
+polio,Nigeria,0,0.0
+polio,Niue,0,0.0
+polio,Norway,0,0.0
+polio,Oman,0,0.0
+polio,Pakistan,0,0.0
+polio,Palau,0,0.0
+polio,Panama,0,0.0
+polio,Papua New Guinea,0,0.0
+polio,Paraguay,0,0.0
+polio,Peru,0,0.0
+polio,Philippines,0,0.0
+polio,Poland,0,0.0
+polio,Portugal,0,0.0
+polio,Qatar,0,0.0
+polio,Republic of Korea,0,0.0
+polio,Republic of Moldova,0,0.0
+polio,Romania,0,0.0
+polio,Russian Federation,0,0.0
+polio,Rwanda,0,0.0
+polio,Saint Kitts and Nevis,0,0.0
+polio,Saint Lucia,0,0.0
+polio,Saint Vincent and the Grenadines,0,0.0
+polio,Samoa,0,0.0
+polio,San Marino,0,0.0
+polio,Sao Tome and Principe,0,0.0
+polio,Saudi Arabia,0,0.0
+polio,Senegal,0,0.0
+polio,Serbia,0,0.0
+polio,Seychelles,0,0.0
+polio,Sierra Leone,0,0.0
+polio,Singapore,0,0.0
+polio,Slovakia,0,0.0
+polio,Slovenia,0,0.0
+polio,Solomon Islands,0,0.0
+polio,Somalia,0,0.0
+polio,South Africa,0,0.0
+polio,South Sudan,11,0.6875
+polio,Spain,0,0.0
+polio,Sri Lanka,0,0.0
+polio,Sudan,0,0.0
+polio,Suriname,0,0.0
+polio,Swaziland,0,0.0
+polio,Sweden,0,0.0
+polio,Switzerland,0,0.0
+polio,Syrian Arab Republic,0,0.0
+polio,Tajikistan,0,0.0
+polio,Thailand,0,0.0
+polio,The former Yugoslav republic of Macedonia,0,0.0
+polio,Timor-Leste,2,0.125
+polio,Togo,0,0.0
+polio,Tonga,0,0.0
+polio,Trinidad and Tobago,0,0.0
+polio,Tunisia,0,0.0
+polio,Turkey,0,0.0
+polio,Turkmenistan,0,0.0
+polio,Tuvalu,0,0.0
+polio,Uganda,0,0.0
+polio,Ukraine,0,0.0
+polio,United Arab Emirates,0,0.0
+polio,United Kingdom of Great Britain and Northern Ireland,0,0.0
+polio,United Republic of Tanzania,0,0.0
+polio,United States of America,0,0.0
+polio,Uruguay,0,0.0
+polio,Uzbekistan,0,0.0
+polio,Vanuatu,0,0.0
+polio,Venezuela (Bolivarian Republic of),0,0.0
+polio,Viet Nam,0,0.0
+polio,Yemen,0,0.0
+polio,Zambia,0,0.0
+polio,Zimbabwe,0,0.0
+population,Afghanistan,0,0.0
+population,Albania,0,0.0
+population,Algeria,0,0.0
+population,Angola,0,0.0
+population,Antigua and Barbuda,16,1.0
+population,Argentina,0,0.0
+population,Armenia,0,0.0
+population,Australia,0,0.0
+population,Austria,0,0.0
+population,Azerbaijan,0,0.0
+population,Bahamas,16,1.0
+population,Bahrain,16,1.0
+population,Bangladesh,0,0.0
+population,Barbados,16,1.0
+population,Belarus,0,0.0
+population,Belgium,0,0.0
+population,Belize,0,0.0
+population,Benin,0,0.0
+population,Bhutan,0,0.0
+population,Bolivia (Plurinational State of),16,1.0
+population,Bosnia and Herzegovina,0,0.0
+population,Botswana,0,0.0
+population,Brazil,0,0.0
+population,Brunei Darussalam,16,1.0
+population,Bulgaria,0,0.0
+population,Burkina Faso,0,0.0
+population,Burundi,0,0.0
+population,Cabo Verde,0,0.0
+population,Cambodia,0,0.0
+population,Cameroon,0,0.0
+population,Canada,0,0.0
+population,Central African Republic,0,0.0
+population,Chad,0,0.0
+population,Chile,0,0.0
+population,China,0,0.0
+population,Colombia,0,0.0
+population,Comoros,0,0.0
+population,Congo,16,1.0
+population,Cook Islands,1,1.0
+population,Costa Rica,0,0.0
+population,Croatia,0,0.0
+population,Cuba,16,1.0
+population,Cyprus,0,0.0
+population,Czechia,16,1.0
+population,Côte d'Ivoire,16,1.0
+population,Democratic People's Republic of Korea,16,1.0
+population,Democratic Republic of the Congo,16,1.0
+population,Denmark,0,0.0
+population,Djibouti,0,0.0
+population,Dominica,1,1.0
+population,Dominican Republic,0,0.0
+population,Ecuador,0,0.0
+population,Egypt,16,1.0
+population,El Salvador,0,0.0
+population,Equatorial Guinea,0,0.0
+population,Eritrea,4,0.25
+population,Estonia,0,0.0
+population,Ethiopia,0,0.0
+population,Fiji,0,0.0
+population,Finland,0,0.0
+population,France,0,0.0
+population,Gabon,0,0.0
+population,Gambia,16,1.0
+population,Georgia,0,0.0
+population,Germany,0,0.0
+population,Ghana,0,0.0
+population,Greece,0,0.0
+population,Grenada,16,1.0
+population,Guatemala,0,0.0
+population,Guinea,0,0.0
+population,Guinea-Bissau,0,0.0
+population,Guyana,0,0.0
+population,Haiti,0,0.0
+population,Honduras,0,0.0
+population,Hungary,0,0.0
+population,Iceland,0,0.0
+population,India,0,0.0
+population,Indonesia,0,0.0
+population,Iran (Islamic Republic of),16,1.0
+population,Iraq,0,0.0
+population,Ireland,0,0.0
+population,Israel,0,0.0
+population,Italy,0,0.0
+population,Jamaica,0,0.0
+population,Japan,0,0.0
+population,Jordan,0,0.0
+population,Kazakhstan,0,0.0
+population,Kenya,0,0.0
+population,Kiribati,0,0.0
+population,Kuwait,16,1.0
+population,Kyrgyzstan,16,1.0
+population,Lao People's Democratic Republic,16,1.0
+population,Latvia,0,0.0
+population,Lebanon,0,0.0
+population,Lesotho,0,0.0
+population,Liberia,0,0.0
+population,Libya,16,1.0
+population,Lithuania,0,0.0
+population,Luxembourg,0,0.0
+population,Madagascar,0,0.0
+population,Malawi,0,0.0
+population,Malaysia,0,0.0
+population,Maldives,0,0.0
+population,Mali,0,0.0
+population,Malta,0,0.0
+population,Marshall Islands,1,1.0
+population,Mauritania,0,0.0
+population,Mauritius,0,0.0
+population,Mexico,0,0.0
+population,Micronesia (Federated States of),16,1.0
+population,Monaco,1,1.0
+population,Mongolia,0,0.0
+population,Montenegro,0,0.0
+population,Morocco,0,0.0
+population,Mozambique,0,0.0
+population,Myanmar,0,0.0
+population,Namibia,0,0.0
+population,Nauru,1,1.0
+population,Nepal,0,0.0
+population,Netherlands,0,0.0
+population,New Zealand,16,1.0
+population,Nicaragua,0,0.0
+population,Niger,0,0.0
+population,Nigeria,0,0.0
+population,Niue,1,1.0
+population,Norway,0,0.0
+population,Oman,16,1.0
+population,Pakistan,0,0.0
+population,Palau,0,0.0
+population,Panama,0,0.0
+population,Papua New Guinea,0,0.0
+population,Paraguay,0,0.0
+population,Peru,0,0.0
+population,Philippines,0,0.0
+population,Poland,0,0.0
+population,Portugal,0,0.0
+population,Qatar,16,1.0
+population,Republic of Korea,16,1.0
+population,Republic of Moldova,16,1.0
+population,Romania,0,0.0
+population,Russian Federation,0,0.0
+population,Rwanda,0,0.0
+population,Saint Kitts and Nevis,1,1.0
+population,Saint Lucia,16,1.0
+population,Saint Vincent and the Grenadines,16,1.0
+population,Samoa,0,0.0
+population,San Marino,1,1.0
+population,Sao Tome and Principe,0,0.0
+population,Saudi Arabia,16,1.0
+population,Senegal,0,0.0
+population,Serbia,0,0.0
+population,Seychelles,0,0.0
+population,Sierra Leone,0,0.0
+population,Singapore,16,1.0
+population,Slovakia,16,1.0
+population,Slovenia,0,0.0
+population,Solomon Islands,0,0.0
+population,Somalia,16,1.0
+population,South Africa,0,0.0
+population,South Sudan,0,0.0
+population,Spain,0,0.0
+population,Sri Lanka,0,0.0
+population,Sudan,0,0.0
+population,Suriname,0,0.0
+population,Swaziland,0,0.0
+population,Sweden,0,0.0
+population,Switzerland,0,0.0
+population,Syrian Arab Republic,0,0.0
+population,Tajikistan,0,0.0
+population,Thailand,0,0.0
+population,The former Yugoslav republic of Macedonia,16,1.0
+population,Timor-Leste,0,0.0
+population,Togo,0,0.0
+population,Tonga,0,0.0
+population,Trinidad and Tobago,0,0.0
+population,Tunisia,0,0.0
+population,Turkey,0,0.0
+population,Turkmenistan,0,0.0
+population,Tuvalu,0,0.0
+population,Uganda,0,0.0
+population,Ukraine,0,0.0
+population,United Arab Emirates,16,1.0
+population,United Kingdom of Great Britain and Northern Ireland,16,1.0
+population,United Republic of Tanzania,16,1.0
+population,United States of America,16,1.0
+population,Uruguay,0,0.0
+population,Uzbekistan,0,0.0
+population,Vanuatu,0,0.0
+population,Venezuela (Bolivarian Republic of),16,1.0
+population,Viet Nam,16,1.0
+population,Yemen,16,1.0
+population,Zambia,0,0.0
+population,Zimbabwe,0,0.0
+schooling,Afghanistan,0,0.0
+schooling,Albania,0,0.0
+schooling,Algeria,0,0.0
+schooling,Angola,0,0.0
+schooling,Antigua and Barbuda,0,0.0
+schooling,Argentina,0,0.0
+schooling,Armenia,0,0.0
+schooling,Australia,0,0.0
+schooling,Austria,0,0.0
+schooling,Azerbaijan,0,0.0
+schooling,Bahamas,0,0.0
+schooling,Bahrain,0,0.0
+schooling,Bangladesh,0,0.0
+schooling,Barbados,0,0.0
+schooling,Belarus,0,0.0
+schooling,Belgium,0,0.0
+schooling,Belize,0,0.0
+schooling,Benin,0,0.0
+schooling,Bhutan,0,0.0
+schooling,Bolivia (Plurinational State of),0,0.0
+schooling,Bosnia and Herzegovina,0,0.0
+schooling,Botswana,0,0.0
+schooling,Brazil,0,0.0
+schooling,Brunei Darussalam,0,0.0
+schooling,Bulgaria,0,0.0
+schooling,Burkina Faso,0,0.0
+schooling,Burundi,0,0.0
+schooling,Cabo Verde,0,0.0
+schooling,Cambodia,0,0.0
+schooling,Cameroon,0,0.0
+schooling,Canada,0,0.0
+schooling,Central African Republic,0,0.0
+schooling,Chad,0,0.0
+schooling,Chile,0,0.0
+schooling,China,0,0.0
+schooling,Colombia,0,0.0
+schooling,Comoros,0,0.0
+schooling,Congo,0,0.0
+schooling,Cook Islands,1,1.0
+schooling,Costa Rica,0,0.0
+schooling,Croatia,0,0.0
+schooling,Cuba,0,0.0
+schooling,Cyprus,0,0.0
+schooling,Czechia,16,1.0
+schooling,Côte d'Ivoire,16,1.0
+schooling,Democratic People's Republic of Korea,16,1.0
+schooling,Democratic Republic of the Congo,16,1.0
+schooling,Denmark,0,0.0
+schooling,Djibouti,0,0.0
+schooling,Dominica,0,0.0
+schooling,Dominican Republic,0,0.0
+schooling,Ecuador,0,0.0
+schooling,Egypt,0,0.0
+schooling,El Salvador,0,0.0
+schooling,Equatorial Guinea,0,0.0
+schooling,Eritrea,0,0.0
+schooling,Estonia,0,0.0
+schooling,Ethiopia,0,0.0
+schooling,Fiji,0,0.0
+schooling,Finland,0,0.0
+schooling,France,0,0.0
+schooling,Gabon,0,0.0
+schooling,Gambia,0,0.0
+schooling,Georgia,0,0.0
+schooling,Germany,0,0.0
+schooling,Ghana,0,0.0
+schooling,Greece,0,0.0
+schooling,Grenada,0,0.0
+schooling,Guatemala,0,0.0
+schooling,Guinea,0,0.0
+schooling,Guinea-Bissau,0,0.0
+schooling,Guyana,0,0.0
+schooling,Haiti,0,0.0
+schooling,Honduras,0,0.0
+schooling,Hungary,0,0.0
+schooling,Iceland,0,0.0
+schooling,India,0,0.0
+schooling,Indonesia,0,0.0
+schooling,Iran (Islamic Republic of),0,0.0
+schooling,Iraq,0,0.0
+schooling,Ireland,0,0.0
+schooling,Israel,0,0.0
+schooling,Italy,0,0.0
+schooling,Jamaica,0,0.0
+schooling,Japan,0,0.0
+schooling,Jordan,0,0.0
+schooling,Kazakhstan,0,0.0
+schooling,Kenya,0,0.0
+schooling,Kiribati,0,0.0
+schooling,Kuwait,0,0.0
+schooling,Kyrgyzstan,0,0.0
+schooling,Lao People's Democratic Republic,0,0.0
+schooling,Latvia,0,0.0
+schooling,Lebanon,0,0.0
+schooling,Lesotho,0,0.0
+schooling,Liberia,0,0.0
+schooling,Libya,0,0.0
+schooling,Lithuania,0,0.0
+schooling,Luxembourg,0,0.0
+schooling,Madagascar,0,0.0
+schooling,Malawi,0,0.0
+schooling,Malaysia,0,0.0
+schooling,Maldives,0,0.0
+schooling,Mali,0,0.0
+schooling,Malta,0,0.0
+schooling,Marshall Islands,0,0.0
+schooling,Mauritania,0,0.0
+schooling,Mauritius,0,0.0
+schooling,Mexico,0,0.0
+schooling,Micronesia (Federated States of),0,0.0
+schooling,Monaco,1,1.0
+schooling,Mongolia,0,0.0
+schooling,Montenegro,0,0.0
+schooling,Morocco,0,0.0
+schooling,Mozambique,0,0.0
+schooling,Myanmar,0,0.0
+schooling,Namibia,0,0.0
+schooling,Nauru,0,0.0
+schooling,Nepal,0,0.0
+schooling,Netherlands,0,0.0
+schooling,New Zealand,0,0.0
+schooling,Nicaragua,0,0.0
+schooling,Niger,0,0.0
+schooling,Nigeria,0,0.0
+schooling,Niue,1,1.0
+schooling,Norway,0,0.0
+schooling,Oman,0,0.0
+schooling,Pakistan,0,0.0
+schooling,Palau,0,0.0
+schooling,Panama,0,0.0
+schooling,Papua New Guinea,0,0.0
+schooling,Paraguay,0,0.0
+schooling,Peru,0,0.0
+schooling,Philippines,0,0.0
+schooling,Poland,0,0.0
+schooling,Portugal,0,0.0
+schooling,Qatar,0,0.0
+schooling,Republic of Korea,16,1.0
+schooling,Republic of Moldova,16,1.0
+schooling,Romania,0,0.0
+schooling,Russian Federation,0,0.0
+schooling,Rwanda,0,0.0
+schooling,Saint Kitts and Nevis,0,0.0
+schooling,Saint Lucia,0,0.0
+schooling,Saint Vincent and the Grenadines,0,0.0
+schooling,Samoa,0,0.0
+schooling,San Marino,0,0.0
+schooling,Sao Tome and Principe,0,0.0
+schooling,Saudi Arabia,0,0.0
+schooling,Senegal,0,0.0
+schooling,Serbia,0,0.0
+schooling,Seychelles,0,0.0
+schooling,Sierra Leone,0,0.0
+schooling,Singapore,0,0.0
+schooling,Slovakia,0,0.0
+schooling,Slovenia,0,0.0
+schooling,Solomon Islands,0,0.0
+schooling,Somalia,16,1.0
+schooling,South Africa,0,0.0
+schooling,South Sudan,0,0.0
+schooling,Spain,0,0.0
+schooling,Sri Lanka,0,0.0
+schooling,Sudan,0,0.0
+schooling,Suriname,0,0.0
+schooling,Swaziland,0,0.0
+schooling,Sweden,0,0.0
+schooling,Switzerland,0,0.0
+schooling,Syrian Arab Republic,0,0.0
+schooling,Tajikistan,0,0.0
+schooling,Thailand,0,0.0
+schooling,The former Yugoslav republic of Macedonia,0,0.0
+schooling,Timor-Leste,0,0.0
+schooling,Togo,0,0.0
+schooling,Tonga,0,0.0
+schooling,Trinidad and Tobago,0,0.0
+schooling,Tunisia,0,0.0
+schooling,Turkey,0,0.0
+schooling,Turkmenistan,0,0.0
+schooling,Tuvalu,0,0.0
+schooling,Uganda,0,0.0
+schooling,Ukraine,0,0.0
+schooling,United Arab Emirates,0,0.0
+schooling,United Kingdom of Great Britain and Northern Ireland,16,1.0
+schooling,United Republic of Tanzania,16,1.0
+schooling,United States of America,16,1.0
+schooling,Uruguay,0,0.0
+schooling,Uzbekistan,0,0.0
+schooling,Vanuatu,0,0.0
+schooling,Venezuela (Bolivarian Republic of),0,0.0
+schooling,Viet Nam,0,0.0
+schooling,Yemen,0,0.0
+schooling,Zambia,0,0.0
+schooling,Zimbabwe,0,0.0
+thinness_1_19_years,Afghanistan,0,0.0
+thinness_1_19_years,Albania,0,0.0
+thinness_1_19_years,Algeria,0,0.0
+thinness_1_19_years,Angola,0,0.0
+thinness_1_19_years,Antigua and Barbuda,0,0.0
+thinness_1_19_years,Argentina,0,0.0
+thinness_1_19_years,Armenia,0,0.0
+thinness_1_19_years,Australia,0,0.0
+thinness_1_19_years,Austria,0,0.0
+thinness_1_19_years,Azerbaijan,0,0.0
+thinness_1_19_years,Bahamas,0,0.0
+thinness_1_19_years,Bahrain,0,0.0
+thinness_1_19_years,Bangladesh,0,0.0
+thinness_1_19_years,Barbados,0,0.0
+thinness_1_19_years,Belarus,0,0.0
+thinness_1_19_years,Belgium,0,0.0
+thinness_1_19_years,Belize,0,0.0
+thinness_1_19_years,Benin,0,0.0
+thinness_1_19_years,Bhutan,0,0.0
+thinness_1_19_years,Bolivia (Plurinational State of),0,0.0
+thinness_1_19_years,Bosnia and Herzegovina,0,0.0
+thinness_1_19_years,Botswana,0,0.0
+thinness_1_19_years,Brazil,0,0.0
+thinness_1_19_years,Brunei Darussalam,0,0.0
+thinness_1_19_years,Bulgaria,0,0.0
+thinness_1_19_years,Burkina Faso,0,0.0
+thinness_1_19_years,Burundi,0,0.0
+thinness_1_19_years,Cabo Verde,0,0.0
+thinness_1_19_years,Cambodia,0,0.0
+thinness_1_19_years,Cameroon,0,0.0
+thinness_1_19_years,Canada,0,0.0
+thinness_1_19_years,Central African Republic,0,0.0
+thinness_1_19_years,Chad,0,0.0
+thinness_1_19_years,Chile,0,0.0
+thinness_1_19_years,China,0,0.0
+thinness_1_19_years,Colombia,0,0.0
+thinness_1_19_years,Comoros,0,0.0
+thinness_1_19_years,Congo,0,0.0
+thinness_1_19_years,Cook Islands,0,0.0
+thinness_1_19_years,Costa Rica,0,0.0
+thinness_1_19_years,Croatia,0,0.0
+thinness_1_19_years,Cuba,0,0.0
+thinness_1_19_years,Cyprus,0,0.0
+thinness_1_19_years,Czechia,0,0.0
+thinness_1_19_years,Côte d'Ivoire,0,0.0
+thinness_1_19_years,Democratic People's Republic of Korea,0,0.0
+thinness_1_19_years,Democratic Republic of the Congo,0,0.0
+thinness_1_19_years,Denmark,0,0.0
+thinness_1_19_years,Djibouti,0,0.0
+thinness_1_19_years,Dominica,0,0.0
+thinness_1_19_years,Dominican Republic,0,0.0
+thinness_1_19_years,Ecuador,0,0.0
+thinness_1_19_years,Egypt,0,0.0
+thinness_1_19_years,El Salvador,0,0.0
+thinness_1_19_years,Equatorial Guinea,0,0.0
+thinness_1_19_years,Eritrea,0,0.0
+thinness_1_19_years,Estonia,0,0.0
+thinness_1_19_years,Ethiopia,0,0.0
+thinness_1_19_years,Fiji,0,0.0
+thinness_1_19_years,Finland,0,0.0
+thinness_1_19_years,France,0,0.0
+thinness_1_19_years,Gabon,0,0.0
+thinness_1_19_years,Gambia,0,0.0
+thinness_1_19_years,Georgia,0,0.0
+thinness_1_19_years,Germany,0,0.0
+thinness_1_19_years,Ghana,0,0.0
+thinness_1_19_years,Greece,0,0.0
+thinness_1_19_years,Grenada,0,0.0
+thinness_1_19_years,Guatemala,0,0.0
+thinness_1_19_years,Guinea,0,0.0
+thinness_1_19_years,Guinea-Bissau,0,0.0
+thinness_1_19_years,Guyana,0,0.0
+thinness_1_19_years,Haiti,0,0.0
+thinness_1_19_years,Honduras,0,0.0
+thinness_1_19_years,Hungary,0,0.0
+thinness_1_19_years,Iceland,0,0.0
+thinness_1_19_years,India,0,0.0
+thinness_1_19_years,Indonesia,0,0.0
+thinness_1_19_years,Iran (Islamic Republic of),0,0.0
+thinness_1_19_years,Iraq,0,0.0
+thinness_1_19_years,Ireland,0,0.0
+thinness_1_19_years,Israel,0,0.0
+thinness_1_19_years,Italy,0,0.0
+thinness_1_19_years,Jamaica,0,0.0
+thinness_1_19_years,Japan,0,0.0
+thinness_1_19_years,Jordan,0,0.0
+thinness_1_19_years,Kazakhstan,0,0.0
+thinness_1_19_years,Kenya,0,0.0
+thinness_1_19_years,Kiribati,0,0.0
+thinness_1_19_years,Kuwait,0,0.0
+thinness_1_19_years,Kyrgyzstan,0,0.0
+thinness_1_19_years,Lao People's Democratic Republic,0,0.0
+thinness_1_19_years,Latvia,0,0.0
+thinness_1_19_years,Lebanon,0,0.0
+thinness_1_19_years,Lesotho,0,0.0
+thinness_1_19_years,Liberia,0,0.0
+thinness_1_19_years,Libya,0,0.0
+thinness_1_19_years,Lithuania,0,0.0
+thinness_1_19_years,Luxembourg,0,0.0
+thinness_1_19_years,Madagascar,0,0.0
+thinness_1_19_years,Malawi,0,0.0
+thinness_1_19_years,Malaysia,0,0.0
+thinness_1_19_years,Maldives,0,0.0
+thinness_1_19_years,Mali,0,0.0
+thinness_1_19_years,Malta,0,0.0
+thinness_1_19_years,Marshall Islands,0,0.0
+thinness_1_19_years,Mauritania,0,0.0
+thinness_1_19_years,Mauritius,0,0.0
+thinness_1_19_years,Mexico,0,0.0
+thinness_1_19_years,Micronesia (Federated States of),0,0.0
+thinness_1_19_years,Monaco,1,1.0
+thinness_1_19_years,Mongolia,0,0.0
+thinness_1_19_years,Montenegro,0,0.0
+thinness_1_19_years,Morocco,0,0.0
+thinness_1_19_years,Mozambique,0,0.0
+thinness_1_19_years,Myanmar,0,0.0
+thinness_1_19_years,Namibia,0,0.0
+thinness_1_19_years,Nauru,0,0.0
+thinness_1_19_years,Nepal,0,0.0
+thinness_1_19_years,Netherlands,0,0.0
+thinness_1_19_years,New Zealand,0,0.0
+thinness_1_19_years,Nicaragua,0,0.0
+thinness_1_19_years,Niger,0,0.0
+thinness_1_19_years,Nigeria,0,0.0
+thinness_1_19_years,Niue,0,0.0
+thinness_1_19_years,Norway,0,0.0
+thinness_1_19_years,Oman,0,0.0
+thinness_1_19_years,Pakistan,0,0.0
+thinness_1_19_years,Palau,0,0.0
+thinness_1_19_years,Panama,0,0.0
+thinness_1_19_years,Papua New Guinea,0,0.0
+thinness_1_19_years,Paraguay,0,0.0
+thinness_1_19_years,Peru,0,0.0
+thinness_1_19_years,Philippines,0,0.0
+thinness_1_19_years,Poland,0,0.0
+thinness_1_19_years,Portugal,0,0.0
+thinness_1_19_years,Qatar,0,0.0
+thinness_1_19_years,Republic of Korea,0,0.0
+thinness_1_19_years,Republic of Moldova,0,0.0
+thinness_1_19_years,Romania,0,0.0
+thinness_1_19_years,Russian Federation,0,0.0
+thinness_1_19_years,Rwanda,0,0.0
+thinness_1_19_years,Saint Kitts and Nevis,0,0.0
+thinness_1_19_years,Saint Lucia,0,0.0
+thinness_1_19_years,Saint Vincent and the Grenadines,0,0.0
+thinness_1_19_years,Samoa,0,0.0
+thinness_1_19_years,San Marino,1,1.0
+thinness_1_19_years,Sao Tome and Principe,0,0.0
+thinness_1_19_years,Saudi Arabia,0,0.0
+thinness_1_19_years,Senegal,0,0.0
+thinness_1_19_years,Serbia,0,0.0
+thinness_1_19_years,Seychelles,0,0.0
+thinness_1_19_years,Sierra Leone,0,0.0
+thinness_1_19_years,Singapore,0,0.0
+thinness_1_19_years,Slovakia,0,0.0
+thinness_1_19_years,Slovenia,0,0.0
+thinness_1_19_years,Solomon Islands,0,0.0
+thinness_1_19_years,Somalia,0,0.0
+thinness_1_19_years,South Africa,0,0.0
+thinness_1_19_years,South Sudan,16,1.0
+thinness_1_19_years,Spain,0,0.0
+thinness_1_19_years,Sri Lanka,0,0.0
+thinness_1_19_years,Sudan,16,1.0
+thinness_1_19_years,Suriname,0,0.0
+thinness_1_19_years,Swaziland,0,0.0
+thinness_1_19_years,Sweden,0,0.0
+thinness_1_19_years,Switzerland,0,0.0
+thinness_1_19_years,Syrian Arab Republic,0,0.0
+thinness_1_19_years,Tajikistan,0,0.0
+thinness_1_19_years,Thailand,0,0.0
+thinness_1_19_years,The former Yugoslav republic of Macedonia,0,0.0
+thinness_1_19_years,Timor-Leste,0,0.0
+thinness_1_19_years,Togo,0,0.0
+thinness_1_19_years,Tonga,0,0.0
+thinness_1_19_years,Trinidad and Tobago,0,0.0
+thinness_1_19_years,Tunisia,0,0.0
+thinness_1_19_years,Turkey,0,0.0
+thinness_1_19_years,Turkmenistan,0,0.0
+thinness_1_19_years,Tuvalu,0,0.0
+thinness_1_19_years,Uganda,0,0.0
+thinness_1_19_years,Ukraine,0,0.0
+thinness_1_19_years,United Arab Emirates,0,0.0
+thinness_1_19_years,United Kingdom of Great Britain and Northern Ireland,0,0.0
+thinness_1_19_years,United Republic of Tanzania,0,0.0
+thinness_1_19_years,United States of America,0,0.0
+thinness_1_19_years,Uruguay,0,0.0
+thinness_1_19_years,Uzbekistan,0,0.0
+thinness_1_19_years,Vanuatu,0,0.0
+thinness_1_19_years,Venezuela (Bolivarian Republic of),0,0.0
+thinness_1_19_years,Viet Nam,0,0.0
+thinness_1_19_years,Yemen,0,0.0
+thinness_1_19_years,Zambia,0,0.0
+thinness_1_19_years,Zimbabwe,0,0.0
+thinness_5_9_years,Afghanistan,0,0.0
+thinness_5_9_years,Albania,0,0.0
+thinness_5_9_years,Algeria,0,0.0
+thinness_5_9_years,Angola,0,0.0
+thinness_5_9_years,Antigua and Barbuda,0,0.0
+thinness_5_9_years,Argentina,0,0.0
+thinness_5_9_years,Armenia,0,0.0
+thinness_5_9_years,Australia,0,0.0
+thinness_5_9_years,Austria,0,0.0
+thinness_5_9_years,Azerbaijan,0,0.0
+thinness_5_9_years,Bahamas,0,0.0
+thinness_5_9_years,Bahrain,0,0.0
+thinness_5_9_years,Bangladesh,0,0.0
+thinness_5_9_years,Barbados,0,0.0
+thinness_5_9_years,Belarus,0,0.0
+thinness_5_9_years,Belgium,0,0.0
+thinness_5_9_years,Belize,0,0.0
+thinness_5_9_years,Benin,0,0.0
+thinness_5_9_years,Bhutan,0,0.0
+thinness_5_9_years,Bolivia (Plurinational State of),0,0.0
+thinness_5_9_years,Bosnia and Herzegovina,0,0.0
+thinness_5_9_years,Botswana,0,0.0
+thinness_5_9_years,Brazil,0,0.0
+thinness_5_9_years,Brunei Darussalam,0,0.0
+thinness_5_9_years,Bulgaria,0,0.0
+thinness_5_9_years,Burkina Faso,0,0.0
+thinness_5_9_years,Burundi,0,0.0
+thinness_5_9_years,Cabo Verde,0,0.0
+thinness_5_9_years,Cambodia,0,0.0
+thinness_5_9_years,Cameroon,0,0.0
+thinness_5_9_years,Canada,0,0.0
+thinness_5_9_years,Central African Republic,0,0.0
+thinness_5_9_years,Chad,0,0.0
+thinness_5_9_years,Chile,0,0.0
+thinness_5_9_years,China,0,0.0
+thinness_5_9_years,Colombia,0,0.0
+thinness_5_9_years,Comoros,0,0.0
+thinness_5_9_years,Congo,0,0.0
+thinness_5_9_years,Cook Islands,0,0.0
+thinness_5_9_years,Costa Rica,0,0.0
+thinness_5_9_years,Croatia,0,0.0
+thinness_5_9_years,Cuba,0,0.0
+thinness_5_9_years,Cyprus,0,0.0
+thinness_5_9_years,Czechia,0,0.0
+thinness_5_9_years,Côte d'Ivoire,0,0.0
+thinness_5_9_years,Democratic People's Republic of Korea,0,0.0
+thinness_5_9_years,Democratic Republic of the Congo,0,0.0
+thinness_5_9_years,Denmark,0,0.0
+thinness_5_9_years,Djibouti,0,0.0
+thinness_5_9_years,Dominica,0,0.0
+thinness_5_9_years,Dominican Republic,0,0.0
+thinness_5_9_years,Ecuador,0,0.0
+thinness_5_9_years,Egypt,0,0.0
+thinness_5_9_years,El Salvador,0,0.0
+thinness_5_9_years,Equatorial Guinea,0,0.0
+thinness_5_9_years,Eritrea,0,0.0
+thinness_5_9_years,Estonia,0,0.0
+thinness_5_9_years,Ethiopia,0,0.0
+thinness_5_9_years,Fiji,0,0.0
+thinness_5_9_years,Finland,0,0.0
+thinness_5_9_years,France,0,0.0
+thinness_5_9_years,Gabon,0,0.0
+thinness_5_9_years,Gambia,0,0.0
+thinness_5_9_years,Georgia,0,0.0
+thinness_5_9_years,Germany,0,0.0
+thinness_5_9_years,Ghana,0,0.0
+thinness_5_9_years,Greece,0,0.0
+thinness_5_9_years,Grenada,0,0.0
+thinness_5_9_years,Guatemala,0,0.0
+thinness_5_9_years,Guinea,0,0.0
+thinness_5_9_years,Guinea-Bissau,0,0.0
+thinness_5_9_years,Guyana,0,0.0
+thinness_5_9_years,Haiti,0,0.0
+thinness_5_9_years,Honduras,0,0.0
+thinness_5_9_years,Hungary,0,0.0
+thinness_5_9_years,Iceland,0,0.0
+thinness_5_9_years,India,0,0.0
+thinness_5_9_years,Indonesia,0,0.0
+thinness_5_9_years,Iran (Islamic Republic of),0,0.0
+thinness_5_9_years,Iraq,0,0.0
+thinness_5_9_years,Ireland,0,0.0
+thinness_5_9_years,Israel,0,0.0
+thinness_5_9_years,Italy,0,0.0
+thinness_5_9_years,Jamaica,0,0.0
+thinness_5_9_years,Japan,0,0.0
+thinness_5_9_years,Jordan,0,0.0
+thinness_5_9_years,Kazakhstan,0,0.0
+thinness_5_9_years,Kenya,0,0.0
+thinness_5_9_years,Kiribati,0,0.0
+thinness_5_9_years,Kuwait,0,0.0
+thinness_5_9_years,Kyrgyzstan,0,0.0
+thinness_5_9_years,Lao People's Democratic Republic,0,0.0
+thinness_5_9_years,Latvia,0,0.0
+thinness_5_9_years,Lebanon,0,0.0
+thinness_5_9_years,Lesotho,0,0.0
+thinness_5_9_years,Liberia,0,0.0
+thinness_5_9_years,Libya,0,0.0
+thinness_5_9_years,Lithuania,0,0.0
+thinness_5_9_years,Luxembourg,0,0.0
+thinness_5_9_years,Madagascar,0,0.0
+thinness_5_9_years,Malawi,0,0.0
+thinness_5_9_years,Malaysia,0,0.0
+thinness_5_9_years,Maldives,0,0.0
+thinness_5_9_years,Mali,0,0.0
+thinness_5_9_years,Malta,0,0.0
+thinness_5_9_years,Marshall Islands,0,0.0
+thinness_5_9_years,Mauritania,0,0.0
+thinness_5_9_years,Mauritius,0,0.0
+thinness_5_9_years,Mexico,0,0.0
+thinness_5_9_years,Micronesia (Federated States of),0,0.0
+thinness_5_9_years,Monaco,1,1.0
+thinness_5_9_years,Mongolia,0,0.0
+thinness_5_9_years,Montenegro,0,0.0
+thinness_5_9_years,Morocco,0,0.0
+thinness_5_9_years,Mozambique,0,0.0
+thinness_5_9_years,Myanmar,0,0.0
+thinness_5_9_years,Namibia,0,0.0
+thinness_5_9_years,Nauru,0,0.0
+thinness_5_9_years,Nepal,0,0.0
+thinness_5_9_years,Netherlands,0,0.0
+thinness_5_9_years,New Zealand,0,0.0
+thinness_5_9_years,Nicaragua,0,0.0
+thinness_5_9_years,Niger,0,0.0
+thinness_5_9_years,Nigeria,0,0.0
+thinness_5_9_years,Niue,0,0.0
+thinness_5_9_years,Norway,0,0.0
+thinness_5_9_years,Oman,0,0.0
+thinness_5_9_years,Pakistan,0,0.0
+thinness_5_9_years,Palau,0,0.0
+thinness_5_9_years,Panama,0,0.0
+thinness_5_9_years,Papua New Guinea,0,0.0
+thinness_5_9_years,Paraguay,0,0.0
+thinness_5_9_years,Peru,0,0.0
+thinness_5_9_years,Philippines,0,0.0
+thinness_5_9_years,Poland,0,0.0
+thinness_5_9_years,Portugal,0,0.0
+thinness_5_9_years,Qatar,0,0.0
+thinness_5_9_years,Republic of Korea,0,0.0
+thinness_5_9_years,Republic of Moldova,0,0.0
+thinness_5_9_years,Romania,0,0.0
+thinness_5_9_years,Russian Federation,0,0.0
+thinness_5_9_years,Rwanda,0,0.0
+thinness_5_9_years,Saint Kitts and Nevis,0,0.0
+thinness_5_9_years,Saint Lucia,0,0.0
+thinness_5_9_years,Saint Vincent and the Grenadines,0,0.0
+thinness_5_9_years,Samoa,0,0.0
+thinness_5_9_years,San Marino,1,1.0
+thinness_5_9_years,Sao Tome and Principe,0,0.0
+thinness_5_9_years,Saudi Arabia,0,0.0
+thinness_5_9_years,Senegal,0,0.0
+thinness_5_9_years,Serbia,0,0.0
+thinness_5_9_years,Seychelles,0,0.0
+thinness_5_9_years,Sierra Leone,0,0.0
+thinness_5_9_years,Singapore,0,0.0
+thinness_5_9_years,Slovakia,0,0.0
+thinness_5_9_years,Slovenia,0,0.0
+thinness_5_9_years,Solomon Islands,0,0.0
+thinness_5_9_years,Somalia,0,0.0
+thinness_5_9_years,South Africa,0,0.0
+thinness_5_9_years,South Sudan,16,1.0
+thinness_5_9_years,Spain,0,0.0
+thinness_5_9_years,Sri Lanka,0,0.0
+thinness_5_9_years,Sudan,16,1.0
+thinness_5_9_years,Suriname,0,0.0
+thinness_5_9_years,Swaziland,0,0.0
+thinness_5_9_years,Sweden,0,0.0
+thinness_5_9_years,Switzerland,0,0.0
+thinness_5_9_years,Syrian Arab Republic,0,0.0
+thinness_5_9_years,Tajikistan,0,0.0
+thinness_5_9_years,Thailand,0,0.0
+thinness_5_9_years,The former Yugoslav republic of Macedonia,0,0.0
+thinness_5_9_years,Timor-Leste,0,0.0
+thinness_5_9_years,Togo,0,0.0
+thinness_5_9_years,Tonga,0,0.0
+thinness_5_9_years,Trinidad and Tobago,0,0.0
+thinness_5_9_years,Tunisia,0,0.0
+thinness_5_9_years,Turkey,0,0.0
+thinness_5_9_years,Turkmenistan,0,0.0
+thinness_5_9_years,Tuvalu,0,0.0
+thinness_5_9_years,Uganda,0,0.0
+thinness_5_9_years,Ukraine,0,0.0
+thinness_5_9_years,United Arab Emirates,0,0.0
+thinness_5_9_years,United Kingdom of Great Britain and Northern Ireland,0,0.0
+thinness_5_9_years,United Republic of Tanzania,0,0.0
+thinness_5_9_years,United States of America,0,0.0
+thinness_5_9_years,Uruguay,0,0.0
+thinness_5_9_years,Uzbekistan,0,0.0
+thinness_5_9_years,Vanuatu,0,0.0
+thinness_5_9_years,Venezuela (Bolivarian Republic of),0,0.0
+thinness_5_9_years,Viet Nam,0,0.0
+thinness_5_9_years,Yemen,0,0.0
+thinness_5_9_years,Zambia,0,0.0
+thinness_5_9_years,Zimbabwe,0,0.0
+total_expenditure,Afghanistan,0,0.0
+total_expenditure,Albania,0,0.0
+total_expenditure,Algeria,1,0.0625
+total_expenditure,Angola,1,0.0625
+total_expenditure,Antigua and Barbuda,1,0.0625
+total_expenditure,Argentina,1,0.0625
+total_expenditure,Armenia,1,0.0625
+total_expenditure,Australia,1,0.0625
+total_expenditure,Austria,1,0.0625
+total_expenditure,Azerbaijan,1,0.0625
+total_expenditure,Bahamas,1,0.0625
+total_expenditure,Bahrain,1,0.0625
+total_expenditure,Bangladesh,1,0.0625
+total_expenditure,Barbados,1,0.0625
+total_expenditure,Belarus,1,0.0625
+total_expenditure,Belgium,1,0.0625
+total_expenditure,Belize,1,0.0625
+total_expenditure,Benin,1,0.0625
+total_expenditure,Bhutan,1,0.0625
+total_expenditure,Bolivia (Plurinational State of),1,0.0625
+total_expenditure,Bosnia and Herzegovina,1,0.0625
+total_expenditure,Botswana,1,0.0625
+total_expenditure,Brazil,1,0.0625
+total_expenditure,Brunei Darussalam,1,0.0625
+total_expenditure,Bulgaria,1,0.0625
+total_expenditure,Burkina Faso,1,0.0625
+total_expenditure,Burundi,1,0.0625
+total_expenditure,Cabo Verde,1,0.0625
+total_expenditure,Cambodia,1,0.0625
+total_expenditure,Cameroon,1,0.0625
+total_expenditure,Canada,1,0.0625
+total_expenditure,Central African Republic,1,0.0625
+total_expenditure,Chad,1,0.0625
+total_expenditure,Chile,1,0.0625
+total_expenditure,China,1,0.0625
+total_expenditure,Colombia,1,0.0625
+total_expenditure,Comoros,1,0.0625
+total_expenditure,Congo,1,0.0625
+total_expenditure,Cook Islands,0,0.0
+total_expenditure,Costa Rica,1,0.0625
+total_expenditure,Croatia,1,0.0625
+total_expenditure,Cuba,1,0.0625
+total_expenditure,Cyprus,1,0.0625
+total_expenditure,Czechia,1,0.0625
+total_expenditure,Côte d'Ivoire,1,0.0625
+total_expenditure,Democratic People's Republic of Korea,16,1.0
+total_expenditure,Democratic Republic of the Congo,1,0.0625
+total_expenditure,Denmark,1,0.0625
+total_expenditure,Djibouti,1,0.0625
+total_expenditure,Dominica,0,0.0
+total_expenditure,Dominican Republic,1,0.0625
+total_expenditure,Ecuador,1,0.0625
+total_expenditure,Egypt,1,0.0625
+total_expenditure,El Salvador,1,0.0625
+total_expenditure,Equatorial Guinea,1,0.0625
+total_expenditure,Eritrea,1,0.0625
+total_expenditure,Estonia,1,0.0625
+total_expenditure,Ethiopia,1,0.0625
+total_expenditure,Fiji,1,0.0625
+total_expenditure,Finland,1,0.0625
+total_expenditure,France,1,0.0625
+total_expenditure,Gabon,1,0.0625
+total_expenditure,Gambia,1,0.0625
+total_expenditure,Georgia,1,0.0625
+total_expenditure,Germany,1,0.0625
+total_expenditure,Ghana,1,0.0625
+total_expenditure,Greece,1,0.0625
+total_expenditure,Grenada,1,0.0625
+total_expenditure,Guatemala,1,0.0625
+total_expenditure,Guinea,1,0.0625
+total_expenditure,Guinea-Bissau,1,0.0625
+total_expenditure,Guyana,1,0.0625
+total_expenditure,Haiti,1,0.0625
+total_expenditure,Honduras,1,0.0625
+total_expenditure,Hungary,1,0.0625
+total_expenditure,Iceland,1,0.0625
+total_expenditure,India,1,0.0625
+total_expenditure,Indonesia,1,0.0625
+total_expenditure,Iran (Islamic Republic of),1,0.0625
+total_expenditure,Iraq,4,0.25
+total_expenditure,Ireland,1,0.0625
+total_expenditure,Israel,1,0.0625
+total_expenditure,Italy,1,0.0625
+total_expenditure,Jamaica,1,0.0625
+total_expenditure,Japan,1,0.0625
+total_expenditure,Jordan,1,0.0625
+total_expenditure,Kazakhstan,1,0.0625
+total_expenditure,Kenya,1,0.0625
+total_expenditure,Kiribati,1,0.0625
+total_expenditure,Kuwait,1,0.0625
+total_expenditure,Kyrgyzstan,1,0.0625
+total_expenditure,Lao People's Democratic Republic,1,0.0625
+total_expenditure,Latvia,1,0.0625
+total_expenditure,Lebanon,1,0.0625
+total_expenditure,Lesotho,1,0.0625
+total_expenditure,Liberia,1,0.0625
+total_expenditure,Libya,1,0.0625
+total_expenditure,Lithuania,1,0.0625
+total_expenditure,Luxembourg,1,0.0625
+total_expenditure,Madagascar,1,0.0625
+total_expenditure,Malawi,1,0.0625
+total_expenditure,Malaysia,1,0.0625
+total_expenditure,Maldives,1,0.0625
+total_expenditure,Mali,1,0.0625
+total_expenditure,Malta,1,0.0625
+total_expenditure,Marshall Islands,0,0.0
+total_expenditure,Mauritania,1,0.0625
+total_expenditure,Mauritius,1,0.0625
+total_expenditure,Mexico,1,0.0625
+total_expenditure,Micronesia (Federated States of),1,0.0625
+total_expenditure,Monaco,0,0.0
+total_expenditure,Mongolia,1,0.0625
+total_expenditure,Montenegro,1,0.0625
+total_expenditure,Morocco,1,0.0625
+total_expenditure,Mozambique,1,0.0625
+total_expenditure,Myanmar,1,0.0625
+total_expenditure,Namibia,1,0.0625
+total_expenditure,Nauru,0,0.0
+total_expenditure,Nepal,1,0.0625
+total_expenditure,Netherlands,1,0.0625
+total_expenditure,New Zealand,1,0.0625
+total_expenditure,Nicaragua,1,0.0625
+total_expenditure,Niger,1,0.0625
+total_expenditure,Nigeria,1,0.0625
+total_expenditure,Niue,0,0.0
+total_expenditure,Norway,1,0.0625
+total_expenditure,Oman,1,0.0625
+total_expenditure,Pakistan,1,0.0625
+total_expenditure,Palau,0,0.0
+total_expenditure,Panama,1,0.0625
+total_expenditure,Papua New Guinea,1,0.0625
+total_expenditure,Paraguay,1,0.0625
+total_expenditure,Peru,1,0.0625
+total_expenditure,Philippines,1,0.0625
+total_expenditure,Poland,1,0.0625
+total_expenditure,Portugal,1,0.0625
+total_expenditure,Qatar,1,0.0625
+total_expenditure,Republic of Korea,1,0.0625
+total_expenditure,Republic of Moldova,1,0.0625
+total_expenditure,Romania,1,0.0625
+total_expenditure,Russian Federation,1,0.0625
+total_expenditure,Rwanda,1,0.0625
+total_expenditure,Saint Kitts and Nevis,0,0.0
+total_expenditure,Saint Lucia,1,0.0625
+total_expenditure,Saint Vincent and the Grenadines,1,0.0625
+total_expenditure,Samoa,1,0.0625
+total_expenditure,San Marino,0,0.0
+total_expenditure,Sao Tome and Principe,1,0.0625
+total_expenditure,Saudi Arabia,1,0.0625
+total_expenditure,Senegal,1,0.0625
+total_expenditure,Serbia,1,0.0625
+total_expenditure,Seychelles,1,0.0625
+total_expenditure,Sierra Leone,1,0.0625
+total_expenditure,Singapore,1,0.0625
+total_expenditure,Slovakia,1,0.0625
+total_expenditure,Slovenia,1,0.0625
+total_expenditure,Solomon Islands,1,0.0625
+total_expenditure,Somalia,16,1.0
+total_expenditure,South Africa,1,0.0625
+total_expenditure,South Sudan,13,0.8125
+total_expenditure,Spain,1,0.0625
+total_expenditure,Sri Lanka,1,0.0625
+total_expenditure,Sudan,1,0.0625
+total_expenditure,Suriname,1,0.0625
+total_expenditure,Swaziland,1,0.0625
+total_expenditure,Sweden,1,0.0625
+total_expenditure,Switzerland,1,0.0625
+total_expenditure,Syrian Arab Republic,1,0.0625
+total_expenditure,Tajikistan,1,0.0625
+total_expenditure,Thailand,1,0.0625
+total_expenditure,The former Yugoslav republic of Macedonia,1,0.0625
+total_expenditure,Timor-Leste,1,0.0625
+total_expenditure,Togo,1,0.0625
+total_expenditure,Tonga,1,0.0625
+total_expenditure,Trinidad and Tobago,1,0.0625
+total_expenditure,Tunisia,1,0.0625
+total_expenditure,Turkey,1,0.0625
+total_expenditure,Turkmenistan,1,0.0625
+total_expenditure,Tuvalu,0,0.0
+total_expenditure,Uganda,1,0.0625
+total_expenditure,Ukraine,1,0.0625
+total_expenditure,United Arab Emirates,1,0.0625
+total_expenditure,United Kingdom of Great Britain and Northern Ireland,1,0.0625
+total_expenditure,United Republic of Tanzania,1,0.0625
+total_expenditure,United States of America,1,0.0625
+total_expenditure,Uruguay,1,0.0625
+total_expenditure,Uzbekistan,1,0.0625
+total_expenditure,Vanuatu,1,0.0625
+total_expenditure,Venezuela (Bolivarian Republic of),1,0.0625
+total_expenditure,Viet Nam,1,0.0625
+total_expenditure,Yemen,1,0.0625
+total_expenditure,Zambia,1,0.0625
+total_expenditure,Zimbabwe,1,0.0625
+under_five_deaths,Afghanistan,0,0.0
+under_five_deaths,Albania,0,0.0
+under_five_deaths,Algeria,0,0.0
+under_five_deaths,Angola,0,0.0
+under_five_deaths,Antigua and Barbuda,0,0.0
+under_five_deaths,Argentina,0,0.0
+under_five_deaths,Armenia,0,0.0
+under_five_deaths,Australia,0,0.0
+under_five_deaths,Austria,0,0.0
+under_five_deaths,Azerbaijan,0,0.0
+under_five_deaths,Bahamas,0,0.0
+under_five_deaths,Bahrain,0,0.0
+under_five_deaths,Bangladesh,0,0.0
+under_five_deaths,Barbados,0,0.0
+under_five_deaths,Belarus,0,0.0
+under_five_deaths,Belgium,0,0.0
+under_five_deaths,Belize,0,0.0
+under_five_deaths,Benin,0,0.0
+under_five_deaths,Bhutan,0,0.0
+under_five_deaths,Bolivia (Plurinational State of),0,0.0
+under_five_deaths,Bosnia and Herzegovina,0,0.0
+under_five_deaths,Botswana,0,0.0
+under_five_deaths,Brazil,0,0.0
+under_five_deaths,Brunei Darussalam,0,0.0
+under_five_deaths,Bulgaria,0,0.0
+under_five_deaths,Burkina Faso,0,0.0
+under_five_deaths,Burundi,0,0.0
+under_five_deaths,Cabo Verde,0,0.0
+under_five_deaths,Cambodia,0,0.0
+under_five_deaths,Cameroon,0,0.0
+under_five_deaths,Canada,0,0.0
+under_five_deaths,Central African Republic,0,0.0
+under_five_deaths,Chad,0,0.0
+under_five_deaths,Chile,0,0.0
+under_five_deaths,China,0,0.0
+under_five_deaths,Colombia,0,0.0
+under_five_deaths,Comoros,0,0.0
+under_five_deaths,Congo,0,0.0
+under_five_deaths,Cook Islands,0,0.0
+under_five_deaths,Costa Rica,0,0.0
+under_five_deaths,Croatia,0,0.0
+under_five_deaths,Cuba,0,0.0
+under_five_deaths,Cyprus,0,0.0
+under_five_deaths,Czechia,0,0.0
+under_five_deaths,Côte d'Ivoire,0,0.0
+under_five_deaths,Democratic People's Republic of Korea,0,0.0
+under_five_deaths,Democratic Republic of the Congo,0,0.0
+under_five_deaths,Denmark,0,0.0
+under_five_deaths,Djibouti,0,0.0
+under_five_deaths,Dominica,0,0.0
+under_five_deaths,Dominican Republic,0,0.0
+under_five_deaths,Ecuador,0,0.0
+under_five_deaths,Egypt,0,0.0
+under_five_deaths,El Salvador,0,0.0
+under_five_deaths,Equatorial Guinea,0,0.0
+under_five_deaths,Eritrea,0,0.0
+under_five_deaths,Estonia,0,0.0
+under_five_deaths,Ethiopia,0,0.0
+under_five_deaths,Fiji,0,0.0
+under_five_deaths,Finland,0,0.0
+under_five_deaths,France,0,0.0
+under_five_deaths,Gabon,0,0.0
+under_five_deaths,Gambia,0,0.0
+under_five_deaths,Georgia,0,0.0
+under_five_deaths,Germany,0,0.0
+under_five_deaths,Ghana,0,0.0
+under_five_deaths,Greece,0,0.0
+under_five_deaths,Grenada,0,0.0
+under_five_deaths,Guatemala,0,0.0
+under_five_deaths,Guinea,0,0.0
+under_five_deaths,Guinea-Bissau,0,0.0
+under_five_deaths,Guyana,0,0.0
+under_five_deaths,Haiti,0,0.0
+under_five_deaths,Honduras,0,0.0
+under_five_deaths,Hungary,0,0.0
+under_five_deaths,Iceland,0,0.0
+under_five_deaths,India,0,0.0
+under_five_deaths,Indonesia,0,0.0
+under_five_deaths,Iran (Islamic Republic of),0,0.0
+under_five_deaths,Iraq,0,0.0
+under_five_deaths,Ireland,0,0.0
+under_five_deaths,Israel,0,0.0
+under_five_deaths,Italy,0,0.0
+under_five_deaths,Jamaica,0,0.0
+under_five_deaths,Japan,0,0.0
+under_five_deaths,Jordan,0,0.0
+under_five_deaths,Kazakhstan,0,0.0
+under_five_deaths,Kenya,0,0.0
+under_five_deaths,Kiribati,0,0.0
+under_five_deaths,Kuwait,0,0.0
+under_five_deaths,Kyrgyzstan,0,0.0
+under_five_deaths,Lao People's Democratic Republic,0,0.0
+under_five_deaths,Latvia,0,0.0
+under_five_deaths,Lebanon,0,0.0
+under_five_deaths,Lesotho,0,0.0
+under_five_deaths,Liberia,0,0.0
+under_five_deaths,Libya,0,0.0
+under_five_deaths,Lithuania,0,0.0
+under_five_deaths,Luxembourg,0,0.0
+under_five_deaths,Madagascar,0,0.0
+under_five_deaths,Malawi,0,0.0
+under_five_deaths,Malaysia,0,0.0
+under_five_deaths,Maldives,0,0.0
+under_five_deaths,Mali,0,0.0
+under_five_deaths,Malta,0,0.0
+under_five_deaths,Marshall Islands,0,0.0
+under_five_deaths,Mauritania,0,0.0
+under_five_deaths,Mauritius,0,0.0
+under_five_deaths,Mexico,0,0.0
+under_five_deaths,Micronesia (Federated States of),0,0.0
+under_five_deaths,Monaco,0,0.0
+under_five_deaths,Mongolia,0,0.0
+under_five_deaths,Montenegro,0,0.0
+under_five_deaths,Morocco,0,0.0
+under_five_deaths,Mozambique,0,0.0
+under_five_deaths,Myanmar,0,0.0
+under_five_deaths,Namibia,0,0.0
+under_five_deaths,Nauru,0,0.0
+under_five_deaths,Nepal,0,0.0
+under_five_deaths,Netherlands,0,0.0
+under_five_deaths,New Zealand,0,0.0
+under_five_deaths,Nicaragua,0,0.0
+under_five_deaths,Niger,0,0.0
+under_five_deaths,Nigeria,0,0.0
+under_five_deaths,Niue,0,0.0
+under_five_deaths,Norway,0,0.0
+under_five_deaths,Oman,0,0.0
+under_five_deaths,Pakistan,0,0.0
+under_five_deaths,Palau,0,0.0
+under_five_deaths,Panama,0,0.0
+under_five_deaths,Papua New Guinea,0,0.0
+under_five_deaths,Paraguay,0,0.0
+under_five_deaths,Peru,0,0.0
+under_five_deaths,Philippines,0,0.0
+under_five_deaths,Poland,0,0.0
+under_five_deaths,Portugal,0,0.0
+under_five_deaths,Qatar,0,0.0
+under_five_deaths,Republic of Korea,0,0.0
+under_five_deaths,Republic of Moldova,0,0.0
+under_five_deaths,Romania,0,0.0
+under_five_deaths,Russian Federation,0,0.0
+under_five_deaths,Rwanda,0,0.0
+under_five_deaths,Saint Kitts and Nevis,0,0.0
+under_five_deaths,Saint Lucia,0,0.0
+under_five_deaths,Saint Vincent and the Grenadines,0,0.0
+under_five_deaths,Samoa,0,0.0
+under_five_deaths,San Marino,0,0.0
+under_five_deaths,Sao Tome and Principe,0,0.0
+under_five_deaths,Saudi Arabia,0,0.0
+under_five_deaths,Senegal,0,0.0
+under_five_deaths,Serbia,0,0.0
+under_five_deaths,Seychelles,0,0.0
+under_five_deaths,Sierra Leone,0,0.0
+under_five_deaths,Singapore,0,0.0
+under_five_deaths,Slovakia,0,0.0
+under_five_deaths,Slovenia,0,0.0
+under_five_deaths,Solomon Islands,0,0.0
+under_five_deaths,Somalia,0,0.0
+under_five_deaths,South Africa,0,0.0
+under_five_deaths,South Sudan,0,0.0
+under_five_deaths,Spain,0,0.0
+under_five_deaths,Sri Lanka,0,0.0
+under_five_deaths,Sudan,0,0.0
+under_five_deaths,Suriname,0,0.0
+under_five_deaths,Swaziland,0,0.0
+under_five_deaths,Sweden,0,0.0
+under_five_deaths,Switzerland,0,0.0
+under_five_deaths,Syrian Arab Republic,0,0.0
+under_five_deaths,Tajikistan,0,0.0
+under_five_deaths,Thailand,0,0.0
+under_five_deaths,The former Yugoslav republic of Macedonia,0,0.0
+under_five_deaths,Timor-Leste,0,0.0
+under_five_deaths,Togo,0,0.0
+under_five_deaths,Tonga,0,0.0
+under_five_deaths,Trinidad and Tobago,0,0.0
+under_five_deaths,Tunisia,0,0.0
+under_five_deaths,Turkey,0,0.0
+under_five_deaths,Turkmenistan,0,0.0
+under_five_deaths,Tuvalu,0,0.0
+under_five_deaths,Uganda,0,0.0
+under_five_deaths,Ukraine,0,0.0
+under_five_deaths,United Arab Emirates,0,0.0
+under_five_deaths,United Kingdom of Great Britain and Northern Ireland,0,0.0
+under_five_deaths,United Republic of Tanzania,0,0.0
+under_five_deaths,United States of America,0,0.0
+under_five_deaths,Uruguay,0,0.0
+under_five_deaths,Uzbekistan,0,0.0
+under_five_deaths,Vanuatu,0,0.0
+under_five_deaths,Venezuela (Bolivarian Republic of),0,0.0
+under_five_deaths,Viet Nam,0,0.0
+under_five_deaths,Yemen,0,0.0
+under_five_deaths,Zambia,0,0.0
+under_five_deaths,Zimbabwe,0,0.0

@@ -1,0 +1,228 @@
+variable,country,zero_count
+income_composition_of_resources,Antigua and Barbuda,6
+income_composition_of_resources,Bahamas,1
+income_composition_of_resources,Bhutan,11
+income_composition_of_resources,Bosnia and Herzegovina,6
+income_composition_of_resources,Burkina Faso,6
+income_composition_of_resources,Cabo Verde,1
+income_composition_of_resources,Chad,1
+income_composition_of_resources,Comoros,5
+income_composition_of_resources,Equatorial Guinea,1
+income_composition_of_resources,Eritrea,6
+income_composition_of_resources,Ethiopia,1
+income_composition_of_resources,Georgia,1
+income_composition_of_resources,Grenada,11
+income_composition_of_resources,Guinea-Bissau,6
+income_composition_of_resources,Kiribati,6
+income_composition_of_resources,Lebanon,6
+income_composition_of_resources,Madagascar,1
+income_composition_of_resources,Micronesia (Federated States of),1
+income_composition_of_resources,Montenegro,4
+income_composition_of_resources,Nigeria,4
+income_composition_of_resources,Oman,1
+income_composition_of_resources,Saint Lucia,1
+income_composition_of_resources,Saint Vincent and the Grenadines,1
+income_composition_of_resources,Seychelles,1
+income_composition_of_resources,South Sudan,11
+income_composition_of_resources,Suriname,5
+income_composition_of_resources,The former Yugoslav republic of Macedonia,6
+income_composition_of_resources,Timor-Leste,1
+income_composition_of_resources,Turkmenistan,11
+income_composition_of_resources,Uzbekistan,1
+income_composition_of_resources,Vanuatu,6
+percentage_expenditure,Algeria,1
+percentage_expenditure,Angola,1
+percentage_expenditure,Antigua and Barbuda,1
+percentage_expenditure,Argentina,1
+percentage_expenditure,Armenia,1
+percentage_expenditure,Australia,1
+percentage_expenditure,Austria,1
+percentage_expenditure,Azerbaijan,1
+percentage_expenditure,Bahamas,16
+percentage_expenditure,Bahrain,1
+percentage_expenditure,Bangladesh,1
+percentage_expenditure,Barbados,1
+percentage_expenditure,Belarus,1
+percentage_expenditure,Belgium,1
+percentage_expenditure,Belize,1
+percentage_expenditure,Benin,1
+percentage_expenditure,Bhutan,1
+percentage_expenditure,Bolivia (Plurinational State of),16
+percentage_expenditure,Bosnia and Herzegovina,1
+percentage_expenditure,Botswana,1
+percentage_expenditure,Brazil,1
+percentage_expenditure,Brunei Darussalam,1
+percentage_expenditure,Bulgaria,1
+percentage_expenditure,Burkina Faso,1
+percentage_expenditure,Burundi,1
+percentage_expenditure,Cabo Verde,1
+percentage_expenditure,Cambodia,1
+percentage_expenditure,Cameroon,1
+percentage_expenditure,Canada,1
+percentage_expenditure,Central African Republic,1
+percentage_expenditure,Chad,1
+percentage_expenditure,Chile,1
+percentage_expenditure,China,1
+percentage_expenditure,Colombia,1
+percentage_expenditure,Comoros,1
+percentage_expenditure,Congo,16
+percentage_expenditure,Cook Islands,1
+percentage_expenditure,Costa Rica,1
+percentage_expenditure,Croatia,1
+percentage_expenditure,Cuba,1
+percentage_expenditure,Cyprus,1
+percentage_expenditure,Czechia,16
+percentage_expenditure,Côte d'Ivoire,16
+percentage_expenditure,Democratic People's Republic of Korea,16
+percentage_expenditure,Democratic Republic of the Congo,16
+percentage_expenditure,Denmark,1
+percentage_expenditure,Djibouti,1
+percentage_expenditure,Dominican Republic,1
+percentage_expenditure,Ecuador,1
+percentage_expenditure,Egypt,16
+percentage_expenditure,El Salvador,1
+percentage_expenditure,Equatorial Guinea,1
+percentage_expenditure,Eritrea,4
+percentage_expenditure,Estonia,1
+percentage_expenditure,Ethiopia,1
+percentage_expenditure,Fiji,1
+percentage_expenditure,Finland,1
+percentage_expenditure,France,1
+percentage_expenditure,Gabon,1
+percentage_expenditure,Gambia,16
+percentage_expenditure,Georgia,1
+percentage_expenditure,Germany,1
+percentage_expenditure,Ghana,1
+percentage_expenditure,Greece,1
+percentage_expenditure,Grenada,1
+percentage_expenditure,Guatemala,1
+percentage_expenditure,Guinea,1
+percentage_expenditure,Guinea-Bissau,1
+percentage_expenditure,Guyana,1
+percentage_expenditure,Haiti,1
+percentage_expenditure,Honduras,1
+percentage_expenditure,Hungary,1
+percentage_expenditure,Iceland,1
+percentage_expenditure,India,1
+percentage_expenditure,Indonesia,1
+percentage_expenditure,Iran (Islamic Republic of),16
+percentage_expenditure,Iraq,5
+percentage_expenditure,Ireland,1
+percentage_expenditure,Israel,1
+percentage_expenditure,Italy,1
+percentage_expenditure,Jamaica,1
+percentage_expenditure,Japan,1
+percentage_expenditure,Jordan,1
+percentage_expenditure,Kazakhstan,1
+percentage_expenditure,Kenya,1
+percentage_expenditure,Kiribati,1
+percentage_expenditure,Kuwait,1
+percentage_expenditure,Kyrgyzstan,16
+percentage_expenditure,Lao People's Democratic Republic,16
+percentage_expenditure,Latvia,1
+percentage_expenditure,Lebanon,1
+percentage_expenditure,Lesotho,1
+percentage_expenditure,Liberia,1
+percentage_expenditure,Libya,4
+percentage_expenditure,Lithuania,1
+percentage_expenditure,Luxembourg,1
+percentage_expenditure,Madagascar,1
+percentage_expenditure,Malawi,1
+percentage_expenditure,Malaysia,1
+percentage_expenditure,Maldives,1
+percentage_expenditure,Mali,1
+percentage_expenditure,Malta,1
+percentage_expenditure,Mauritania,1
+percentage_expenditure,Mauritius,1
+percentage_expenditure,Mexico,1
+percentage_expenditure,Micronesia (Federated States of),16
+percentage_expenditure,Monaco,1
+percentage_expenditure,Mongolia,1
+percentage_expenditure,Montenegro,1
+percentage_expenditure,Morocco,1
+percentage_expenditure,Mozambique,1
+percentage_expenditure,Myanmar,1
+percentage_expenditure,Namibia,1
+percentage_expenditure,Nepal,1
+percentage_expenditure,Netherlands,1
+percentage_expenditure,New Zealand,1
+percentage_expenditure,Nicaragua,1
+percentage_expenditure,Niger,1
+percentage_expenditure,Nigeria,1
+percentage_expenditure,Niue,1
+percentage_expenditure,Norway,1
+percentage_expenditure,Oman,1
+percentage_expenditure,Pakistan,1
+percentage_expenditure,Panama,1
+percentage_expenditure,Papua New Guinea,1
+percentage_expenditure,Paraguay,1
+percentage_expenditure,Peru,1
+percentage_expenditure,Philippines,1
+percentage_expenditure,Poland,1
+percentage_expenditure,Portugal,1
+percentage_expenditure,Qatar,1
+percentage_expenditure,Republic of Korea,16
+percentage_expenditure,Republic of Moldova,16
+percentage_expenditure,Romania,1
+percentage_expenditure,Russian Federation,1
+percentage_expenditure,Rwanda,1
+percentage_expenditure,Saint Kitts and Nevis,1
+percentage_expenditure,Saint Lucia,16
+percentage_expenditure,Saint Vincent and the Grenadines,16
+percentage_expenditure,Samoa,1
+percentage_expenditure,San Marino,1
+percentage_expenditure,Sao Tome and Principe,2
+percentage_expenditure,Saudi Arabia,1
+percentage_expenditure,Senegal,1
+percentage_expenditure,Serbia,1
+percentage_expenditure,Seychelles,1
+percentage_expenditure,Sierra Leone,1
+percentage_expenditure,Singapore,1
+percentage_expenditure,Slovakia,16
+percentage_expenditure,Slovenia,1
+percentage_expenditure,Solomon Islands,1
+percentage_expenditure,Somalia,16
+percentage_expenditure,South Africa,1
+percentage_expenditure,South Sudan,13
+percentage_expenditure,Spain,1
+percentage_expenditure,Sri Lanka,1
+percentage_expenditure,Sudan,1
+percentage_expenditure,Suriname,1
+percentage_expenditure,Swaziland,1
+percentage_expenditure,Sweden,1
+percentage_expenditure,Switzerland,1
+percentage_expenditure,Syrian Arab Republic,8
+percentage_expenditure,Tajikistan,1
+percentage_expenditure,Thailand,1
+percentage_expenditure,The former Yugoslav republic of Macedonia,16
+percentage_expenditure,Timor-Leste,1
+percentage_expenditure,Togo,1
+percentage_expenditure,Tonga,1
+percentage_expenditure,Trinidad and Tobago,1
+percentage_expenditure,Tunisia,1
+percentage_expenditure,Turkey,1
+percentage_expenditure,Turkmenistan,1
+percentage_expenditure,Uganda,1
+percentage_expenditure,Ukraine,1
+percentage_expenditure,United Arab Emirates,1
+percentage_expenditure,United Kingdom of Great Britain and Northern Ireland,16
+percentage_expenditure,United Republic of Tanzania,16
+percentage_expenditure,United States of America,16
+percentage_expenditure,Uruguay,1
+percentage_expenditure,Uzbekistan,1
+percentage_expenditure,Vanuatu,1
+percentage_expenditure,Venezuela (Bolivarian Republic of),16
+percentage_expenditure,Viet Nam,16
+percentage_expenditure,Yemen,16
+percentage_expenditure,Zambia,1
+percentage_expenditure,Zimbabwe,6
+schooling,Antigua and Barbuda,6
+schooling,Bosnia and Herzegovina,1
+schooling,Equatorial Guinea,1
+schooling,Marshall Islands,1
+schooling,Micronesia (Federated States of),1
+schooling,Montenegro,4
+schooling,South Sudan,11
+schooling,Timor-Leste,1
+schooling,Turkmenistan,1
+schooling,Tuvalu,1
