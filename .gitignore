@@ -5,6 +5,7 @@ venv/
 .ipynb_checkpoints/
 .pytest_cache/
 .matplotlib/
+.deps/
 .DS_Store
 Thumbs.db
 
