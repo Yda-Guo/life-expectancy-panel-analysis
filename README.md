@@ -2,59 +2,101 @@
 
 ## Project overview
 
-This project studies the socioeconomic, healthcare, and public-health factors associated with national life expectancy.
+This undergraduate statistics project studies how socioeconomic, healthcare, and public-health measures are associated with national life expectancy. It uses country-year panel data and compares pooled cross-country associations with within-country fixed-effects estimates.
 
-The dataset contains country-year observations, allowing the use of panel-data methods.
+The analysis is observational. It does not claim that the included variables cause changes in life expectancy.
 
 ## Research question
 
-Which socioeconomic, healthcare, and public-health factors are associated with changes in national life expectancy?
-
-The analysis examines whether these relationships remain after controlling for country fixed effects and year fixed effects.
+Which socioeconomic, healthcare, and public-health factors are associated with changes in national life expectancy, and how do those associations change after controlling for country and year fixed effects?
 
 ## Data
 
-Source: Kaggle, Life Expectancy (WHO)
+Source: Kaggle, Life Expectancy (WHO), as identified in the supplied project documentation.
 
-Each observation represents one country in one year.
+- Raw observations: 2,938
+- Countries: 193
+- Years: 2000–2015
+- Unit of observation: country-year
+- Main outcome: life expectancy
 
-The original dataset is stored in:
+The raw dataset is `data/raw/life_expectancy.csv`. It must not be edited. The processed, audit-flagged dataset is `data/processed/life_expectancy_clean.csv`.
+
+## Repository structure
 
 ```text
-data/raw/life_expectancy.csv
+data/
+  raw/                  Original source data; never overwritten
+  processed/            Reproducibly generated cleaned data
+figures/                Descriptive and model diagnostic figures
+notebooks/              Guided analysis Notebook
+reports/                Audit, cleaning, modeling, and final reports
+src/                    Reusable analysis scripts
+tables/                 Generated analytical tables
+README.md               Project orientation
+REPRODUCIBILITY.md       Detailed environment and execution guide
+requirements.txt        Python dependencies
 ```
 
-## Planned analysis
+## Empirical methods
 
-1. Data audit and cleaning
-2. Missing-value analysis
-3. Exploratory data analysis
-4. Pooled OLS
-5. Country fixed effects
-6. Country and year two-way fixed effects
-7. Robustness checks
-8. Final research report
+The main comparison uses one complete-case sample of 2,319 observations from 157 countries over 2000–2015. It estimates:
 
-## Main outcome
+1. Pooled OLS with HC1 robust standard errors.
+2. Pooled OLS with year fixed effects and HC1 standard errors.
+3. Country fixed effects with country-clustered standard errors.
+4. Country and year fixed effects with country-clustered standard errors.
 
-* Life expectancy
+The primary covariates are schooling, `log(1 + GDP)`, total expenditure, polio vaccination coverage, and `log(1 + HIV/AIDS)`. GDP is not labeled per capita because that definition is not verified by the supplied documentation.
 
-## Candidate explanatory variables
+## Main findings
 
-* Schooling
-* Income composition of resources
-* GDP
-* Total health expenditure
-* BMI
-* Polio vaccination coverage
-* Diphtheria vaccination coverage
-* HIV/AIDS
+In pooled models, schooling, recorded GDP, total expenditure, and polio coverage have sizeable positive associations with life expectancy. Their estimates decline substantially after country and year fixed effects are introduced, indicating that persistent cross-country differences account for much of the pooled association.
 
-## Research principles
+In the two-way fixed-effects model, the estimates are:
 
-* Preserve the original dataset
-* Document all data transformations
-* Avoid automatic global mean imputation
-* Use appropriate panel-data methods
-* Distinguish association from causation
-* Make all results reproducible
+- schooling: 0.1450 (p = 0.155);
+- log(1 + GDP): -0.0208 (p = 0.544);
+- total expenditure: -0.0532 (p = 0.198);
+- polio: 0.0037 (p = 0.197);
+- log(1 + HIV/AIDS): -4.1969 (p < 0.001).
+
+The transformed HIV/AIDS coefficient remains approximately -4.1 to -4.3 across several focused robustness checks. This is an association, not a causal estimate.
+
+## Limitations
+
+The project is limited by its observational design, possible reverse causality, omitted time-varying confounders, measurement error, missing-data selection, possible data-entry errors, unresolved GDP and expenditure definitions, limited within-country variation, short time coverage, and potentially lagged or nonlinear relationships. Country fixed effects control for time-invariant country characteristics but do not establish causality.
+
+## Environment setup
+
+Python 3.12 was used for verification.
+
+```bash
+python -m venv .venv
+python -m pip install -r requirements.txt
+```
+
+See [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) for activation commands, expected outputs, and data-integrity details.
+
+## Reproduction commands
+
+Run from the repository root in this order:
+
+```bash
+python src/data_audit.py --input data/raw/life_expectancy.csv
+python src/data_cleaning.py
+python src/descriptive_analysis.py
+python src/model_diagnostics.py
+python src/regression_models.py
+python src/robustness.py
+```
+
+## Key outputs
+
+- Final report: [`reports/final_report.md`](reports/final_report.md)
+- Executive summary: [`reports/executive_summary.md`](reports/executive_summary.md)
+- Notebook: [`notebooks/life_expectancy_analysis.ipynb`](notebooks/life_expectancy_analysis.ipynb)
+- Figures: [`figures/`](figures/)
+- Tables: [`tables/`](tables/)
+- Model results: [`reports/model_results.md`](reports/model_results.md)
+- Robustness results: [`reports/robustness_results.md`](reports/robustness_results.md)
