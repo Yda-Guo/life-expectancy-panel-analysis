@@ -151,4 +151,11 @@ The negative association between transformed HIV/AIDS and life expectancy remain
 - [`robustness_results.md`](robustness_results.md)
 - [`model_vif.csv`](../tables/model_vif.csv)
 - [`pooled_heteroskedasticity_test.csv`](../tables/pooled_heteroskedasticity_test.csv)
-- [`pooled_influence_diagnostics.csv`](../tables/pooled_influence_dia
+- [`pooled_influence_diagnostics.csv`](../tables/pooled_influence_diagnostics.csv)
+- [`twfe_residual_diagnostics.csv`](../tables/twfe_residual_diagnostics.csv)
+- [`robustness_sample_summary.csv`](../tables/robustness_sample_summary.csv)
+- [`robustness_coefficient_comparison.csv`](../tables/robustness_coefficient_comparison.csv)
+
+### D. Reproducibility
+
+Execution instructions are in [`REPRODUCIBILITY.md`](../REPRODUCIBILITY.md). The analysis Notebook is [`life_expectancy_analysis.ipynb`](../notebooks/life_expectancy_analysis.ipynb). No final numerical result depends only on the Notebook; reusable logic is maintained in `src/`.
