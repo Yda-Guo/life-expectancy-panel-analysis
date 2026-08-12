@@ -115,21 +115,21 @@ All estimates are associational. The four models use the same {len(common):,}-ob
 3. Country fixed effects with standard errors clustered by country.
 4. Country and year two-way fixed effects with standard errors clustered by country.
 
-Each model includes schooling, `log1p_gdp`, total expenditure, polio coverage, and `log1p_hiv_aids`. Country/year dummy coefficients are omitted from the main table.
+Each model includes schooling, `log1p_gdp`, total expenditure, and polio coverage. Country/year dummy coefficients are omitted from the main table. The contemporaneous HIV/AIDS field is excluded because authoritative WHO metadata identify the underlying indicator family as cause-specific mortality (deaths per 1,000 live births), creating direct outcome overlap with life expectancy.
 
 ## Coefficient interpretation
 
 - Schooling: coefficient is the estimated difference in life-expectancy years associated with one additional schooling unit, holding included controls fixed.
 - Total expenditure: coefficient is the estimated difference in life-expectancy years associated with a one-unit increase in the recorded expenditure measure; its exact definition remains unresolved.
 - Polio: coefficient corresponds to a one-percentage-point increase in recorded vaccination coverage.
-- For `log1p_gdp` and `log1p_hiv_aids`, the coefficient is a semi-elasticity with respect to `log(1 + X)`. Away from zero, a 1% increase in X is approximately associated with 0.01 times the coefficient in life-expectancy years.
+- For `log1p_gdp`, the coefficient is a semi-elasticity with respect to `log(1 + GDP)`. Away from zero, a 1% increase in GDP is approximately associated with 0.01 times the coefficient in life-expectancy years.
 - Pooled estimates combine cross-country and within-country differences. Fixed-effects estimates describe within-country associations after removing time-invariant country differences.
 
 ## Observed estimates
 
 {main_pivot.round(4).to_markdown()}
 
-Schooling changes from {main_pivot.loc['schooling', 'M1_pooled_ols']:.3f} in pooled OLS to {main_pivot.loc['schooling', 'M4_two_way_fe']:.3f} in the two-way model. The `log1p_gdp` estimate changes from {main_pivot.loc['log1p_gdp', 'M1_pooled_ols']:.3f} to {main_pivot.loc['log1p_gdp', 'M4_two_way_fe']:.3f}; total expenditure changes from {main_pivot.loc['total_expenditure', 'M1_pooled_ols']:.3f} to {main_pivot.loc['total_expenditure', 'M4_two_way_fe']:.3f}; and polio changes from {main_pivot.loc['polio', 'M1_pooled_ols']:.4f} to {main_pivot.loc['polio', 'M4_two_way_fe']:.4f}. These attenuations and sign changes show that pooled cross-country associations differ substantially from within-country associations after country and year controls. `log1p_hiv_aids` remains negative in all four models, changing from {main_pivot.loc['log1p_hiv_aids', 'M1_pooled_ols']:.3f} to {main_pivot.loc['log1p_hiv_aids', 'M4_two_way_fe']:.3f}.
+Schooling changes from {main_pivot.loc['schooling', 'M1_pooled_ols']:.3f} in pooled OLS to {main_pivot.loc['schooling', 'M4_two_way_fe']:.3f} in the two-way model. The `log1p_gdp` estimate changes from {main_pivot.loc['log1p_gdp', 'M1_pooled_ols']:.3f} to {main_pivot.loc['log1p_gdp', 'M4_two_way_fe']:.3f}; total expenditure changes from {main_pivot.loc['total_expenditure', 'M1_pooled_ols']:.3f} to {main_pivot.loc['total_expenditure', 'M4_two_way_fe']:.3f}; and polio changes from {main_pivot.loc['polio', 'M1_pooled_ols']:.4f} to {main_pivot.loc['polio', 'M4_two_way_fe']:.4f}. These attenuations and sign changes show that pooled cross-country associations differ substantially from within-country associations after country and year controls.
 
 Full coefficients, robust/clustered standard errors, confidence intervals, p-values, sample metadata, and fit statistics are saved in `tables/main_regression_results.csv`.
 

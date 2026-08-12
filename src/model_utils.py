@@ -15,7 +15,7 @@ DATA_PATH = ROOT / "data/processed/life_expectancy_clean.csv"
 REVIEW_PATH = ROOT / "tables/suspicious_value_review.csv"
 
 OUTCOME = "life_expectancy"
-MAIN_REGRESSORS = ["schooling", "log1p_gdp", "total_expenditure", "polio", "log1p_hiv_aids"]
+MAIN_REGRESSORS = ["schooling", "log1p_gdp", "total_expenditure", "polio"]
 DISPLAY_NAMES = {
     "schooling": "Schooling",
     "log1p_gdp": "log(1 + GDP)",
@@ -25,6 +25,10 @@ DISPLAY_NAMES = {
     "diphtheria": "Diphtheria coverage",
     "log1p_hiv_aids": "log(1 + HIV/AIDS)",
     "hiv_aids": "HIV/AIDS",
+    "lag1_schooling": "Schooling (t-1)",
+    "lag1_log1p_gdp": "log(1 + GDP) (t-1)",
+    "lag1_total_expenditure": "Total expenditure (t-1)",
+    "lag1_polio": "Polio coverage (t-1)",
     "income_composition_of_resources": "Income composition of resources",
     "bmi_analysis": "BMI (analysis copy)",
 }
@@ -133,6 +137,15 @@ def fit_model(
         result = model.fit(
             cov_type="cluster",
             cov_kwds={"groups": data["country"], "use_correction": True},
+        )
+    elif covariance == "cluster_country_year":
+        groups = np.column_stack([
+            pd.Categorical(data["country"]).codes,
+            pd.Categorical(data["year"]).codes,
+        ])
+        result = model.fit(
+            cov_type="cluster",
+            cov_kwds={"groups": groups, "use_correction": True},
         )
     else:
         result = model.fit()

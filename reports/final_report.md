@@ -2,160 +2,120 @@
 
 ## 1. Abstract
 
-This study examines how socioeconomic, healthcare, and public-health measures are associated with national life expectancy in a country-year panel covering 193 countries from 2000 through 2015. The preferred regression comparison uses a common complete-case sample of 2,319 observations from 157 countries. Pooled ordinary least squares (OLS), pooled OLS with year fixed effects, country fixed effects, and country-and-year two-way fixed effects are compared. In pooled models, schooling, recorded GDP, total expenditure, and polio vaccination coverage have sizeable positive associations with life expectancy. These estimates decline substantially after country and year fixed effects are introduced, suggesting that much of the pooled association reflects persistent cross-country differences. In the preferred two-way model, the coefficients are 0.1450 for schooling, -0.0208 for log(1 + GDP), -0.0532 for total expenditure, 0.0037 for polio coverage, and -4.1969 for log(1 + HIV/AIDS). Only the transformed HIV/AIDS association remains comparatively stable across the main and several robustness specifications. The analysis is observational and associational; it does not establish causality.
+This study compares pooled cross-country and within-country associations between national life expectancy and schooling, recorded GDP, health expenditure, and polio vaccination coverage. The panel has 2,938 country-years for 193 countries in 2000–2015; the common main estimation sample has 2,319 observations from 157 countries. Positive pooled associations for schooling, GDP, and polio shrink sharply in the country-and-year fixed-effects model. The preferred TWFE estimates are 0.1340 for schooling, -0.0157 for `log(1 + GDP)`, -0.0337 for total expenditure, and 0.0049 for polio, with all 95% confidence intervals crossing zero. A metadata review also corrected the earlier use of contemporaneous HIV/AIDS mortality as an independent predictor. The results are associational and do not establish causality.
 
-## 2. Introduction
+## 2. Research question and contribution
 
-Life expectancy summarizes mortality conditions across the life course and varies substantially across countries and time. Differences may reflect economic resources, education, healthcare systems, vaccination coverage, disease burden, institutions, and other conditions. A country-year panel makes it possible to distinguish pooled cross-country patterns from associations based on changes within the same country.
+How do associations between life expectancy and selected socioeconomic or health-system measures change after controlling for time-invariant country characteristics and common year shocks?
 
-This distinction matters. Countries with high schooling or income measures may also differ in many persistent ways that are difficult to observe directly. Country fixed effects remove time-invariant differences, while year fixed effects absorb shocks shared across countries in a given year. The resulting estimates address a narrower question than pooled OLS: whether changes in recorded explanatory variables within a country are associated with changes in its life expectancy, conditional on included controls.
+The project's main contribution is a transparent comparison. Pooled OLS combines cross-country and within-country information. Country fixed effects ask whether changes within a country are associated with changes in life expectancy; year fixed effects additionally remove shocks common to all countries. Large differences between these estimates reveal how strongly pooled patterns can depend on persistent country differences.
 
-## 3. Research Question
+## 3. Data, provenance, and variable definitions
 
-Which socioeconomic, healthcare, and public-health factors are associated with changes in national life expectancy, and how do those associations change after controlling for country and year fixed effects?
+The distributed Kaggle **Life Expectancy (WHO)** file contains 2,938 observations and 22 original columns. Country-year keys are unique. The panel covers 193 countries in 2000–2015; 183 countries have 16 rows and ten have one. Kaggle states that health fields came from WHO GHO and economic fields from the United Nations, but it does not provide a versioned, field-level lineage for the merged file.
 
-The analysis focuses on schooling, transformed GDP, total expenditure, polio vaccination coverage, and transformed HIV/AIDS. Alternative development and vaccination measures are examined through diagnostics and robustness checks rather than added automatically.
+The outcome is life expectancy in years. The main covariates are:
 
-## 4. Data and Variable Definitions
+- **Schooling:** recorded years of schooling; exact construction and age group are not traceable from the merged metadata.
+- **GDP:** retained under its neutral name. The metadata do not establish total versus per-capita GDP, currency basis, or price year. The model uses `log(1 + GDP)` because the recorded values are nonnegative and strongly skewed.
+- **Total expenditure:** a recorded percentage-like health-expenditure field. WHO publishes multiple expenditure indicators, but Kaggle does not identify the exact denominator used here.
+- **Polio:** percentage of one-year-olds receiving three doses of polio-containing vaccine, consistent with WHO Pol3 metadata.
 
-The source file is identified in the repository as the Kaggle Life Expectancy (WHO) dataset. The raw data contain 2,938 observations and 22 original variables. Each observation represents a country-year. The data cover 193 countries and the years 2000–2015. Country and year uniquely identify observations. The panel is unbalanced: 183 countries have 16 observations and ten countries have one observation each.
+The field-level evidence and URLs are recorded in [`data_dictionary.md`](../data_dictionary.md).
 
-The outcome is recorded life expectancy in years. The primary explanatory variables are:
+### HIV/AIDS methodological correction
 
-- **Schooling:** recorded schooling measure; the supplied documentation does not provide a more precise unit definition.
-- **GDP:** retained under its original neutral name because the supplied documentation does not verify that it is GDP per capita. The model uses `log(1 + GDP)` because the variable is nonnegative and strongly right-skewed.
-- **Total expenditure:** recorded expenditure measure; its exact definition remains unresolved.
-- **Polio:** recorded vaccination coverage, interpreted as percentage-point units.
-- **HIV/AIDS:** recorded HIV/AIDS measure. The model uses `log(1 + HIV/AIDS)` because the observed distribution is strongly right-skewed and nonnegative.
+The source `HIV/AIDS` column belongs to the WHO cause-specific mortality family reported as deaths per 1,000 live births. Kaggle's lack of an upstream series ID prevents reconstructing every fine detail, but the mortality nature and unit family are clear enough for the modeling decision. Because life expectancy is constructed from mortality, the contemporaneous HIV/AIDS field overlaps directly with the outcome. It is excluded from the primary explanatory specification and retained only as a labeled supplementary reproduction of the older model. Its large negative coefficient is not interpreted as evidence about an independent determinant.
 
-Adult mortality, infant deaths, and under-five deaths are excluded from the primary specification because they are mortality outcomes or mechanically close to life expectancy. Including them would blur the distinction between predictors and alternative measures or components of the outcome. Development status is not included in country fixed-effects models because it is time-invariant within countries in these data and is therefore absorbed by country fixed effects.
+Adult mortality, infant deaths, and under-five deaths remain excluded for the same broad outcome-overlap reason. Income composition and diphtheria coverage appear only in alternative-measure checks.
 
-Schooling and income composition of resources are not included together in the primary specification. They are conceptually overlapping development measures and have a correlation of 0.794. Polio and diphtheria coverage are also related (correlation 0.681), so they are treated as alternative vaccination measures and included together only in a specific collinearity sensitivity check.
+## 4. Data quality and cleaning
 
-## 5. Data Quality and Cleaning
+The workflow standardizes names, trims strings, sorts country-years, and creates transformations, review classifications, and analysis copies while preserving raw values. No global mean imputation, winsorization, or automatic outlier deletion is used. Clearly invalid values are set to missing only in separate analysis copies; merely unusual and unresolved records remain flagged. The raw file is checked before and after processing.
 
-The reproducible cleaning process standardizes column names to snake case in the processed dataset, trims strings, sorts observations by country and year, and preserves the raw values. The raw CSV is never overwritten. The processed dataset contains 2,938 rows and 50 columns, including audit flags, analysis copies, transformations, and complete-case indicators.
+Missingness is highest in population (652 rows), hepatitis B (553), GDP (448), and total expenditure (226). Full audit and decisions appear in [`data_audit.md`](data_audit.md) and [`data_cleaning_decisions.md`](data_cleaning_decisions.md).
 
-The audit found no duplicate country-year keys or exact duplicate rows. Missingness is highest in population (22.192%), Hepatitis B coverage (18.822%), GDP (15.248%), and total expenditure (7.692%). No global mean imputation, winsorization, or automatic outlier deletion is used.
-
-The suspicious-value review classifies 120 observations: 18 clearly invalid, 62 merely unusual, and 40 unresolved. Original standardized variables retain their recorded values. For a clearly invalid value, only the corresponding `_analysis` copy is set to missing; no replacement value is invented. Unusual and unresolved observations remain present and flagged. Zeros in percentage expenditure remain unresolved, while zeros in income composition of resources and schooling are classified as likely encoded missingness; all zeros remain retained and flagged. Full decisions appear in [`data_cleaning_decisions.md`](data_cleaning_decisions.md) and [`suspicious_value_review.csv`](../tables/suspicious_value_review.csv).
-
-## 6. Descriptive Analysis
-
-Across available observations, mean life expectancy is 69.22 years, the median is 72.10, and the observed range is 36.3 to 89.0 years. Mean life expectancy increases from 66.75 in 2000 to 71.62 in 2015. Developed observations average 79.20 years, compared with 67.11 years among developing observations. These are descriptive comparisons and may reflect many differences beyond development status.
-
-The distribution and time pattern are shown in [`life_expectancy_distribution.png`](../figures/life_expectancy_distribution.png) and [`average_life_expectancy_by_year.png`](../figures/average_life_expectancy_by_year.png). Representative country trends, selected transparently using the 10th, 50th, and 90th percentiles of country-level mean life expectancy among complete panels, are in [`representative_country_trends.png`](../figures/representative_country_trends.png). Detailed descriptive tables are stored in [`summary_statistics.csv`](../tables/summary_statistics.csv), [`life_expectancy_by_year.csv`](../tables/life_expectancy_by_year.csv), and [`life_expectancy_by_status.csv`](../tables/life_expectancy_by_status.csv).
-
-## 7. Empirical Methodology
+## 5. Empirical methodology
 
 The preferred specification is
 
 \[
-LE_{it} = \alpha_i + \lambda_t + \beta_1 Schooling_{it}
-+ \beta_2 \log(1+GDP_{it}) + \beta_3 Expenditure_{it}
-+ \beta_4 Polio_{it} + \beta_5 \log(1+HIV/AIDS_{it}) + \varepsilon_{it},
+LE_{it}=\alpha_i+\lambda_t+\beta_1Schooling_{it}+\beta_2\log(1+GDP_{it})
++\beta_3Expenditure_{it}+\beta_4Polio_{it}+\varepsilon_{it}.
 \]
 
-where \(LE_{it}\) is life expectancy for country \(i\) in year \(t\), \(\alpha_i\) denotes country fixed effects, and \(\lambda_t\) denotes year fixed effects.
+Four models use the same 2,319 complete cases from 157 countries in 2000–2015:
 
-Four models are estimated on the same complete-case sample of 2,319 observations from 157 countries over 2000–2015:
+1. Pooled OLS, HC1 standard errors.
+2. Pooled OLS with year fixed effects, HC1 standard errors.
+3. Country fixed effects, country-clustered standard errors.
+4. Country and year fixed effects, country-clustered standard errors.
 
-1. Pooled OLS with HC1 heteroskedasticity-robust standard errors.
-2. Pooled OLS with year fixed effects and HC1 standard errors.
-3. Country fixed effects with standard errors clustered by country.
-4. Country and year two-way fixed effects with standard errors clustered by country.
+The common sample prevents specification comparisons from being driven merely by sample changes. Country clustering permits arbitrary residual dependence over time within a country. Fixed effects do not control for omitted time-varying variables and do not establish causality.
 
-Using a common sample makes coefficient changes across the four models interpretable as changes in specification rather than changes caused only by sample composition. The ten single-year countries provide no within-country identifying variation and do not enter the common fixed-effects sample.
+For `log(1 + GDP)`, a change from recorded value \(x_0\) to \(x_1\) corresponds to \(\beta[\log(1+x_1)-\log(1+x_0)]\) life-expectancy years. A constant-percent approximation is not exact, especially near zero.
 
-Country fixed effects control for observed and unobserved country characteristics that do not change over time. Year fixed effects control for common annual shocks. Country-clustered standard errors allow residuals to be dependent within countries over time. Fixed effects do not control for omitted time-varying confounders and do not establish causality.
+## 6. Main results
 
-## 8. Main Regression Results
+| Variable | Pooled OLS | TWFE | TWFE SE | TWFE 95% CI | p-value |
+|---|---:|---:|---:|---:|---:|
+| Schooling | 1.6878 | 0.1340 | 0.1228 | [-0.1068, 0.3748] | 0.275 |
+| log(1 + GDP) | 1.0492 | -0.0157 | 0.0372 | [-0.0886, 0.0571] | 0.672 |
+| Total expenditure | -0.1003 | -0.0337 | 0.0449 | [-0.1216, 0.0542] | 0.452 |
+| Polio coverage | 0.0617 | 0.0049 | 0.0034 | [-0.0017, 0.0115] | 0.145 |
 
-The verified two-way fixed-effects estimates are:
+The schooling estimate falls from 1.69 life-expectancy years per recorded schooling unit in pooled OLS to 0.13 years in TWFE. Its interval spans a modest negative association to 0.37 years. The GDP estimate falls from 1.05 per log unit to nearly zero and changes sign. The polio estimate falls from 0.0617 years per percentage point to 0.0049 years (about 0.049 years per ten points), with an interval from about -0.017 to 0.115 years per ten points. Total expenditure is smaller in magnitude in TWFE and also uncertain.
 
-| Variable | Coefficient | 95% confidence interval | p-value |
-|---|---:|---:|---:|
-| Schooling | 0.1450 | [-0.0547, 0.3448] | 0.155 |
-| log(1 + GDP) | -0.0208 | [-0.0882, 0.0465] | 0.544 |
-| Total expenditure | -0.0532 | [-0.1340, 0.0277] | 0.198 |
-| Polio coverage | 0.0037 | [-0.0019, 0.0094] | 0.197 |
-| log(1 + HIV/AIDS) | -4.1969 | [-5.2728, -3.1209] | <0.001 |
+These differences are substantively larger than the distinction between “significant” and “not significant”: persistent cross-country characteristics explain much of the pooled schooling, GDP, and polio pattern. Exact estimates and model statistics are in [`main_regression_results.csv`](../tables/main_regression_results.csv).
 
-Schooling is associated with 1.156 additional life-expectancy years per recorded schooling unit in pooled OLS, but the estimate falls to 0.145 in the two-way model. The GDP estimate changes from 0.779 to -0.021, total expenditure from 0.118 to -0.053, and polio from 0.0283 to 0.0037. These attenuations and sign changes indicate that much of the pooled association reflects persistent cross-country differences rather than changes within countries after common year shocks are controlled.
+## 7. Diagnostics and complete-case selection
 
-The transformed HIV/AIDS coefficient remains negative in all four main models, changing from -6.263 in pooled OLS to -4.197 in the two-way model. Away from zero, a 1% increase in a variable entered as `log(1 + X)` is approximately associated with 0.01 times its coefficient in life-expectancy years. Statistical insignificance for schooling, GDP, expenditure, and polio in the two-way model does not prove that their true associations are zero; the estimates remain uncertain within the reported confidence intervals.
+The main-regressor maximum VIF is 1.90. The pooled Breusch–Pagan p-value is approximately \(1.92\times10^{-33}\), supporting heteroskedasticity-robust pooled inference. TWFE residual lag-one correlation is 0.540, supporting a covariance estimator that allows within-country dependence. The pooled Cook's-distance 4/n rule flags 145 observations; they are retained in the main analysis and removed only in sensitivity analysis.
 
-The complete result table—including robust or clustered standard errors, confidence intervals, p-values, sample metadata, and fit statistics—is [`main_regression_results.csv`](../tables/main_regression_results.csv). A compact visual comparison is [`main_coefficient_plot.png`](../figures/main_coefficient_plot.png).
+The complete-case diagnostic compares the actual 2,319 included rows with 619 excluded rows. Observed mean life expectancy is similar (69.26 versus 69.11; standardized difference 0.02), as is polio coverage. Included rows have a slightly larger developed-country share (18.1% versus 14.9%). The largest observed difference is time composition: included rows average 2007.02, excluded rows 2009.40 (standardized difference -0.50). Observed-value standardized differences for the four main covariates range from approximately 0.00 to 0.19. Because missing values help define exclusion, covariate comparisons are explicitly conditional on availability. The diagnostic does not prove missingness is ignorable; generalization beyond the complete cases remains limited. See [`complete_case_selection_diagnostics.csv`](../tables/complete_case_selection_diagnostics.csv).
 
-## 9. Model Diagnostics
+## 8. Focused sensitivity analyses
 
-The maximum VIF among the five main regressors is 2.06, which does not indicate severe linear dependence in the pooled regressor matrix. VIF is not a direct diagnostic for collinearity after fixed-effect demeaning. The schooling–income-composition correlation is 0.794, supporting the decision not to include both in the primary model. The polio–diphtheria correlation is 0.681, motivating alternative and joint vaccination specifications.
+### Coefficient and sample sensitivity
 
-The pooled Breusch–Pagan test has a p-value of approximately \(2.53 \times 10^{-16}\), indicating strong evidence of heteroskedastic residual variance under that test and supporting heteroskedasticity-robust inference. The two-way fixed-effects residual lag-1 within-country correlation is 0.452, supporting inference that permits residual dependence within countries. These diagnostics motivate robust and country-clustered standard errors but do not prove that the models are correctly specified.
+Twelve active TWFE checks examine invalid/unresolved flags, GDP transformation and omission, alternative development and vaccination measures, expenditure omission, pooled influence flags, and developed/developing subgroups. The older redundant check that included single-year countries reproduced the baseline because those observations offered no within-country identifying information; it has been removed rather than counted as extra robustness. Detailed results are in [`robustness_results.csv`](../tables/robustness_results.csv).
 
-The pooled Cook's-distance rule of 4/n flags 135 observations. They are retained in the preferred model and excluded only in an explicit sensitivity check. Diagnostic figures include [`pooled_residual_distribution.png`](../figures/pooled_residual_distribution.png), [`pooled_residuals_vs_fitted.png`](../figures/pooled_residuals_vs_fitted.png), [`pooled_cooks_distance.png`](../figures/pooled_cooks_distance.png), and [`twfe_residuals_vs_fitted.png`](../figures/twfe_residuals_vs_fitted.png).
+### One-year-lagged TWFE
 
-## 10. Robustness and Sensitivity Analysis
+After sorting by country and year, lags are created only where the preceding row is exactly one calendar year earlier. The lagged model uses 2,317 observations from 157 countries (2001–2015):
 
-Fourteen focused two-way fixed-effects specifications address flag treatment, complete-case construction, transformations, uncertain definitions, vaccination choice, influential observations, and subgroup heterogeneity. Sample sizes and formulas are in [`model_sample_summary.csv`](../tables/model_sample_summary.csv); coefficients and uncertainty estimates are in [`robustness_results.csv`](../tables/robustness_results.csv).
+| Lagged regressor | Coefficient | SE | 95% CI | p-value |
+|---|---:|---:|---:|---:|
+| Schooling (t-1) | 0.1019 | 0.1131 | [-0.1199, 0.3236] | 0.368 |
+| log(1 + GDP) (t-1) | -0.0032 | 0.0381 | [-0.0779, 0.0714] | 0.932 |
+| Total expenditure (t-1) | -0.0035 | 0.0447 | [-0.0910, 0.0841] | 0.938 |
+| Polio (t-1) | 0.0049 | 0.0035 | [-0.0020, 0.0119] | 0.163 |
 
-### Stable finding
+The estimates remain small and uncertain relative to the pooled associations. Lagging improves temporal ordering but does not eliminate reverse causality, omitted-variable bias, measurement error, or common trends. See [`lagged_model_results.csv`](../tables/lagged_model_results.csv).
 
-The transformed HIV/AIDS coefficient remains approximately -4.1 to -4.3 when clearly invalid or unresolved rows are excluded, GDP is omitted, total expenditure is omitted, or pooled influential observations are excluded. Flag treatment is especially stable: the main, clearly-invalid-excluded, and stricter invalid-plus-unresolved samples produce transformed HIV/AIDS estimates from -4.197 to -4.125. This stability is associational and does not establish a causal relationship.
+### Alternative inference
 
-### Sensitive or inconclusive findings
+Two-way clustering by country and year retains the exact TWFE point estimates. The alternative SEs are 0.1165 (schooling), 0.0353 (log GDP), 0.0378 (expenditure), and 0.0040 (polio), compared with primary country-clustered SEs of 0.1228, 0.0372, 0.0449, and 0.0034. The substantive conclusion remains one of small, uncertain TWFE associations. With only 16 year clusters, asymptotic justification in that dimension is weak, so this is a sensitivity check only; country clustering remains primary.
 
-- Schooling and polio estimates become larger after the 135 influential observations are excluded. This check leaves 2,184 observations from 156 countries and is not treated as the preferred model.
-- GDP, expenditure, and vaccination estimates depend on transformation and variable selection.
-- Including polio and diphtheria together attenuates the polio estimate.
-- The developed-country HIV/AIDS estimate changes sign. The subgroup contains 420 observations from 28 countries, has limited relevant variation, and should not receive substantive interpretation.
-- GDP units and the definition of total expenditure remain unresolved.
+### Supplementary mortality-overlap model
 
-## 11. Limitations
+The former five-variable model is reproduced as `S1_add_contemporaneous_hiv_mortality` for transparency. It is not part of the main evidence and its HIV/AIDS coefficient is not interpreted as an independent determinant.
 
-This project has an observational, associational design. Reverse causality is possible: health conditions may affect schooling, economic measures, or public expenditure. Time-varying omitted variables—such as conflict, institutions, migration, environmental shocks, healthcare reforms, or changing data systems—may be associated with both the included regressors and life expectancy.
+## 9. Limitations
 
-Measurement error is a serious concern. Several variables have unresolved definitions, and abrupt within-country jumps suggest possible digit, decimal, unit, or reporting inconsistencies. Missing data require complete-case selection, so the main sample may differ systematically from omitted country-years. Fixed effects cannot correct measurement error or selection automatically.
+The study remains vulnerable to reverse causality, omitted time-varying confounding, measurement error, ambiguous merged-file metadata, and complete-case selection. Fixed effects cannot solve these problems. Several variables move slowly within countries, the panel has only 16 years, linear/additive specifications may miss nonlinearities, and subgroup models have fewer clusters. Country clustering is asymptotic, while the alternative year dimension is especially small. The lagged specification does not create exogenous variation. No estimate should be read as a policy effect.
 
-Some candidate variables have limited within-country movement relative to their cross-country variation. The 2000–2015 period is short for studying gradual demographic and institutional processes. Relationships may be lagged or nonlinear, while the reported models are contemporaneous and linear in their included transformations. Serial dependence remains present, although country-clustered standard errors address a broad class of within-country covariance patterns. Subgroup estimates rely on fewer countries and clusters and are correspondingly fragile.
+## 10. Conclusion
 
-Country fixed effects control for time-invariant country characteristics, but they do not solve every endogeneity problem and do not establish causality. The models also cannot determine whether statistically insignificant coefficients are truly zero.
+The strongest defensible finding is a comparison, not a single determinant: large pooled cross-country schooling, GDP, and polio associations become much smaller and more uncertain in within-country TWFE estimates. The project also demonstrates methodological correction by demoting a strong but conceptually overlapping contemporaneous HIV/AIDS mortality result after verifying its definition. These features make the repository a useful undergraduate entry project in statistics, econometrics, or quantitative methods, while its observational limits remain explicit.
 
-## 12. Conclusion
+## Appendix: generated evidence
 
-Pooled regressions show strong associations between life expectancy and several development and health-system measures. After controlling for country and year fixed effects, the schooling, GDP, expenditure, and polio estimates become much smaller and are imprecisely estimated. This suggests that persistent differences between countries account for a substantial part of their pooled associations.
-
-The negative association between transformed HIV/AIDS and life expectancy remains comparatively stable across the main and several robustness specifications. It is the most consistent empirical pattern in the project, but it remains observational. Future work should verify variable definitions against authoritative metadata, investigate reporting anomalies, consider lagged and nonlinear specifications, and develop a research design capable of addressing time-varying confounding and reverse causality.
-
-## 13. Appendix
-
-### A. Audit and cleaning trail
-
-- [`data_audit.md`](data_audit.md)
-- [`data_cleaning_decisions.md`](data_cleaning_decisions.md)
-- [`missing_values.csv`](../tables/missing_values.csv)
-- [`suspicious_value_review.csv`](../tables/suspicious_value_review.csv)
-- [`zero_value_review.csv`](../tables/zero_value_review.csv)
-
-### B. Descriptive outputs
-
-- [`descriptive_results.md`](descriptive_results.md)
-- [`summary_statistics.csv`](../tables/summary_statistics.csv)
-- [`model_within_between_variation.csv`](../tables/model_within_between_variation.csv)
-- [`model_candidate_correlations.csv`](../tables/model_candidate_correlations.csv)
-
-### C. Model diagnostics and robustness
-
-- [`model_diagnostics.md`](model_diagnostics.md)
-- [`model_results.md`](model_results.md)
-- [`robustness_results.md`](robustness_results.md)
-- [`model_vif.csv`](../tables/model_vif.csv)
-- [`pooled_heteroskedasticity_test.csv`](../tables/pooled_heteroskedasticity_test.csv)
-- [`pooled_influence_diagnostics.csv`](../tables/pooled_influence_diagnostics.csv)
-- [`twfe_residual_diagnostics.csv`](../tables/twfe_residual_diagnostics.csv)
-- [`robustness_sample_summary.csv`](../tables/robustness_sample_summary.csv)
-- [`robustness_coefficient_comparison.csv`](../tables/robustness_coefficient_comparison.csv)
-
-### D. Reproducibility
-
-Execution instructions are in [`REPRODUCIBILITY.md`](../REPRODUCIBILITY.md). The analysis Notebook is [`life_expectancy_analysis.ipynb`](../notebooks/life_expectancy_analysis.ipynb). No final numerical result depends only on the Notebook; reusable logic is maintained in `src/`.
+- Audit and cleaning: [`data_audit.md`](data_audit.md), [`data_cleaning_decisions.md`](data_cleaning_decisions.md)
+- Main diagnostics/results: [`model_diagnostics.md`](model_diagnostics.md), [`model_results.md`](model_results.md)
+- Sensitivity narrative: [`robustness_results.md`](robustness_results.md)
+- Model samples: [`model_sample_summary.csv`](../tables/model_sample_summary.csv)
+- Main estimates: [`main_regression_results.csv`](../tables/main_regression_results.csv)
+- Lagged estimates: [`lagged_model_results.csv`](../tables/lagged_model_results.csv)
+- Complete-case comparison: [`complete_case_selection_diagnostics.csv`](../tables/complete_case_selection_diagnostics.csv)
+- Reproducibility: [`REPRODUCIBILITY.md`](../REPRODUCIBILITY.md)

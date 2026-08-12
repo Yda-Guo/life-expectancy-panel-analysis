@@ -2,7 +2,7 @@
 
 ## Observed facts
 
-- Raw SHA-256 before and after cleaning: `dfb73be2ab34f2b0df09a33e9e02e4bc86ccbd2a07c72eddc3e0c3661a0ad066` (unchanged).
+- Raw SHA-256 before and after cleaning: `872125dd1dd0f9140fbead61df20585a815f5cf47db68f08bf54efaf87963b11` (unchanged).
 - Processed rows: 2,938; country-year duplicates: 0.
 - Columns are standardized to snake_case only in the processed dataset.
 - Strings are trimmed and observations are sorted by country and year.

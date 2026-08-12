@@ -53,7 +53,9 @@ python src/robustness.py
 3. `descriptive_analysis.py` writes descriptive tables and figures, including life-expectancy distributions, year averages, status comparisons, representative trends, correlations, and within/between variation.
 4. `model_diagnostics.py` writes the estimation-sample summary, candidate correlations, VIFs, and within/between variation, plus `reports/model_diagnostics.md`.
 5. `regression_models.py` estimates the four main models, writes `tables/main_regression_results.csv` and model diagnostics, generates five model figures, and writes `reports/model_results.md`.
-6. `robustness.py` estimates 14 focused two-way fixed-effects checks and writes robustness result/sample tables and `reports/robustness_results.md`.
+6. `robustness.py` estimates 12 focused coefficient/sample checks, one labeled mortality-overlap supplement, one alternative-inference check, and one one-year-lagged TWFE model. It writes robustness tables, `tables/lagged_model_results.csv`, and `reports/robustness_results.md`.
+
+`model_diagnostics.py` also writes `tables/complete_case_selection_diagnostics.csv`, comparing membership in the actual current main sample without imputing missing covariates.
 
 ## Determinism
 
@@ -74,15 +76,18 @@ The Notebook checks that `data/raw/life_expectancy.csv` is reachable from the cu
 Do not edit or overwrite `data/raw/life_expectancy.csv`. All transformations belong in scripts and the processed dataset. The verified raw SHA-256 is:
 
 ```text
-dfb73be2ab34f2b0df09a33e9e02e4bc86ccbd2a07c72eddc3e0c3661a0ad066
+872125dd1dd0f9140fbead61df20585a815f5cf47db68f08bf54efaf87963b11
 ```
 
-The verified processed Git blob is `3d3cb0b0cc4f1e97fa9f194d555ec4acf62a8c2a`; rerunning the deterministic cleaning script should reproduce its contents under the verified environment.
+The raw Git blob on the audited upstream commit is `116dd57f24db42ea5db1750543a3f0150866a3ed`. The SHA-256 above is calculated over the repository file bytes. `data_cleaning.py` and `regression_models.py` independently compare the raw file before and after their work; neither relies only on the documented value.
 
 ## Known limitations
 
-- GDP and total-expenditure definitions remain unresolved in the supplied metadata.
+- GDP units and the exact total-expenditure denominator remain unresolved in the merged-file metadata.
 - The workflow uses complete-case samples rather than a general missing-data estimator.
+- The included/excluded diagnostic describes selection but cannot establish that missingness is ignorable.
 - Flagged unusual and unresolved observations remain unless an explicit robustness sample excludes them.
 - Fixed effects do not resolve reverse causality, time-varying omitted variables, or measurement error.
+- The lagged model improves temporal ordering but does not resolve endogeneity.
+- Two-way clustering is a sensitivity check only because the panel has just 16 year clusters.
 - Subgroup estimates may be unstable because they use fewer countries and clusters.

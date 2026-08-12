@@ -12,6 +12,7 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 import statsmodels.api as sm
 from statsmodels.stats.outliers_influence import variance_inflation_factor
@@ -21,6 +22,46 @@ from model_utils import MAIN_REGRESSORS, construct_sample, load_model_data
 
 TABLES = ROOT / "tables"
 REPORT = ROOT / "reports/model_diagnostics.md"
+
+
+def selection_diagnostics(df: pd.DataFrame, sample: pd.DataFrame) -> pd.DataFrame:
+    """Compare main complete cases with excluded rows without redefining the sample."""
+    included = df.index.isin(sample.index)
+    rows = [{
+        "diagnostic": "observations", "included_value": int(included.sum()),
+        "excluded_value": int((~included).sum()), "difference": np.nan,
+        "standardized_difference": np.nan, "included_nonmissing_n": int(included.sum()),
+        "excluded_nonmissing_n": int((~included).sum()), "note": "Counts of country-year rows",
+    }, {
+        "diagnostic": "countries", "included_value": sample["country"].nunique(),
+        "excluded_value": df.loc[~included, "country"].nunique(), "difference": np.nan,
+        "standardized_difference": np.nan, "included_nonmissing_n": int(included.sum()),
+        "excluded_nonmissing_n": int((~included).sum()), "note": "A country may appear in both groups",
+    }]
+    comparison = df.assign(developed=df["status"].eq("Developed").astype(float))
+    for variable in ["life_expectancy", "developed", "year", *MAIN_REGRESSORS]:
+        left = comparison.loc[included, variable].dropna()
+        right = comparison.loc[~included, variable].dropna()
+        pooled_sd = np.sqrt((left.var(ddof=1) + right.var(ddof=1)) / 2)
+        difference = left.mean() - right.mean()
+        rows.append({
+            "diagnostic": variable, "included_value": left.mean(), "excluded_value": right.mean(),
+            "difference": difference,
+            "standardized_difference": difference / pooled_sd if pooled_sd else np.nan,
+            "included_nonmissing_n": len(left), "excluded_nonmissing_n": len(right),
+            "note": "Means use observed values; missingness-defining covariates are not imputed",
+        })
+    for year in sorted(df["year"].dropna().unique()):
+        left_share = df.loc[included, "year"].eq(year).mean()
+        right_share = df.loc[~included, "year"].eq(year).mean()
+        rows.append({
+            "diagnostic": f"year_share_{int(year)}", "included_value": left_share,
+            "excluded_value": right_share, "difference": left_share - right_share,
+            "standardized_difference": np.nan, "included_nonmissing_n": int(included.sum()),
+            "excluded_nonmissing_n": int((~included).sum()),
+            "note": "Share of observations within each membership group",
+        })
+    return pd.DataFrame(rows)
 
 
 def main() -> None:
@@ -33,6 +74,8 @@ def main() -> None:
 
     summary = sample[["life_expectancy", *MAIN_REGRESSORS]].describe().T
     summary.to_csv(TABLES / "estimation_sample_summary_statistics.csv", index_label="variable")
+    selection = selection_diagnostics(df, sample)
+    selection.to_csv(TABLES / "complete_case_selection_diagnostics.csv", index=False)
 
     variation_rows = []
     for variable in candidates:
@@ -91,13 +134,18 @@ def main() -> None:
 
 ## Modeling decisions
 
-- The preferred parsimonious covariates are schooling, `log1p_gdp`, total expenditure, polio, and `log1p_hiv_aids`.
+- The preferred parsimonious covariates are schooling, `log1p_gdp`, total expenditure, and polio.
+- `HIV/AIDS` is retained only for descriptive/supplementary analysis because it is a contemporaneous mortality-rate measure, not an independent exposure.
 - GDP is not described as per capita because the supplied documentation does not verify that definition.
 - Schooling, income composition, and GDP are not placed together in the primary model because they are conceptually overlapping development measures.
 - Polio and diphtheria are compared in robustness checks; both are included together only as an explicit collinearity sensitivity check.
 - Adult mortality, infant deaths, and under-five deaths are excluded from the primary specification because they are mortality outcomes or mechanically close to life expectancy.
 - `status` is excluded from country fixed-effects models because it is time-invariant within countries in these data.
 - Variable selection is based on definitions, missingness, within-country variation, and conceptual parsimony—not p-values.
+
+## Complete-case selection
+
+The included-versus-excluded comparison is saved in `tables/complete_case_selection_diagnostics.csv`. It reports counts, outcome and developed-status differences, year composition, and observed-value comparisons for each main regressor. Covariate rows whose missingness helps define exclusion are explicitly conditional on observed values; no imputation is introduced. The largest absolute standardized difference among the outcome, status, year, and available covariate comparisons is {selection.loc[selection['standardized_difference'].notna(), 'standardized_difference'].abs().max():.2f}. These differences describe selection into the estimation sample and do not correct it.
 """
     REPORT.write_text(report, encoding="utf-8")
     print(f"Diagnostics complete for {sample_info['observations']:,} observations and {sample_info['countries']} countries")

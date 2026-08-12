@@ -183,31 +183,32 @@ Threshold: absolute sample skewness ≥ 1.
 
 No values violate the broad logical ranges above. This does **not** establish data validity. The audit flags abrupt within-country changes in `tables/suspicious_within_country_jumps.csv`; these include patterns consistent with dropped digits or decimal-place errors and require comparison with an authoritative source.
 
-## Modeling decisions (not estimated here)
+## Modeling decisions carried into the completed analysis
 
 - Treat `Life expectancy` as the outcome and do not use `Adult Mortality`, `infant deaths`, or `under-five deaths` in the primary explanatory specification. They are mortality outcomes/components that are mechanically or definitionally close to life expectancy.
+- Do not use contemporaneous `HIV/AIDS` in the primary explanatory specification. Subsequent provenance review identified it as a cause-specific mortality-burden field, creating direct conceptual outcome overlap.
 - Do not include both broad development indices and all of their likely components without a clear estimand. `Income composition of resources` and `Schooling` are strongly conceptually related, and the former may embed education/income information.
 - Avoid simultaneously using `percentage expenditure`, `Total expenditure`, and `GDP` without verifying definitions: expenditure measures can share denominators or be derived using GDP.
 - Avoid including all three immunization measures together initially (`Hepatitis B`, `Polio`, `Diphtheria`) because they measure closely related health-system coverage and may be collinear.
 - Treat `Status` as time-invariant unless source documentation shows transitions; country fixed effects would absorb it.
 - Use transformations such as `log1p` for highly right-skewed counts and monetary/size variables only after suspicious values and zeros are resolved.
 
-## Proposed initial specification
+## Implemented primary specification
 
 For a descriptive baseline after cleaning and missing-data decisions:
 
-`Life expectancy_it = country FE + year FE + β1 Schooling_it + β2 log(GDP per capita_it) + β3 Total expenditure_it + β4 Polio_it + β5 HIV/AIDS_it + ε_it`
+`Life expectancy_it = country FE + year FE + β1 Schooling_it + β2 log(1 + GDP_it) + β3 Total expenditure_it + β4 Polio_it + ε_it`
 
-Use country-clustered standard errors. This is an associational model, not a causal claim. Before estimation, verify that `GDP` is per capita, verify units for `Total expenditure` and `HIV/AIDS`, decide whether to use `Income composition of resources` instead of `Schooling`/GDP, document missing-data handling, and assess within-country variation.
+Use country-clustered standard errors. This is an associational model, not a causal claim. GDP remains neutrally labeled because the merged metadata do not verify a per-capita definition. Remaining metadata uncertainty, missing-data handling, and within-country variation are documented downstream.
 
 ## Unresolved questions requiring human/source review
 
-- Confirm every variable definition and unit against the original WHO/Kaggle documentation.
+- Rebuilding exact field-level lineage would require the versioned source files used in Kaggle's merge; the available record does not provide them.
 - Validate abrupt country-level jumps and possible dropped-digit/decimal errors against an authoritative source.
 - Confirm country coverage: 10 countries have only one observation (2013), while 183 have 16 observations.
-- Decide whether the ten single-year countries belong in fixed-effects analyses; they provide no within-country information.
+- The ten single-year countries are excluded from the common main comparison because they provide no within-country information.
 - Determine whether zero values in `percentage expenditure`, `Income composition of resources`, and `Schooling` are genuine zeros or missing-value codes.
-- Choose a missing-data strategy; no automatic global-mean imputation is recommended.
+- The implemented main comparison uses complete cases and reports included-versus-excluded diagnostics; no automatic global-mean imputation is used.
 """
     report_path.write_text(report, encoding="utf-8")
 

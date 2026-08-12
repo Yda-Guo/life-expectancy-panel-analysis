@@ -1,0 +1,26 @@
+diagnostic,included_value,excluded_value,difference,standardized_difference,included_nonmissing_n,excluded_nonmissing_n,note
+observations,2319.0,619.0,,,2319,619,Counts of country-year rows
+countries,157.0,191.0,,,2319,619,A country may appear in both groups
+life_expectancy,69.25545493747305,69.10870279146141,0.1467521460116359,0.015830289511381903,2319,609,Means use observed values; missingness-defining covariates are not imputed
+developed,0.18111254851228978,0.14862681744749595,0.03248573106479383,0.08758896433268688,2319,619,Means use observed values; missingness-defining covariates are not imputed
+year,2007.0168175937904,2009.399030694669,-2.3822131008785163,-0.49964441567255213,2319,619,Means use observed values; missingness-defining covariates are not imputed
+schooling,12.072401897369556,11.58793859649123,0.48446330087832656,0.14254425880547483,2319,456,Means use observed values; missingness-defining covariates are not imputed
+log1p_gdp,7.455001302345985,7.678836011556985,-0.22383470921100024,-0.12668756224178573,2319,171,Means use observed values; missingness-defining covariates are not imputed
+total_expenditure,5.864570935748167,6.372595419847329,-0.5080244840991623,-0.1872359577139035,2319,393,Means use observed values; missingness-defining covariates are not imputed
+polio,82.52996981457525,82.62833333333333,-0.09836351875807736,-0.004142209973671186,2319,600,Means use observed values; missingness-defining covariates are not imputed
+year_share_2000,0.06554549374730487,0.050080775444264945,0.015464718303039922,,2319,619,Share of observations within each membership group
+year_share_2001,0.06597671410090557,0.048465266558966075,0.017511447541939493,,2319,619,Share of observations within each membership group
+year_share_2002,0.06640793445450625,0.046849757673667204,0.01955817678083905,,2319,619,Share of observations within each membership group
+year_share_2003,0.06640793445450625,0.046849757673667204,0.01955817678083905,,2319,619,Share of observations within each membership group
+year_share_2004,0.06683915480810694,0.045234248788368334,0.021604906019738607,,2319,619,Share of observations within each membership group
+year_share_2005,0.06683915480810694,0.045234248788368334,0.021604906019738607,,2319,619,Share of observations within each membership group
+year_share_2006,0.06727037516170763,0.04361873990306947,0.023651635258638157,,2319,619,Share of observations within each membership group
+year_share_2007,0.06727037516170763,0.04361873990306947,0.023651635258638157,,2319,619,Share of observations within each membership group
+year_share_2008,0.06683915480810694,0.045234248788368334,0.021604906019738607,,2319,619,Share of observations within each membership group
+year_share_2009,0.06683915480810694,0.045234248788368334,0.021604906019738607,,2319,619,Share of observations within each membership group
+year_share_2010,0.06683915480810694,0.045234248788368334,0.021604906019738607,,2319,619,Share of observations within each membership group
+year_share_2011,0.06683915480810694,0.045234248788368334,0.021604906019738607,,2319,619,Share of observations within each membership group
+year_share_2012,0.06640793445450625,0.046849757673667204,0.01955817678083905,,2319,619,Share of observations within each membership group
+year_share_2013,0.06640793445450625,0.0630048465266559,0.003403087927850351,,2319,619,Share of observations within each membership group
+year_share_2014,0.06640793445450625,0.046849757673667204,0.01955817678083905,,2319,619,Share of observations within each membership group
+year_share_2015,0.0008624407072013799,0.2924071082390953,-0.29154466753189395,,2319,619,Share of observations within each membership group

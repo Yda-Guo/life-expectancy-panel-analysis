@@ -1,48 +1,33 @@
-# Robustness results
+# Robustness and sensitivity results
 
-All checks estimate country and year two-way fixed effects with country-clustered standard errors. They address specific sample, transformation, definition, collinearity, and influence concerns; they are not selected by p-values.
+The analysis now separates coefficient/sample sensitivity, inference sensitivity, temporal ordering, and the conceptually overlapping HIV/AIDS mortality field. These checks assess robustness; none turns the observational design into a causal one.
 
-## Sample and flag sensitivity
+## 1. Sample and data-rule sensitivity
 
-- Main cleaned sample: 2,319 observations.
-- Excluding all clearly invalid rows: 2,301 observations.
+- Main complete-case sample: 2,319 observations.
+- Excluding clearly invalid rows: 2,301 observations.
 - Excluding clearly invalid and unresolved rows: 2,266 observations.
-- The 62 merely unusual retained observations are not automatically deleted.
-- Specification-specific main-variable sample including single-year countries: 2,319 observations. Single-year countries provide no within-country identifying variation even when present.
+- R4–R9 vary transformation or covariate choice; R10 removes pooled Cook's-distance flags; R11–R12 examine status subgroups.
 
-## Focused checks
-
-- GDP transformation: compare R1 with R5.
-- HIV/AIDS transformation: compare R1 with R6.
-- GDP definition/missingness: R7 excludes GDP.
-- Development-measure overlap: R8 replaces schooling with income composition.
-- Vaccination choice/collinearity: R9 replaces polio with diphtheria; R10 includes both.
-- Expenditure-definition ambiguity: R11 omits total expenditure.
-- Influence: R12 excludes pooled observations with Cook's distance above 4/n.
-- Heterogeneity: R13 and R14 estimate developed and developing samples separately when sample size permits.
-
-## Stability guide
-
-Relative coefficient ranges across checks using the same variables are:
+Relative coefficient ranges for the core sample/subgroup checks are:
 
 | variable          |   relative_range_to_main_abs_coefficient |
 |:------------------|-----------------------------------------:|
-| schooling         |                                    2.954 |
-| log1p_gdp         |                                    3.643 |
-| total_expenditure |                                    1.651 |
-| polio             |                                    4.329 |
-| log1p_hiv_aids    |                                    2.823 |
+| schooling         |                                    3.986 |
+| log1p_gdp         |                                    3.81  |
+| total_expenditure |                                    1.658 |
+| polio             |                                    2.758 |
 
-- Flag handling is stable: R1–R3 produce very similar coefficients, including `log1p_hiv_aids` estimates between -4.197 and -4.125.
-- `log1p_hiv_aids` is also similar in the main, no-GDP, no-expenditure, and influential-observation checks. The developed-only estimate changes sign, so subgroup interpretation is sensitive and unresolved.
-- Schooling and polio are sensitive to the influential-observation rule: both estimates become larger in R12. This rule removes many observations and is a sensitivity check, not a preferred specification.
-- GDP, expenditure, and vaccination coefficients are generally small in the two-way models and depend on transformation or variable selection. Including polio and diphtheria together further attenuates the polio estimate.
+## 2. Alternative inference
 
-Large ranges indicate sensitivity to specification or sample choices, not evidence of a causal effect. Exact coefficients, confidence intervals, p-values, samples, and fit statistics are in `tables/robustness_results.csv` and `tables/robustness_sample_summary.csv`.
+I1 keeps the preferred two-way fixed-effects point specification but clusters by country and year. Point estimates are unchanged by construction; standard errors change. For example, the schooling SE is 0.1228 with country clustering and 0.1165 with two-way clustering. The year dimension contains only 16 clusters, so the two-way-cluster result is a limited sensitivity check rather than a definitive small-cluster correction.
 
-## Remaining uncertainty
+## 3. One-year-lagged model
 
-- GDP units and the total-expenditure definition remain unresolved.
-- Unresolved flagged values are retained except in the explicit strict sample.
-- Developed-country estimates may have limited within-country variation and relatively few country clusters.
-- Robustness checks assess stability but cannot create a causal research design.
+L1 regresses current life expectancy on one-year lags of the four preferred covariates with country and year fixed effects and country-clustered standard errors. Lags are created after sorting by country and year and only when the preceding observation is exactly one calendar year earlier. It uses 2,317 observations from 157 countries. Exact estimates are in `tables/lagged_model_results.csv`. Temporal ordering is improved, but reverse causality, time-varying confounding, measurement error, and slow-moving trends remain.
+
+## 4. Contemporaneous HIV/AIDS mortality field
+
+S1 reproduces the older five-variable specification only as a labeled supplementary overlap check. The HIV/AIDS field belongs to a contemporaneous cause-specific mortality-rate family and is therefore not interpreted as an independent determinant of life expectancy. Its strong negative coefficient is unsurprising and is not a headline substantive finding.
+
+Exact coefficients, uncertainty estimates, formulas, sample sizes, and flag-removal counts are in `tables/robustness_results.csv`, `tables/robustness_sample_summary.csv`, and `tables/model_sample_summary.csv`.
