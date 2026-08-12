@@ -79,7 +79,7 @@ Do not edit or overwrite `data/raw/life_expectancy.csv`. All transformations bel
 872125dd1dd0f9140fbead61df20585a815f5cf47db68f08bf54efaf87963b11
 ```
 
-The raw Git blob on the audited upstream commit is `116dd57f24db42ea5db1750543a3f0150866a3ed`. The SHA-256 above is calculated over the repository file bytes. `data_cleaning.py` and `regression_models.py` independently compare the raw file before and after their work; neither relies only on the documented value.
+The SHA-256 above is calculated over the repository file bytes. `data_cleaning.py` and `regression_models.py` independently compare the raw file before and after their work; neither relies only on the documented value.
 
 ## Known limitations
 

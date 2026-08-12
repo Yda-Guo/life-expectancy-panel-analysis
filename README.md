@@ -1,6 +1,6 @@
 # Determinants of Life Expectancy: A Panel Data Analysis
 
-This undergraduate project studies how recorded socioeconomic and health-system measures are associated with national life expectancy in a country-year panel. Its main lesson is methodological: associations that look large across countries can shrink sharply when the comparison instead uses changes within the same country and controls for common year shocks.
+This project studies how recorded socioeconomic and health-system measures are associated with national life expectancy in a country-year panel. Its main lesson is methodological: associations that look large across countries can shrink sharply when the comparison instead uses changes within the same country and controls for common year shocks.
 
 Every result is associational. Fixed effects, clustering, and lagging improve the comparison but do not establish causality.
 
@@ -8,7 +8,7 @@ Every result is associational. Fixed effects, clustering, and lagging improve th
 
 The Kaggle **Life Expectancy (WHO)** file contains 2,938 observations for 193 countries in 2000–2015. Kaggle says the merged health data originate from WHO GHO and economic data from the United Nations. The raw file is preserved; cleaning creates separate analysis copies and flags, without arbitrary imputation, winsorization, or automatic outlier deletion.
 
-Metadata review changed the primary model. The source `HIV/AIDS` field belongs to a WHO cause-specific mortality indicator family measured as deaths per 1,000 live births. Because life expectancy is itself mortality-based, treating contemporaneous HIV/AIDS mortality as an independent determinant created direct conceptual outcome overlap. It is now excluded from the main model and retained only as a labeled supplementary check. The [data dictionary](data_dictionary.md) records sources, units, and remaining ambiguities; in particular, the merged metadata do not establish that `GDP` is GDP per capita or identify the exact denominator for `Total expenditure`.
+The source `HIV/AIDS` field belongs to a WHO cause-specific mortality indicator family measured as deaths per 1,000 live births. Because life expectancy is itself mortality-based, contemporaneous HIV/AIDS mortality directly overlaps conceptually with the outcome. It is therefore excluded from the main model and appears only in a labeled supplementary check. The [data dictionary](data_dictionary.md) records sources, units, and remaining ambiguities; in particular, the merged metadata do not establish that `GDP` is GDP per capita or identify the exact denominator for `Total expenditure`.
 
 ## Analytical approach
 

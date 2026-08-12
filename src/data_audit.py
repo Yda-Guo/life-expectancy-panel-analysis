@@ -183,7 +183,7 @@ Threshold: absolute sample skewness ≥ 1.
 
 No values violate the broad logical ranges above. This does **not** establish data validity. The audit flags abrupt within-country changes in `tables/suspicious_within_country_jumps.csv`; these include patterns consistent with dropped digits or decimal-place errors and require comparison with an authoritative source.
 
-## Modeling decisions carried into the completed analysis
+## Modeling decisions
 
 - Treat `Life expectancy` as the outcome and do not use `Adult Mortality`, `infant deaths`, or `under-five deaths` in the primary explanatory specification. They are mortality outcomes/components that are mechanically or definitionally close to life expectancy.
 - Do not use contemporaneous `HIV/AIDS` in the primary explanatory specification. Subsequent provenance review identified it as a cause-specific mortality-burden field, creating direct conceptual outcome overlap.

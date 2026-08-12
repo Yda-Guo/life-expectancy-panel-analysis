@@ -4,7 +4,7 @@
 
 This project asks how schooling, recorded GDP, health expenditure, and polio vaccination coverage are associated with national life expectancy, and how those associations change after controlling for persistent country differences and common year shocks. It is a transparent associational panel analysis, not a causal study.
 
-The source contains 2,938 country-year observations for 193 countries in 2000–2015. A provenance review confirmed that the supplied `HIV/AIDS` field belongs to a WHO cause-specific mortality indicator family measured in deaths per 1,000 live births. Its contemporaneous use as an explanatory variable overlapped conceptually with the mortality-based life-expectancy outcome. It was therefore removed from the primary model; the older specification is retained only as a clearly labeled supplementary overlap check. GDP remains neutrally labeled because the merged metadata do not verify that it is per capita, and the exact total-expenditure denominator remains unresolved.
+The source contains 2,938 country-year observations for 193 countries in 2000–2015. The supplied `HIV/AIDS` field belongs to a WHO cause-specific mortality indicator family measured in deaths per 1,000 live births and therefore overlaps conceptually with the mortality-based life-expectancy outcome. It is excluded from the primary model and appears only in a clearly labeled supplementary overlap check. GDP remains neutrally labeled because the merged metadata do not verify that it is per capita, and the exact total-expenditure denominator remains unresolved.
 
 ## Main comparison
 
@@ -24,7 +24,7 @@ The strong pooled schooling, GDP, and polio associations attenuate substantially
 - **Temporal ordering:** a one-year-lagged TWFE model uses 2,317 observations from 157 countries. Schooling is 0.1019 (95% CI -0.1199 to 0.3236), log GDP -0.0032 (-0.0779 to 0.0714), expenditure -0.0035 (-0.0910 to 0.0841), and polio 0.0049 (-0.0020 to 0.0119). The small, uncertain pattern persists; lagging does not solve endogeneity.
 - **Complete-case selection:** included and excluded rows have almost identical observed mean life expectancy (69.26 versus 69.11; standardized difference 0.02). Excluded rows are later on average (2009.40 versus 2007.02; standardized difference -0.50), and observed-value differences for main covariates are smaller (absolute standardized differences at most 0.19). This highlights time-composition and generalizability limits; it does not prove missingness is ignorable.
 - **Inference:** two-way clustering by country and year leaves point estimates unchanged. Standard errors are broadly similar, but only 16 year clusters make this a limited sensitivity check; country clustering remains primary.
-- **Robustness cleanup:** the prior specification that exactly duplicated the baseline was removed. Twelve active coefficient/sample checks now address flag rules, definitions, alternative measures, influence, and subgroups; temporal and inference checks are reported separately.
+- **Robustness:** twelve coefficient/sample checks address flag rules, definitions, alternative measures, influence, and subgroups; temporal and inference checks are reported separately.
 
 ## Bottom line
 

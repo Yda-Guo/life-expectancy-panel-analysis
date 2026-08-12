@@ -28,6 +28,6 @@ L1 regresses current life expectancy on one-year lags of the four preferred cova
 
 ## 4. Contemporaneous HIV/AIDS mortality field
 
-S1 reproduces the older five-variable specification only as a labeled supplementary overlap check. The HIV/AIDS field belongs to a contemporaneous cause-specific mortality-rate family and is therefore not interpreted as an independent determinant of life expectancy. Its strong negative coefficient is unsurprising and is not a headline substantive finding.
+S1 is a labeled supplementary overlap check. The HIV/AIDS field belongs to a contemporaneous cause-specific mortality-rate family and is therefore not interpreted as an independent determinant of life expectancy. Its strong negative coefficient is unsurprising and is not a headline substantive finding.
 
 Exact coefficients, uncertainty estimates, formulas, sample sizes, and flag-removal counts are in `tables/robustness_results.csv`, `tables/robustness_sample_summary.csv`, and `tables/model_sample_summary.csv`.

@@ -25,7 +25,7 @@ The field-level evidence and URLs are recorded in [`data_dictionary.md`](../data
 
 ### HIV/AIDS methodological correction
 
-The source `HIV/AIDS` column belongs to the WHO cause-specific mortality family reported as deaths per 1,000 live births. Kaggle's lack of an upstream series ID prevents reconstructing every fine detail, but the mortality nature and unit family are clear enough for the modeling decision. Because life expectancy is constructed from mortality, the contemporaneous HIV/AIDS field overlaps directly with the outcome. It is excluded from the primary explanatory specification and retained only as a labeled supplementary reproduction of the older model. Its large negative coefficient is not interpreted as evidence about an independent determinant.
+The source `HIV/AIDS` column belongs to the WHO cause-specific mortality family reported as deaths per 1,000 live births. Kaggle's lack of an upstream series ID prevents reconstructing every fine detail, but the mortality nature and unit family are clear enough for the modeling decision. Because life expectancy is constructed from mortality, the contemporaneous HIV/AIDS field overlaps directly with the outcome. It is excluded from the primary explanatory specification and appears only in a labeled supplementary model. Its large negative coefficient is not interpreted as evidence about an independent determinant.
 
 Adult mortality, infant deaths, and under-five deaths remain excluded for the same broad outcome-overlap reason. Income composition and diphtheria coverage appear only in alternative-measure checks.
 
@@ -78,7 +78,7 @@ The complete-case diagnostic compares the actual 2,319 included rows with 619 ex
 
 ### Coefficient and sample sensitivity
 
-Twelve active TWFE checks examine invalid/unresolved flags, GDP transformation and omission, alternative development and vaccination measures, expenditure omission, pooled influence flags, and developed/developing subgroups. The older redundant check that included single-year countries reproduced the baseline because those observations offered no within-country identifying information; it has been removed rather than counted as extra robustness. Detailed results are in [`robustness_results.csv`](../tables/robustness_results.csv).
+Twelve TWFE checks examine invalid/unresolved flags, GDP transformation and omission, alternative development and vaccination measures, expenditure omission, pooled influence flags, and developed/developing subgroups. Detailed results are in [`robustness_results.csv`](../tables/robustness_results.csv).
 
 ### One-year-lagged TWFE
 
@@ -99,7 +99,7 @@ Two-way clustering by country and year retains the exact TWFE point estimates. T
 
 ### Supplementary mortality-overlap model
 
-The former five-variable model is reproduced as `S1_add_contemporaneous_hiv_mortality` for transparency. It is not part of the main evidence and its HIV/AIDS coefficient is not interpreted as an independent determinant.
+The supplementary model `S1_add_contemporaneous_hiv_mortality` documents the contemporaneous mortality-overlap specification. It is not part of the main evidence and its HIV/AIDS coefficient is not interpreted as an independent determinant.
 
 ## 9. Limitations
 
@@ -107,7 +107,7 @@ The study remains vulnerable to reverse causality, omitted time-varying confound
 
 ## 10. Conclusion
 
-The strongest defensible finding is a comparison, not a single determinant: large pooled cross-country schooling, GDP, and polio associations become much smaller and more uncertain in within-country TWFE estimates. The project also demonstrates methodological correction by demoting a strong but conceptually overlapping contemporaneous HIV/AIDS mortality result after verifying its definition. These features make the repository a useful undergraduate entry project in statistics, econometrics, or quantitative methods, while its observational limits remain explicit.
+The strongest defensible finding is a comparison, not a single determinant: large pooled cross-country schooling, GDP, and polio associations become much smaller and more uncertain in within-country TWFE estimates. The contemporaneous HIV/AIDS mortality field is excluded from this interpretation because it directly overlaps conceptually with the outcome. All results remain subject to the observational limitations described above.
 
 ## Appendix: generated evidence
 
